@@ -31,11 +31,18 @@ OUT = ROOT / "docs" / "data.json"
 
 # ── small helpers ──────────────────────────────────────────
 def get(url, **params):
-    for attempt in range(3):
+    """CoinGecko's free service is strict about speed. Wait and try again."""
+    waits = [20, 40, 60, 90, 120]
+    for attempt, wait in enumerate(waits, 1):
         r = requests.get(url, params=params, timeout=30)
         if r.status_code == 200:
             return r.json()
-        time.sleep(5 * (attempt + 1))          # free tier rate limit
+        if r.status_code == 429:
+            wait = int(r.headers.get("Retry-After", wait))
+            print(f"    rate limited, waiting {wait}s (try {attempt} of {len(waits)})")
+        else:
+            print(f"    got {r.status_code}, retrying in {wait}s")
+        time.sleep(wait)
     raise RuntimeError(f"CoinGecko failed: {url} -> {r.status_code}")
 
 
@@ -106,9 +113,13 @@ def collect():
               price_change_percentage="1h,24h,7d")
     out = []
     for c in mkt:
-        time.sleep(2)
-        ohlc = get(f"{CG}/coins/{c['id']}/ohlc", vs_currency="usd", days=7)
-        step = max(1, len(ohlc) // 12)
+        time.sleep(8)
+        try:
+            ohlc = get(f"{CG}/coins/{c['id']}/ohlc", vs_currency="usd", days=7)
+        except Exception as e:
+            print(f"  skipping {c['name']} candles: {e}")
+            ohlc = []
+        step = max(1, len(ohlc) // 12) if ohlc else 1
         out.append({
             "id": c["id"], "name": c["name"], "price": c["current_price"],
             "h24": c["price_change_percentage_24h"],
@@ -203,8 +214,12 @@ def main():
     now_ms = int(time.time() * 1000)
     ranges = []
     for c in today:
-        time.sleep(2)
-        sd = daily_vol(c["id"]) * math.sqrt(HORIZON) * h["width_factor"]
+        time.sleep(8)
+        try:
+            sd = daily_vol(c["id"]) * math.sqrt(HORIZON) * h["width_factor"]
+        except Exception as e:
+            print(f"  skipping {c['name']} range: {e}")
+            continue
         lo, hi = c["price"] * math.exp(-sd), c["price"] * math.exp(sd)
         ranges.append({"coin": c["name"], "low": round(lo, 4), "high": round(hi, 4)})
         h["forecasts"].append({"coin": c["id"], "name": c["name"], "made_ms": now_ms,
