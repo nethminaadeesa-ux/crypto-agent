@@ -14,7 +14,7 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--ink);color:var(--sand);font-size:15px;line-height:1.55;
        font-family:"IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+  .wrap{max-width:820px;margin:0 auto;padding:28px 20px 60px}
   .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;
            text-transform:uppercase;color:var(--muted)}
   h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(28px,6vw,42px);
@@ -47,6 +47,33 @@
   .score{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted);margin-bottom:12px}
   .hint{color:var(--muted);font-size:13px;margin:6px 0 0}
   .foot{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.7}
+
+  .ctrl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
+  select,.tf{background:var(--panel-2);border:1px solid var(--line);color:var(--sand);
+             border-radius:5px;padding:7px 12px;font-size:13px;
+             font-family:"IBM Plex Mono",monospace;cursor:pointer}
+  .tf:hover{background:var(--line)}
+  .tf[aria-pressed="true"]{background:var(--brass);border-color:var(--brass);color:#12202A}
+  html[data-theme="light"] .tf[aria-pressed="true"]{color:#FFF9EA}
+  #chart{width:100%;height:auto;display:block}
+  .grid{stroke:var(--line);stroke-width:1}
+  .axis{fill:var(--muted);font-family:"IBM Plex Mono",monospace;font-size:11px}
+  .cndl:hover .body{filter:brightness(1.4)}
+  #readout{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted);
+           min-height:20px;margin-top:10px}
+  #readout b{color:var(--sand);font-weight:500}
+  #plain{font-size:14px;margin-top:6px;color:var(--sand)}
+
+  details{border-top:1px solid var(--line);padding:12px 0}
+  details:first-of-type{border-top:0}
+  summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:baseline}
+  summary::-webkit-details-marker{display:none}
+  summary .d{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--brass);flex:none;width:62px}
+  summary .s{font-size:14px}
+  summary:hover .s{color:var(--brass)}
+  .body-h{padding:12px 0 4px 74px;font-size:13.5px;color:var(--muted);line-height:1.6}
+  .body-h b{color:var(--sand);font-weight:500}
+  @media(max-width:520px){.body-h{padding-left:0}summary .d{width:54px}}
 </style>
 </head>
 <body>
@@ -56,6 +83,27 @@
     <button class="iconbtn" id="themeBtn" aria-label="Light or dark">☀</button>
   </div>
   <div id="app"><p class="hint">Loading the latest note…</p></div>
+  <section>
+    <h2>Candles</h2>
+    <p class="hint">Live from the market, not from the note. Each bar is one period. The thick part runs from the opening price to the closing price. The thin line shows the highest and lowest it reached.</p>
+    <div class="ctrl">
+      <select id="coin"><option value="bitcoin">Bitcoin</option></select>
+      <button class="tf" data-days="1">1 day</button>
+      <button class="tf" data-days="7" aria-pressed="true">1 week</button>
+      <button class="tf" data-days="30">1 month</button>
+      <button class="tf" data-days="90">3 months</button>
+    </div>
+    <svg id="chart" viewBox="0 0 900 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Candlestick chart"></svg>
+    <div id="readout"></div>
+    <div id="plain"></div>
+  </section>
+
+  <section>
+    <h2>Past notes</h2>
+    <p class="hint">Click any day to read what it said back then.</p>
+    <div id="history" style="margin-top:14px"></div>
+  </section>
+
   <p class="foot">Written by an automated agent. It describes what the market has done<br>
   and how far prices could travel. It is not investment advice.</p>
 </div>
@@ -115,10 +163,120 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
       ${recs}
       <p class="hint">${n.honesty||""}</p>
     </section>`;
+
+  const runs = (d.recent_runs || []).slice().reverse();
+  $("history").innerHTML = runs.length < 2
+    ? `<p class="hint">Only today so far. Come back tomorrow and past notes build up here.</p>`
+    : runs.map((run, i) => {
+        const day = new Date(run.date).toLocaleDateString("en-GB",{day:"2-digit",month:"short"});
+        const px = Object.entries(run.prices||{}).map(([k,v]) => `${k} ${money(v)}`).join(" · ");
+        return `<details ${i===0?"open":""}>
+          <summary><span class="d">${day}</span><span class="s">${run.one_line||"(no summary)"}</span></summary>
+          <div class="body-h"><b>Prices:</b> ${px}<br>
+          ${run.moved ? "<b>Moved:</b> " + run.moved.join(" · ") + "<br>" : ""}
+          ${run.traded ? "<b>Traded:</b> " + run.traded : ""}</div></details>`;
+      }).join("");
 }).catch(() => {
   $("app").innerHTML = `<p class="hint">No note yet. Go to the Actions tab in the repository
   and run <strong>Daily crypto note</strong> once by hand — the page fills in after that.</p>`;
 });
+
+/* ── candles, live from CoinGecko ─────────────────────── */
+const CG = "https://api.coingecko.com/api/v3";
+let days = 7;
+
+function describe(o,h,l,c){
+  const body = Math.abs(c-o), range = h-l, move = (c-o)/o*100;
+  const up = h - Math.max(o,c), dn = Math.min(o,c) - l;
+  const pos = range ? (c-l)/range : .5;
+  const who = c >= o ? "Buyers won this one" : "Sellers won this one";
+  const where = pos > .7 ? "it closed near the top of its range"
+              : pos < .3 ? "it closed near the bottom of its range"
+              : "it closed around the middle of its range";
+  let tail = "";
+  if (body && up > body*1.6) tail = " It ran higher first, then got sold back — the long line on top is what it gave away.";
+  else if (body && dn > body*1.6) tail = " It dropped first, then buyers pushed it back — the long line underneath is what it recovered.";
+  else if (range && body/range > .75) tail = " One steady push, almost no pullback.";
+  return `${who}: ${move>=0?"+":""}${move.toFixed(2)}% open to close, and ${where}.${tail}`;
+}
+
+async function drawChart(){
+  const svg = $("chart"), id = $("coin").value;
+  svg.innerHTML = `<text x="450" y="160" text-anchor="middle" class="axis">Loading candles…</text>`;
+  $("readout").textContent = ""; $("plain").textContent = "";
+  let d;
+  try {
+    const r = await fetch(`${CG}/coins/${id}/ohlc?vs_currency=usd&days=${days}`);
+    if (!r.ok) throw new Error(r.status === 429 ? "too many requests, wait a minute" : "status " + r.status);
+    d = await r.json();
+  } catch (e) {
+    svg.innerHTML = `<text x="450" y="160" text-anchor="middle" class="axis">Could not load candles (${e.message}).</text>`;
+    return;
+  }
+  if (!d.length){ svg.innerHTML = `<text x="450" y="160" text-anchor="middle" class="axis">No data.</text>`; return; }
+
+  const W=900,H=320,L=64,R=14,T=16,B=30, cw=W-L-R, ch=H-T-B;
+  let lo = Math.min(...d.map(x=>x[3])), hi = Math.max(...d.map(x=>x[2]));
+  const pad = (hi-lo)*.06 || hi*.01; lo -= pad; hi += pad;
+  const y = v => T + ch - (v-lo)/(hi-lo)*ch;
+  const slot = cw/d.length, bw = Math.max(1.5, slot*.62);
+  const f = v => v>=1000 ? v.toLocaleString("en-US",{maximumFractionDigits:0}) : v>=1 ? v.toFixed(2) : v.toPrecision(4);
+
+  let out = "";
+  for (let i=0;i<=4;i++){
+    const v = lo+(hi-lo)*i/4, yy = y(v);
+    out += `<line class="grid" x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}"/>`
+         + `<text class="axis" x="${L-8}" y="${yy+4}" text-anchor="end">${f(v)}</text>`;
+  }
+  d.forEach((c,i) => {
+    const x = L+slot*i+slot/2, o=c[1], h=c[2], l=c[3], cl=c[4];
+    const col = cl>=o ? "var(--jade)" : "var(--coral)";
+    out += `<g class="cndl" data-i="${i}">`
+         + `<rect x="${x-slot/2}" y="${T}" width="${slot}" height="${ch}" fill="transparent"/>`
+         + `<line x1="${x}" y1="${y(h)}" x2="${x}" y2="${y(l)}" stroke="${col}" stroke-width="1.4"/>`
+         + `<rect class="body" x="${x-bw/2}" y="${Math.min(y(o),y(cl))}" width="${bw}" `
+         + `height="${Math.max(1.5,Math.abs(y(cl)-y(o)))}" fill="${col}"/></g>`;
+  });
+  [0, Math.floor(d.length/2), d.length-1].forEach(i => {
+    const x = L+slot*i+slot/2;
+    const lab = new Date(d[i][0]).toLocaleString("en-GB", days<=7
+      ? {day:"2-digit",month:"short",hour:"2-digit"} : {day:"2-digit",month:"short"});
+    out += `<text class="axis" x="${x}" y="${H-10}" text-anchor="middle">${lab}</text>`;
+  });
+  svg.innerHTML = out;
+
+  const show = i => {
+    const c = d[i];
+    $("readout").innerHTML = `<b>${new Date(c[0]).toLocaleString("en-GB",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})}</b>`
+      + ` &nbsp; open <b>${f(c[1])}</b> · high <b>${f(c[2])}</b> · low <b>${f(c[3])}</b> · close <b>${f(c[4])}</b>`;
+    $("plain").textContent = describe(c[1],c[2],c[3],c[4]);
+  };
+  svg.querySelectorAll(".cndl").forEach(g => { g.onmouseenter = () => show(+g.dataset.i); });
+  show(d.length-1);
+}
+
+document.querySelectorAll(".tf").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tf").forEach(x => x.setAttribute("aria-pressed","false"));
+  b.setAttribute("aria-pressed","true");
+  days = +b.dataset.days; drawChart();
+});
+$("coin").onchange = drawChart;
+
+/* fill the dropdown with the top 50 coins, so you can chart anything */
+async function fillCoins(){
+  try {
+    const r = await fetch(`${CG}/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1`);
+    if (!r.ok) throw new Error(r.status);
+    const list = await r.json();
+    $("coin").innerHTML = list.map(c =>
+      `<option value="${c.id}">${c.name}</option>`).join("");
+    $("coin").value = "bitcoin";
+  } catch (e) {
+    console.log("coin list unavailable, keeping default:", e);
+  }
+  drawChart();
+}
+fillCoins();
 </script>
 </body>
 </html>
