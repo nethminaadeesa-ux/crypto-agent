@@ -22,6 +22,11 @@ jobs:
           python-version: "3.11"
       - run: pip install requests
 
+      - name: Test the theories
+        env:
+          COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
+        run: python learn.py
+
       - name: Check the market
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
