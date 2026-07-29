@@ -1,0 +1,32 @@
+name: Replay the past through the lab
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+
+      - name: Replay 90 days of hours through the six theories
+        env:
+          COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
+          LAB_DAYS: "90"
+        run: python labfill.py
+
+      - name: Save what it learned
+        run: |
+          git config user.name "crypto-agent"
+          git config user.email "agent@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/ docs/
+          git diff --staged --quiet || git commit -m "lab: 90 days replayed"
+          git push
