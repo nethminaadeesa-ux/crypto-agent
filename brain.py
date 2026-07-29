@@ -18,7 +18,7 @@ GEMINI = os.environ.get("GEMINI_API_KEY")
 GROQ = os.environ.get("GROQ_API_KEY")
 CLAUDE = os.environ.get("ANTHROPIC_API_KEY")
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 CLAUDE_MODEL = os.environ.get("MODEL", "claude-sonnet-5")
 
