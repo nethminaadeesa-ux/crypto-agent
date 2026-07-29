@@ -106,14 +106,10 @@ def main():
 
     print("\n" + "=" * 62)
     print(f"WHAT {DAYS} DAYS OF HISTORY ACTUALLY SAYS")
-    print(f"{total} scored tests. Right by chance is about 33%.")
+    print(f"{total} scored tests. The yardstick is always_flat - doing nothing.")
     print("=" * 62)
 
-    for coin, r in rep.items():
-        print(f"\n  {coin}")
-        for name, v in sorted(r["theories"].items(), key=lambda x: -x[1]["right"]):
-            flag = "  <-- best" if name == r["best"] else ""
-            print(f"    {name:<15} {v['right']:>5.1f}% right over {v['tested']} tests{flag}")
+    learn.print_table(rep)
 
     print("\n" + "-" * 62)
     print("VERDICT")

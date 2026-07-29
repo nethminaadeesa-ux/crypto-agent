@@ -91,20 +91,36 @@ def flip(call):
     return {"up": "down", "down": "up", "flat": "flat"}[call]
 
 
+def baseline(sc):
+    """What doing nothing scores on this coin. The only honest yardstick."""
+    rec = sc.get("always_flat", {})
+    n = rec.get("tested", 0)
+    return (rec.get("right", 0) / n) if n >= 50 else None
+
+
+def noise_pp(p, n):
+    """How far a score can drift on luck alone, in percentage points."""
+    if n < 2:
+        return 100.0
+    return 1.96 * math.sqrt(2 * p * (1 - p) / n) * 100
+
+
 def weights(st, coin):
     """How much each theory has earned the right to be heard."""
     sc = st["scores"].get(coin, {})
+    base = baseline(sc)
     w = {}
     for name in THEORIES:
         if name == "ensemble":
             continue
         rec = sc.get(name, {})
         n = rec.get("tested", 0)
-        if n < 20:
+        if n < 50 or base is None:
             w[name] = 1.0                      # too early to judge - equal say
         else:
             acc = rec.get("right", 0) / n
-            w[name] = max(0.0, acc - 0.33) * 10 + 0.1
+            # only credit what it beats the do-nothing baseline by
+            w[name] = max(0.0, acc - base) * 40 + 0.1
     return w
 
 
@@ -176,39 +192,88 @@ def resolve(st, prices, now_ms):
 
 
 def report(st):
+    """Score every theory against doing nothing on the same coin."""
     out = {}
     for coin, sc in st["scores"].items():
+        base = baseline(sc)
+        if base is None:
+            continue
+
         th = {}
         for name, rec in sc.items():
             n = rec.get("tested", 0)
-            if n >= 10:
-                th[name] = {"tested": n, "right": round(rec["right"] / n * 100, 1)}
-        if th:
-            real = {k: v for k, v in th.items() if k != "always_flat"}
-            out[coin] = {"theories": th,
-                         "best": max(real or th, key=lambda k: th[k]["right"])}
+            if n < 50:
+                continue
+            acc = rec["right"] / n
+            th[name] = {
+                "tested": n,
+                "right": round(acc * 100, 1),
+                "edge_over_doing_nothing": round((acc - base) * 100, 1),
+                "margin_of_luck": round(noise_pp(acc, n), 1),
+                "real": (acc - base) * 100 > noise_pp(acc, n),
+            }
+        if not th:
+            continue
+
+        rivals = {k: v for k, v in th.items() if k != "always_flat"}
+        best = max(rivals or th, key=lambda k: th[k]["edge_over_doing_nothing"])
+        out[coin] = {
+            "doing_nothing_scores": round(base * 100, 1),
+            "theories": th,
+            "best": best,
+            "beats_doing_nothing": th[best]["real"],
+        }
     return out
 
 
 def verdict(rep):
     if not rep:
         return "Not enough tests yet."
-    best = []
-    for coin, r in rep.items():
-        v = r["theories"][r["best"]]
-        if v["tested"] >= 200:
-            best.append((v["right"], coin, r["best"], v["tested"]))
-    if not best:
+
+    tested = sum(v["theories"][v["best"]]["tested"] for v in rep.values())
+    if tested < 400:
         return "Too few tests so far to say anything. Keep it running."
-    best.sort(reverse=True)
-    top, coin, name, n = best[0]
-    if top < 38:
-        return ("Nothing clears chance by a meaningful margin. On this evidence "
-                "hourly direction is not predictable from these simple signals. "
+
+    winners = {}
+    for coin, r in rep.items():
+        if r["beats_doing_nothing"]:
+            winners.setdefault(r["best"], []).append(coin)
+
+    if not winners:
+        return ("Nothing beats simply assuming the price stays put. Every theory "
+                "is inside the margin of luck, or below it. On this evidence "
+                "hourly crypto direction is not predictable from these signals. "
                 "That is a real answer, not a failure.")
-    return (f"{name} on {coin} is at {top}% over {n} tests, against 33% chance. "
-            "Worth watching. Test seven theories and one looks good by luck, so "
-            "the live scoring from here is the test that counts.")
+
+    name, coins = max(winners.items(), key=lambda x: len(x[1]))
+    if len(coins) < 2:
+        return (f"{name} edges past doing nothing on {coins[0]} alone. One coin out "
+                "of several is what luck looks like. Not a finding yet - the live "
+                "scoring from here is the test that counts.")
+    return (f"{name} beats doing nothing on {len(coins)} coins ({', '.join(coins)}) "
+            "by more than the margin of luck. Worth taking seriously. Keep watching "
+            "it on hours that have not happened yet.")
+
+
+def print_table(rep):
+    """Every score shown against the do-nothing baseline for that coin."""
+    for coin, r in rep.items():
+        base = r["doing_nothing_scores"]
+        print(f"\n  {coin}   (doing nothing scores {base}%)")
+        rows = sorted(r["theories"].items(),
+                      key=lambda x: -x[1]["edge_over_doing_nothing"])
+        for name, v in rows:
+            e = v["edge_over_doing_nothing"]
+            if name == "always_flat":
+                tag = "  the baseline"
+            elif v["real"]:
+                tag = "  <-- BEATS IT"
+            elif e > 0:
+                tag = f"  (inside luck, +/-{v['margin_of_luck']})"
+            else:
+                tag = ""
+            print(f"    {name:<15} {v['right']:>5.1f}%   {e:>+5.1f} vs nothing"
+                  f"   over {v['tested']} tests{tag}")
 
 
 # ── the hourly run ────────────────────────────────────────────────────────
@@ -261,12 +326,8 @@ def main():
         print(f"\n  no findings yet - need about {max(0, 10 - st['resolved'])} more hours")
         return
 
-    print("\nWHAT IS ACTUALLY WORKING (chance would be ~33%):")
-    for coin, r in rep.items():
-        print(f"\n  {coin}")
-        for name, v in sorted(r["theories"].items(), key=lambda x: -x[1]["right"]):
-            flag = "  <-- best" if name == r["best"] else ""
-            print(f"    {name:<15} {v['right']:>5.1f}% right over {v['tested']} tests{flag}")
+    print("\nEVERY THEORY AGAINST SIMPLY DOING NOTHING:")
+    print_table(rep)
     print(f"\n  {verdict(rep)}")
 
 
