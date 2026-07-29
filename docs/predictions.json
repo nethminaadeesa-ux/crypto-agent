@@ -1,5 +1,12 @@
 {
- "predictions": [
+ "updated": "2026-07-29T16:44:38.719545Z",
+ "report_card": {
+  "scored": 0
+ },
+ "blend_weight": 0.5,
+ "adjustment": "Not enough results yet \u2014 still leaning half on the baseline.",
+ "lessons": [],
+ "open": [
   {
    "made_ms": 1785343442832,
    "made": "2026-07-29",
@@ -57,7 +64,6 @@
    "actual_move": null
   }
  ],
- "blend_weight": 0.5,
- "lessons": [],
- "reviewed_at": 0
+ "settled": [],
+ "verdict": "Not enough results yet. Wait until at least 20 predictions have been scored."
 }

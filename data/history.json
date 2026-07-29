@@ -138,6 +138,90 @@
    "breaker": "An unexpected policy decision or aggressive surprise rate statement from the Federal Reserve today.",
    "learned": "Not enough cases yet in the event library to draw reliable empirical conclusions.",
    "honesty": "No past range track record is available yet, so current price targets should be treated as unverified models."
+  },
+  {
+   "date": "2026-07-29",
+   "prices": {
+    "Bitcoin": 63829,
+    "Ethereum": 1891.08,
+    "BNB": 567.86,
+    "XRP": 1.068,
+    "Solana": 73.05,
+    "Dogecoin": 0.070116,
+    "Chainlink": 8.26,
+    "Cardano": 0.163178
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 60827.0417,
+     "high": 66979.112
+    },
+    {
+     "coin": "Ethereum",
+     "low": 1765.762,
+     "high": 2025.292
+    },
+    {
+     "coin": "BNB",
+     "low": 536.6238,
+     "high": 600.9145
+    },
+    {
+     "coin": "XRP",
+     "low": 1.0059,
+     "high": 1.134
+    },
+    {
+     "coin": "Solana",
+     "low": 67.8748,
+     "high": 78.6198
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0658,
+     "high": 0.0747
+    },
+    {
+     "coin": "Chainlink",
+     "low": 7.7007,
+     "high": 8.8599
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1482,
+     "high": 0.1797
+    }
+   ],
+   "width_factor": 1.0,
+   "one_line": "Crypto markets remained mostly sideways today as traders braced for the upcoming Federal Reserve interest rate decision.",
+   "moved": [
+    "Bitcoin stayed near $63,800 as investors held off on big bets prior to the Fed announcement.",
+    "Cardano gained 3.0% over the last 24 hours, leading major altcoins without a specific news driver.",
+    "Solana and Ethereum dropped roughly 1.4% and 1.3% as broader market volume stayed light."
+   ],
+   "traded": "Most assets saw an early drop followed by a late recovery. A late recovery means buyers stepped in during the second half of the trading period to pull prices back up toward where they opened.",
+   "versus_yesterday": "Market movement remained muted for a second straight day as traders continued to wait on central bank news.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 30,
+     "text": "A dovish policy stance or lower rates from the Fed sparks a rally across crypto assets."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 45,
+     "text": "The Fed holds rates steady with neutral comments, keeping prices inside recent trading ranges."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Hawkish comments from the Fed push investors away from risk assets, sending Bitcoin lower."
+    }
+   ],
+   "breaker": "An unexpected rate hike or sharply hawkish guidance from the Federal Reserve would trigger immediate high volatility.",
+   "learned": "After sharp drops like Ripple saw yesterday, our library of 196 past cases shows a median next-day move of -0.08%, with 100 cases continuing lower.",
+   "honesty": "We have no tracked range outcomes from recent days yet, so current range projections carry standard uncertainty."
   }
  ],
  "forecasts": [
@@ -249,6 +333,86 @@
    "price_then": 0.164009,
    "lo": 0.1489127308029664,
    "hi": 0.18063567792999038,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 63829,
+   "lo": 60827.04170990557,
+   "hi": 66979.11202767787,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 1891.08,
+   "lo": 1765.7619542424013,
+   "hi": 2025.292003719923,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 567.86,
+   "lo": 536.6237616102309,
+   "hi": 600.91446310985,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 1.068,
+   "lo": 1.0058732910644048,
+   "hi": 1.1339638999590134,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 73.05,
+   "lo": 67.87477508298186,
+   "hi": 78.61981853311455,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 0.070116,
+   "lo": 0.06580249392195228,
+   "hi": 0.07471226640484359,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 8.26,
+   "lo": 7.700686114499931,
+   "hi": 8.85993780106574,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1785343136555,
+   "days": 7,
+   "price_then": 0.163178,
+   "lo": 0.14818140109188396,
+   "hi": 0.17969231960149407,
    "actual": null
   }
  ],
