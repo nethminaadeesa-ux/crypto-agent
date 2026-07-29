@@ -19,6 +19,20 @@ import requests
 CG = "https://api.coingecko.com/api/v3"
 COINS = [c.strip() for c in os.environ.get(
     "COINS", "bitcoin,ethereum,solana").split(",") if c.strip()]
+TOP_N = int(os.environ.get("TOP_N", "50"))     # 0 = use the COINS list instead
+
+# pegged coins never move, and wrapped/staked ones just mirror their parent.
+# neither tells us anything, and both would pad the coin count dishonestly.
+SKIP = {
+    "tether", "usd-coin", "dai", "first-digital-usd", "ethena-usde", "usds",
+    "paypal-usd", "binance-peg-busd", "trueusd", "frax", "usdd", "pyusd",
+    "wrapped-bitcoin", "wrapped-steth", "staked-ether", "weth", "wrapped-eeth",
+    "coinbase-wrapped-btc", "rocket-pool-eth", "mantle-staked-ether", "wbeth",
+    "binance-staked-sol", "jito-staked-sol", "solv-btc", "lombard-staked-btc",
+    "kelp-dao-restaked-eth", "renzo-restaked-eth", "bridged-wrapped-steth",
+    "tether-gold", "pax-gold", "leveraged-token",
+}
+MIN_SIGMA = 0.05        # below this a coin is effectively pegged - ignore it
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "data" / "lab.json"
@@ -98,11 +112,42 @@ def baseline(sc):
     return (rec.get("right", 0) / n) if n >= 50 else None
 
 
-def noise_pp(p, n):
+def inv_norm(q):
+    """Inverse normal CDF - how many standard deviations for a given tail."""
+    if q <= 0 or q >= 1:
+        return 8.0
+    a = [-39.6968302866538, 220.946098424521, -275.928510446969,
+         138.357751867269, -30.6647980661472, 2.50662827745924]
+    b = [-54.4760987982241, 161.585836858041, -155.698979859887,
+         66.8013118877197, -13.2806815528857]
+    c = [-0.00778489400243029, -0.322396458041136, -2.40075827716184,
+         -2.54973253934373, 4.37466414146497, 2.93816398269878]
+    d = [0.00778469570904146, 0.32246712907004, 2.445134137143, 3.75440866190742]
+    pl, ph = 0.02425, 1 - 0.02425
+    if q < pl:
+        t = math.sqrt(-2 * math.log(q))
+        return (((((c[0]*t+c[1])*t+c[2])*t+c[3])*t+c[4])*t+c[5]) / \
+               ((((d[0]*t+d[1])*t+d[2])*t+d[3])*t+1)
+    if q > ph:
+        t = math.sqrt(-2 * math.log(1 - q))
+        return -(((((c[0]*t+c[1])*t+c[2])*t+c[3])*t+c[4])*t+c[5]) / \
+                ((((d[0]*t+d[1])*t+d[2])*t+d[3])*t+1)
+    t = q - 0.5
+    r = t * t
+    return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*t / \
+           (((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1)
+
+
+def luck_z(n_coins):
+    """The more coins you test, the higher the bar - or luck hands you winners."""
+    return inv_norm(1 - (0.05 / max(1, n_coins)) / 2)
+
+
+def noise_pp(p, n, z=1.96):
     """How far a score can drift on luck alone, in percentage points."""
     if n < 2:
         return 100.0
-    return 1.96 * math.sqrt(2 * p * (1 - p) / n) * 100
+    return z * math.sqrt(2 * p * (1 - p) / n) * 100
 
 
 def weights(st, coin):
@@ -134,8 +179,8 @@ def call_theories(st, coin, price, trail, vol_ratio):
         return None
 
     sigma = statistics.pstdev(rets[-48:]) if len(rets) > 2 else 0.0
-    if sigma <= 0:
-        return None
+    if sigma < MIN_SIGMA:
+        return None                        # pegged or dead - nothing to predict
 
     # band chosen so roughly a third of hours are 'flat' -> chance is ~33%
     band = 0.43 * sigma
@@ -194,6 +239,7 @@ def resolve(st, prices, now_ms):
 def report(st):
     """Score every theory against doing nothing on the same coin."""
     out = {}
+    z = luck_z(len(st["scores"]))
     for coin, sc in st["scores"].items():
         base = baseline(sc)
         if base is None:
@@ -209,8 +255,8 @@ def report(st):
                 "tested": n,
                 "right": round(acc * 100, 1),
                 "edge_over_doing_nothing": round((acc - base) * 100, 1),
-                "margin_of_luck": round(noise_pp(acc, n), 1),
-                "real": (acc - base) * 100 > noise_pp(acc, n),
+                "margin_of_luck": round(noise_pp(acc, n, z), 1),
+                "real": (acc - base) * 100 > noise_pp(acc, n, z),
             }
         if not th:
             continue
@@ -246,13 +292,15 @@ def verdict(rep):
                 "That is a real answer, not a failure.")
 
     name, coins = max(winners.items(), key=lambda x: len(x[1]))
-    if len(coins) < 2:
-        return (f"{name} edges past doing nothing on {coins[0]} alone. One coin out "
-                "of several is what luck looks like. Not a finding yet - the live "
-                "scoring from here is the test that counts.")
-    return (f"{name} beats doing nothing on {len(coins)} coins ({', '.join(coins)}) "
-            "by more than the margin of luck. Worth taking seriously. Keep watching "
-            "it on hours that have not happened yet.")
+    need = max(3, round(0.2 * len(rep)))
+    if len(coins) < need:
+        return (f"{name} edges past doing nothing on {len(coins)} of {len(rep)} coins. "
+                f"Below the {need} needed to rule out luck across this many coins. "
+                "Not a finding - crypto moves together, so a handful of winners is "
+                "what a coincidence looks like.")
+    return (f"{name} beats doing nothing on {len(coins)} of {len(rep)} coins, past the "
+            "margin of luck on each. That is worth taking seriously. Keep watching it "
+            "on hours that have not happened yet.")
 
 
 def print_table(rep):
@@ -282,10 +330,20 @@ def main():
     st = load()
     now_ms = int(time.time() * 1000)
 
-    print(f"checking {len(COINS)} coins")
-    rows = get(f"{CG}/coins/markets", vs_currency="usd",
-               ids=",".join(COINS), per_page=250, page=1)
-    live = {r["id"]: r for r in rows if r.get("current_price")}
+    if TOP_N > 0:
+        print(f"checking the top {TOP_N} coins by market cap")
+        rows = get(f"{CG}/coins/markets", vs_currency="usd",
+                   order="market_cap_desc", per_page=min(250, TOP_N), page=1)
+    else:
+        print(f"checking {len(COINS)} named coins")
+        rows = get(f"{CG}/coins/markets", vs_currency="usd",
+                   ids=",".join(COINS), per_page=250, page=1)
+
+    live = {r["id"]: r for r in rows
+            if r.get("current_price") and r["id"] not in SKIP}
+    skipped = len(rows) - len(live)
+    if skipped:
+        print(f"  ignoring {skipped} pegged or wrapped coins")
 
     resolve(st, {k: v["current_price"] for k, v in live.items()}, now_ms)
 
