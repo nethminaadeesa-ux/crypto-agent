@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto Desk — Daily Note</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0E1A1F;--panel:#152730;--panel-2:#1B313B;--line:#25424E;--sand:#EAE3D6;
+        --muted:#8BA3AB;--jade:#4FA88B;--coral:#D06A66;--brass:#C9A227}
+  html[data-theme="light"]{--ink:#F2EFE8;--panel:#FFF;--panel-2:#F7F4EC;--line:#DED7C8;
+        --sand:#1A2A31;--muted:#61787F;--jade:#2F8468;--coral:#B24A45;--brass:#9A7B12}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ink);color:var(--sand);font-size:15px;line-height:1.55;
+       font-family:"IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;
+           text-transform:uppercase;color:var(--muted)}
+  h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(28px,6vw,42px);
+     line-height:1.1;margin:6px 0 14px}
+  h2{font-family:"Fraunces",Georgia,serif;font-size:19px;margin:0 0 10px}
+  .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+  .iconbtn{background:var(--panel);border:1px solid var(--line);color:var(--sand);
+           border-radius:999px;width:38px;height:38px;font-size:15px;cursor:pointer;flex:none}
+  .lede{font-family:"Fraunces",Georgia,serif;font-size:clamp(19px,4vw,25px);line-height:1.35;
+        border-left:3px solid var(--brass);padding-left:16px;margin:0 0 24px}
+  section{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+          padding:20px;margin-bottom:16px}
+  ul{margin:0;padding-left:20px}li{margin-bottom:7px}
+  .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:16px}
+  .p{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:11px 13px}
+  .p .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;
+        text-transform:uppercase;color:var(--muted)}
+  .p .v{font-family:"IBM Plex Mono",monospace;font-size:19px;margin-top:2px}
+  .p .r{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);margin-top:3px}
+  .scen{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+  .card{background:var(--panel-2);border:1px solid var(--line);border-radius:7px;padding:12px 13px}
+  .card .h{display:flex;justify-content:space-between;align-items:baseline}
+  .card .nm{font-weight:600}.card .pb{font-family:"IBM Plex Mono",monospace;color:var(--brass);font-size:13px}
+  .card .tx{font-size:13px;color:var(--muted);margin-top:5px}
+  .breaker{border-left:2px solid var(--coral);padding-left:14px;margin-top:16px;font-size:14px}
+  .rec{display:flex;gap:10px;padding:7px 0;border-top:1px dashed var(--line);font-size:13.5px}
+  .rec:first-child{border-top:0}
+  .mk{font-family:"IBM Plex Mono",monospace;flex:none;width:16px}
+  .hit{color:var(--jade)}.miss{color:var(--coral)}.open{color:var(--muted)}
+  .score{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted);margin-bottom:12px}
+  .hint{color:var(--muted);font-size:13px;margin:6px 0 0}
+  .foot{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div><div class="eyebrow" id="stamp">Crypto desk</div><h1>Daily note</h1></div>
+    <button class="iconbtn" id="themeBtn" aria-label="Light or dark">☀</button>
+  </div>
+  <div id="app"><p class="hint">Loading the latest note…</p></div>
+  <p class="foot">Written by an automated agent. It describes what the market has done<br>
+  and how far prices could travel. It is not investment advice.</p>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const money = v => v >= 1000 ? "$" + v.toLocaleString("en-US",{maximumFractionDigits:0})
+                 : v >= 1 ? "$" + v.toFixed(2) : "$" + v.toPrecision(4);
+
+$("themeBtn").onclick = e => {
+  const el = document.documentElement, light = el.getAttribute("data-theme") === "light";
+  el.setAttribute("data-theme", light ? "dark" : "light");
+  e.currentTarget.textContent = light ? "☀" : "☾";
+};
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
+  const n = d.latest;
+  $("stamp").textContent = "Crypto desk · " + new Date(n.date).toLocaleDateString("en-GB",
+    {day:"2-digit",month:"short",year:"numeric"}).toUpperCase();
+
+  const rng = Object.fromEntries(n.ranges.map(r => [r.coin, r]));
+  const prices = Object.entries(n.prices).map(([name, p]) => `
+    <div class="p"><div class="k">${name}</div><div class="v">${money(p)}</div>
+    <div class="r">${rng[name] ? money(rng[name].low) + " – " + money(rng[name].high) : ""}</div></div>`).join("");
+
+  const recs = (d.recent_forecasts || []).slice().reverse().slice(0, 10).map(f => {
+    const when = new Date(f.made_ms).toLocaleDateString("en-GB",{day:"2-digit",month:"short"});
+    if (f.actual == null){
+      const left = Math.max(0, Math.ceil((f.made_ms + f.days*864e5 - Date.now())/864e5));
+      return `<div class="rec"><span class="mk open">·</span><span>${when} — ${f.name},
+        ${money(f.lo)} to ${money(f.hi)} · scores in ${left} day${left===1?"":"s"}</span></div>`;
+    }
+    return `<div class="rec"><span class="mk ${f.hit?"hit":"miss"}">${f.hit?"✓":"✗"}</span>
+      <span>${when} — ${f.name}, expected ${money(f.lo)} to ${money(f.hi)},
+      came in at <strong>${money(f.actual)}</strong></span></div>`;
+  }).join("");
+
+  const r = d.record || {scored:0, hits:0};
+  $("app").innerHTML = `
+    <p class="lede">${n.one_line}</p>
+    <div class="prices">${prices}</div>
+
+    <section><h2>What moved and why</h2><ul>${(n.moved||[]).map(x=>`<li>${x}</li>`).join("")}</ul></section>
+    <section><h2>How it traded</h2><p>${n.traded||""}</p></section>
+    <section><h2>Since yesterday</h2><p>${n.versus_yesterday||""}</p></section>
+
+    <section><h2>The case either way</h2>
+      <div class="scen">${(n.scenarios||[]).map(s=>`
+        <div class="card"><div class="h"><span class="nm">${s.name}</span><span class="pb">${s.prob}%</span></div>
+        <div class="tx">${s.text}</div></div>`).join("")}</div>
+      <div class="breaker"><strong>What would make this wrong:</strong> ${n.breaker||""}</div>
+    </section>
+
+    <section><h2>Track record</h2>
+      <div class="score">${r.scored ? `Landed in the range ${r.hits} of ${r.scored} times · band width now ${d.width_factor}×`
+        : "Nothing scored yet — the first forecasts mature in a week."}</div>
+      ${recs}
+      <p class="hint">${n.honesty||""}</p>
+    </section>`;
+}).catch(() => {
+  $("app").innerHTML = `<p class="hint">No note yet. Go to the Actions tab in the repository
+  and run <strong>Daily crypto note</strong> once by hand — the page fills in after that.</p>`;
+});
+</script>
+</body>
+</html>
