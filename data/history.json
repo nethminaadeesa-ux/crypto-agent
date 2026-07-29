@@ -53,6 +53,91 @@
    "breaker": "An unexpected rate change or aggressive policy shift from the Federal Reserve today.",
    "learned": "Not enough cases yet in the event library to show reliable historical patterns.",
    "honesty": "There are no past prediction logs available yet to check accuracy against."
+  },
+  {
+   "date": "2026-07-29",
+   "prices": {
+    "Bitcoin": 64313,
+    "Ethereum": 1898.99,
+    "BNB": 568.27,
+    "XRP": 1.071,
+    "Solana": 73.36,
+    "Dogecoin": 0.070388,
+    "Chainlink": 8.31,
+    "Cardano": 0.164009
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 61281.5603,
+     "high": 67494.3972
+    },
+    {
+     "coin": "Ethereum",
+     "low": 1773.3152,
+     "high": 2033.5714
+    },
+    {
+     "coin": "BNB",
+     "low": 537.0171,
+     "high": 601.3417
+    },
+    {
+     "coin": "XRP",
+     "low": 1.0087,
+     "high": 1.1372
+    },
+    {
+     "coin": "Solana",
+     "low": 68.166,
+     "high": 78.9497
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0661,
+     "high": 0.075
+    },
+    {
+     "coin": "Chainlink",
+     "low": 7.7487,
+     "high": 8.912
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1489,
+     "high": 0.1806
+    }
+   ],
+   "width_factor": 1.0,
+   "one_line": "Major cryptocurrencies posted modest gains as market participants waited for the Federal Reserve rate decision.",
+   "moved": [
+    "Bitcoin rose 1.3% to $64,313 as markets consolidated ahead of pivotal macro interest rate news.",
+    "Cardano jumped 4.4% to $0.164, recovering part of its recent weekly losses after dropping hard on July 27.",
+    "XRP gained 2.8% to $1.071, finding temporary support after falling over 5% on the seven-day timeframe.",
+    "Ethereum climbed 1.6% to $1,898 as overall market sentiment stabilized following recent institutional product launches."
+   ],
+   "traded": "Trading showed a brief pullback on July 28 that was quickly bought back, followed by steady sideways movement. A candle is the high, low, open, and close price for a set timeframe, and recent candles show small bodies, meaning low volatility.",
+   "versus_yesterday": "Prices held onto the modest bounce reported in yesterday's note. The broader weekly downtrend has stalled into sideways consolidation ahead of key economic events.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 30,
+     "text": "The Fed delivers dovish comments or an unexpected rate cut, pushing bitcoin toward $67,000."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 45,
+     "text": "The Fed holds interest rates steady with neutral guidance, keeping crypto prices bound inside existing ranges."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "A hawkish Fed tone or unexpected rate hike triggers selling, driving bitcoin down toward $61,000 support."
+    }
+   ],
+   "breaker": "An unexpected policy decision or aggressive surprise rate statement from the Federal Reserve today.",
+   "learned": "Not enough cases yet in the event library to draw reliable empirical conclusions.",
+   "honesty": "No past range track record is available yet, so current price targets should be treated as unverified models."
   }
  ],
  "forecasts": [
@@ -84,6 +169,86 @@
    "price_then": 73.63,
    "lo": 68.39075191453671,
    "hi": 79.27061405575314,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 64313,
+   "lo": 61281.56027865493,
+   "hi": 67494.39717579568,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 1898.99,
+   "lo": 1773.3151527156533,
+   "hi": 2033.5714238822834,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 568.27,
+   "lo": 537.0170974201532,
+   "hi": 601.3417346512235,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 1.071,
+   "lo": 1.0086550378434522,
+   "hi": 1.1371985039131147,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 73.36,
+   "lo": 68.16601956664422,
+   "hi": 78.94974114981814,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 0.070388,
+   "lo": 0.06605933796554472,
+   "hi": 0.0750003057339775,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 8.31,
+   "lo": 7.748688725611955,
+   "hi": 8.911972392405822,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1785333690360,
+   "days": 7,
+   "price_then": 0.164009,
+   "lo": 0.1489127308029664,
+   "hi": 0.18063567792999038,
    "actual": null
   }
  ],
