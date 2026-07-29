@@ -23,7 +23,7 @@ jobs:
       - name: Run the agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          COINS: bitcoin,ethereum,solana
+          COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
           HORIZON_DAYS: "7"
         run: python agent.py
 
