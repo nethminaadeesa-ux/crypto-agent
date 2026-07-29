@@ -24,13 +24,13 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
-          HORIZON_DAYS: "7"
+          HORIZON_DAYS: "1"
         run: python agent.py
 
       - name: Predict, compare, correct
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          COINS: bitcoin,ethereum,solana
+          COINS: bitcoin,ethereum,solana,ripple,cardano
           HORIZON_DAYS: "7"
         run: python predict.py
 
