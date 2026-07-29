@@ -5939,6 +5939,81 @@
    "confidence": "low",
    "after_24h": 0.32,
    "after_7d": null
+  },
+  {
+   "t": 1785351493092,
+   "when": "2026-07-29 18:58 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 1924.32,
+   "move_pct": 1.53,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785351500518,
+   "when": "2026-07-29 18:58 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.088,
+   "move_pct": 1.68,
+   "category": "adoption_or_partnership",
+   "headline": "Ripple and Aviva launch the first tokenized fund on the XRP Ledger",
+   "detail": "Ripple announced a partnership with major financial institution Aviva to launch a tokenized fund on the XRP Ledger. This institutional adoption news likely boosted sentiment and drove the recent price rise.",
+   "source": "Benzinga",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785351681825,
+   "when": "2026-07-29 19:01 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 74.38,
+   "move_pct": 1.6,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785351823785,
+   "when": "2026-07-29 19:03 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 8.43,
+   "move_pct": 1.93,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785351964171,
+   "when": "2026-07-29 19:06 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.167876,
+   "move_pct": 2.71,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
@@ -5946,48 +6021,80 @@
    {
     "t": 1785342383174,
     "p": 64013
+   },
+   {
+    "t": 1785351359037,
+    "p": 64519
    }
   ],
   "ethereum": [
    {
     "t": 1785342383174,
     "p": 1895.27
+   },
+   {
+    "t": 1785351359037,
+    "p": 1924.32
    }
   ],
   "binancecoin": [
    {
     "t": 1785342383174,
     "p": 568.11
+   },
+   {
+    "t": 1785351359037,
+    "p": 572.63
    }
   ],
   "ripple": [
    {
     "t": 1785342383174,
     "p": 1.07
+   },
+   {
+    "t": 1785351359037,
+    "p": 1.088
    }
   ],
   "solana": [
    {
     "t": 1785342383174,
     "p": 73.21
+   },
+   {
+    "t": 1785351359037,
+    "p": 74.38
    }
   ],
   "dogecoin": [
    {
     "t": 1785342383174,
     "p": 0.070226
+   },
+   {
+    "t": 1785351359037,
+    "p": 0.070937
    }
   ],
   "chainlink": [
    {
     "t": 1785342383174,
     "p": 8.27
+   },
+   {
+    "t": 1785351359037,
+    "p": 8.43
    }
   ],
   "cardano": [
    {
     "t": 1785342383174,
     "p": 0.163442
+   },
+   {
+    "t": 1785351359037,
+    "p": 0.167876
    }
   ]
  }
