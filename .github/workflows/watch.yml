@@ -2,7 +2,8 @@ name: Watch the market
 
 on:
   schedule:
-    - cron: "5 * * * *"
+    # 23 past the hour - quieter than :00 or :05, so fewer runs get skipped
+    - cron: "23 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,9 +24,13 @@ jobs:
       - run: pip install requests
 
       - name: Test the theories
-        env:
-          COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
         run: python learn.py
+
+      - name: Write today's note if it is missing
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          COINS: bitcoin,ethereum,solana,ripple,cardano,dogecoin,binancecoin,chainlink
+        run: python ensure_note.py
 
       - name: Check the market
         env:
