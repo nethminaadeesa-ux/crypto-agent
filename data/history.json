@@ -222,6 +222,91 @@
    "breaker": "An unexpected rate hike or sharply hawkish guidance from the Federal Reserve would trigger immediate high volatility.",
    "learned": "After sharp drops like Ripple saw yesterday, our library of 196 past cases shows a median next-day move of -0.08%, with 100 cases continuing lower.",
    "honesty": "We have no tracked range outcomes from recent days yet, so current range projections carry standard uncertainty."
+  },
+  {
+   "date": "2026-07-30",
+   "prices": {
+    "Bitcoin": 63945,
+    "Ethereum": 1902.56,
+    "BNB": 574.35,
+    "XRP": 1.076,
+    "Solana": 73.4,
+    "Dogecoin": 0.069778,
+    "Chainlink": 8.29,
+    "Cardano": 0.163167
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 60972.6394,
+     "high": 67062.2605
+    },
+    {
+     "coin": "Ethereum",
+     "low": 1777.4813,
+     "high": 2036.4404
+    },
+    {
+     "coin": "BNB",
+     "low": 542.7443,
+     "high": 607.7962
+    },
+    {
+     "coin": "XRP",
+     "low": 1.0135,
+     "high": 1.1423
+    },
+    {
+     "coin": "Solana",
+     "low": 68.2068,
+     "high": 78.9886
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0655,
+     "high": 0.0743
+    },
+    {
+     "coin": "Chainlink",
+     "low": 7.7261,
+     "high": 8.895
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1482,
+     "high": 0.1797
+    }
+   ],
+   "width_factor": 1.0,
+   "one_line": "Crypto prices chopped sideways to slightly lower after the Federal Reserve held interest rates steady.",
+   "moved": [
+    "Bitcoin traded near $63,945, down 0.2% on the day, as a hawkish Fed pause triggered $286 million in leveraged liquidations.",
+    "Ethereum slipped 0.6% to $1,902 as traders digested the central bank interest rate decision.",
+    "BNB rose 0.7% to $574.35, showing resilience as Binance introduced new commodity options.",
+    "XRP fell 1.2% to $1.076, extending its weekly decline to 5.4% amid broad altcoin weakness."
+   ],
+   "traded": "Candles showed sharp spikes followed by quick pullbacks over the past day. This action is known as a whipsaw, where price swings rapidly in one direction and then reverses, leaving thin real bodies on the charts.",
+   "versus_yesterday": "Yesterday traders were waiting for the Federal Reserve decision. Today the Fed kept rates unchanged with a hawkish tone, removing the catalyst and keeping markets trapped in a sideways trend.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 25,
+     "text": "Buyers absorb the hawkish Fed comments and push Bitcoin back above $65,000."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 50,
+     "text": "Prices consolidate within current ranges as trading activity stays low after the rate announcement."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Continued leverage liquidations break key support levels and drive altcoins lower."
+    }
+   ],
+   "breaker": "A sudden shift in central bank expectations or massive institutional buying would break this range-bound pattern.",
+   "learned": "In 196 past cases of a sharp drop, the median next-day move was -0.08% with price falling 100 times. In 200 cases of a sharp rise, the median next-day move was -0.45% with price falling 115 times.",
+   "honesty": "No past range tracking data is available yet, so today's target bounds carry higher uncertainty."
   }
  ],
  "forecasts": [
@@ -413,6 +498,86 @@
    "price_then": 0.163178,
    "lo": 0.14818140109188396,
    "hi": 0.17969231960149407,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 63945,
+   "lo": 60972.639369460354,
+   "hi": 67062.26050381636,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 1902.56,
+   "lo": 1777.4812509605797,
+   "hi": 2036.4403571873609,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 574.35,
+   "lo": 542.7442766950106,
+   "hi": 607.7962249712888,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 1.076,
+   "lo": 1.0135297103937313,
+   "hi": 1.1423207313283719,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 73.4,
+   "lo": 68.20678634092478,
+   "hi": 78.9886210599459,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 0.069778,
+   "lo": 0.06551350602730982,
+   "hi": 0.07432008419714757,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 8.29,
+   "lo": 7.726108479241718,
+   "hi": 8.89504725239697,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1785398250464,
+   "days": 7,
+   "price_then": 0.163167,
+   "lo": 0.14817188431301775,
+   "hi": 0.17967963363924758,
    "actual": null
   }
  ],
