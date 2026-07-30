@@ -40,6 +40,9 @@ jobs:
           SENSITIVITY: "2.5"
         run: python watch.py
 
+      - name: Count what it has done
+        run: python stats.py
+
       - name: Save what it learned
         run: |
           git config user.name "crypto-agent"
