@@ -5952,7 +5952,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.49,
    "after_7d": null
   },
   {
@@ -5967,7 +5967,7 @@
    "detail": "Ripple announced a partnership with major financial institution Aviva to launch a tokenized fund on the XRP Ledger. This institutional adoption news likely boosted sentiment and drove the recent price rise.",
    "source": "Benzinga",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -0.33,
    "after_7d": null
   },
   {
@@ -5982,7 +5982,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.11,
    "after_7d": null
   },
   {
@@ -5997,7 +5997,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.62,
    "after_7d": null
   },
   {
@@ -6224,6 +6224,21 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1785444433880,
+   "when": "2026-07-30 20:47 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.170679,
+   "move_pct": -2.33,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
@@ -6255,6 +6270,10 @@
    {
     "t": 1785425705104,
     "p": 64595
+   },
+   {
+    "t": 1785444265499,
+    "p": 64814
    }
   ],
   "ethereum": [
@@ -6285,6 +6304,10 @@
    {
     "t": 1785425705104,
     "p": 1914.28
+   },
+   {
+    "t": 1785444265499,
+    "p": 1923.2
    }
   ],
   "binancecoin": [
@@ -6315,6 +6338,10 @@
    {
     "t": 1785425705104,
     "p": 588.99
+   },
+   {
+    "t": 1785444265499,
+    "p": 592.88
    }
   ],
   "ripple": [
@@ -6345,6 +6372,10 @@
    {
     "t": 1785425705104,
     "p": 1.092
+   },
+   {
+    "t": 1785444265499,
+    "p": 1.086
    }
   ],
   "solana": [
@@ -6375,6 +6406,10 @@
    {
     "t": 1785425705104,
     "p": 74.49
+   },
+   {
+    "t": 1785444265499,
+    "p": 74.53
    }
   ],
   "dogecoin": [
@@ -6405,6 +6440,10 @@
    {
     "t": 1785425705104,
     "p": 0.07029
+   },
+   {
+    "t": 1785444265499,
+    "p": 0.070571
    }
   ],
   "chainlink": [
@@ -6435,6 +6474,10 @@
    {
     "t": 1785425705104,
     "p": 8.45
+   },
+   {
+    "t": 1785444265499,
+    "p": 8.47
    }
   ],
   "cardano": [
@@ -6465,6 +6508,10 @@
    {
     "t": 1785425705104,
     "p": 0.174752
+   },
+   {
+    "t": 1785444265499,
+    "p": 0.170679
    }
   ]
  }
