@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-30T08:01:31.116072Z",
- "total_events": 412,
+ "updated": "2026-07-30T11:39:37.331270Z",
+ "total_events": 414,
  "patterns": {
   "sharp_drop": {
    "cases": 196,
@@ -26,36 +26,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1783036800000,
-   "when": "2026-07-03",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 1698.40144,
-   "move_pct": 5.59,
-   "category": "sharp_rise",
-   "headline": "moved +5.6% in one day, about 3.0 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 3.4,
-   "after_7d": 2.78
-  },
-  {
-   "t": 1783123200000,
-   "when": "2026-07-04",
-   "coin": "ripple",
-   "name": "Ripple",
-   "price": 1.134133,
-   "move_pct": 4.34,
-   "category": "sharp_rise",
-   "headline": "moved +4.3% in one day, about 2.7 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 1.97,
-   "after_7d": -2.66
-  },
   {
    "t": 1783123200000,
    "when": "2026-07-04",
@@ -393,6 +363,36 @@
    "name": "Chainlink",
    "price": 8.34,
    "move_pct": 1.71,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785411391809,
+   "when": "2026-07-30 11:36 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 587.04,
+   "move_pct": 2.29,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785411574324,
+   "when": "2026-07-30 11:39 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 8.41,
+   "move_pct": 1.57,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
