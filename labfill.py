@@ -62,7 +62,7 @@ def replay(st, coin):
         vol_ratio = (vol / statistics.median(recent)) if recent and vol else 1.0
 
         # make the calls using only what was knowable at time t
-        r = learn.call_theories(st, coin, price, trail, vol_ratio)
+        r = learn.call_theories(st, coin, price, trail, vol_ratio, t)
         if r:
             st["pending"].append({"coin": coin, "made_ms": t, "price": price,
                                   "band": r["band"], "calls": r["calls"]})

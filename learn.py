@@ -84,13 +84,38 @@ def get(url, **params):
 
 # ── the six theories ──────────────────────────────────────────────────────
 
+HOUR_MS = 3600_000
+GAP_MIN = 45 * 60 * 1000        # a pair closer than this is not an hour apart
+GAP_MAX = 90 * 60 * 1000        # nor is one further than this
+
+
 def returns(trail):
-    """Hour-to-hour percentage changes from the trail."""
+    """Hour-to-hour changes - skipping any pair that is not really an hour.
+
+    GitHub skips scheduled runs, so two readings side by side in the trail
+    can be three hours apart. Treating that as an hourly move would overstate
+    how much the coin normally moves, which widens the flat band and shifts
+    every score. So gapped pairs are dropped rather than guessed at.
+    """
     out = []
     for a, b in zip(trail, trail[1:]):
-        if a["p"]:
-            out.append((b["p"] - a["p"]) / a["p"] * 100.0)
+        if not a["p"]:
+            continue
+        dt = b.get("t", 0) - a.get("t", 0)
+        if dt and not (GAP_MIN <= dt <= GAP_MAX):
+            continue                       # a skipped run - not comparable
+        out.append((b["p"] - a["p"]) / a["p"] * 100.0)
     return out
+
+
+def hours_ago(trail, now_ms, hours):
+    """The reading closest to N hours back, or None if that hour was missed."""
+    if not trail:
+        return None
+    want = now_ms - hours * HOUR_MS
+    best = min(trail, key=lambda x: abs(x.get("t", 0) - want))
+    off = abs(best.get("t", 0) - want)
+    return best if off <= 2 * HOUR_MS else None
 
 
 def classify(pct, band):
@@ -169,12 +194,12 @@ def weights(st, coin):
     return w
 
 
-def call_theories(st, coin, price, trail, vol_ratio):
+def call_theories(st, coin, price, trail, vol_ratio, now_ms):
     """Every theory makes its call for the next hour. Sees only the past."""
     if len(trail) < MIN_TRAIL:
         return None
 
-    rets = returns(trail + [{"t": 0, "p": price}])
+    rets = returns(trail + [{"t": now_ms, "p": price}])
     if len(rets) < MIN_TRAIL - 1:
         return None
 
@@ -186,9 +211,12 @@ def call_theories(st, coin, price, trail, vol_ratio):
     band = 0.43 * sigma
 
     r1 = rets[-1]
-    old = trail[-24] if len(trail) >= 24 else trail[0]
-    r24 = (price - old["p"]) / old["p"] * 100.0 if old["p"] else 0.0
-    band24 = band * math.sqrt(min(24, len(trail)))
+    old = hours_ago(trail, now_ms, 24)
+    if old and old["p"]:
+        r24 = (price - old["p"]) / old["p"] * 100.0
+        band24 = band * math.sqrt(24)
+    else:
+        r24, band24 = 0.0, 1.0        # that hour was skipped - no opinion
 
     calls = {}
     calls["momentum_1h"] = classify(r1, band)
@@ -356,7 +384,7 @@ def main():
         vols = [t.get("v", 0) for t in trail[-24:] if t.get("v")]
         vol_ratio = (vol / statistics.median(vols)) if vols and vol else 1.0
 
-        r = call_theories(st, coin, price, trail, vol_ratio)
+        r = call_theories(st, coin, price, trail, vol_ratio, now_ms)
         if r:
             st["pending"].append({"coin": coin, "made_ms": now_ms, "price": price,
                                   "band": r["band"], "calls": r["calls"]})
