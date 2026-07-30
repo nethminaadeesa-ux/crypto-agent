@@ -6119,6 +6119,66 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1785370576010,
+   "when": "2026-07-30 00:16 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 1911.44,
+   "move_pct": 1.6,
+   "category": "no_clear_cause",
+   "headline": "No specific news found to explain the recent price movement",
+   "detail": "Recent headlines regarding perpetual futures and board changes do not directly account for the recent price increase. No clear catalyst was identified in the provided sources.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785370593827,
+   "when": "2026-07-30 00:16 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 73.74,
+   "move_pct": 1.5,
+   "category": "no_clear_cause",
+   "headline": "No clear cause identified for Solana's recent price movement.",
+   "detail": "No relevant news headlines were provided for the given timeframe. As a result, the specific trigger for the price increase remains unknown.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785370628691,
+   "when": "2026-07-30 00:17 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.070268,
+   "move_pct": 1.61,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for the recent Dogecoin price movement",
+   "detail": "No relevant news headlines were provided for the past 12 hours. Therefore, a specific cause for the price move cannot be determined.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785370760213,
+   "when": "2026-07-30 00:19 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 8.34,
+   "move_pct": 1.71,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
@@ -6134,6 +6194,10 @@
    {
     "t": 1785357180545,
     "p": 63457
+   },
+   {
+    "t": 1785370561467,
+    "p": 63991
    }
   ],
   "ethereum": [
@@ -6148,6 +6212,10 @@
    {
     "t": 1785357180545,
     "p": 1881.43
+   },
+   {
+    "t": 1785370561467,
+    "p": 1911.44
    }
   ],
   "binancecoin": [
@@ -6162,6 +6230,10 @@
    {
     "t": 1785357180545,
     "p": 566.77
+   },
+   {
+    "t": 1785370561467,
+    "p": 572.43
    }
   ],
   "ripple": [
@@ -6176,6 +6248,10 @@
    {
     "t": 1785357180545,
     "p": 1.064
+   },
+   {
+    "t": 1785370561467,
+    "p": 1.075
    }
   ],
   "solana": [
@@ -6190,6 +6266,10 @@
    {
     "t": 1785357180545,
     "p": 72.65
+   },
+   {
+    "t": 1785370561467,
+    "p": 73.74
    }
   ],
   "dogecoin": [
@@ -6204,6 +6284,10 @@
    {
     "t": 1785357180545,
     "p": 0.069158
+   },
+   {
+    "t": 1785370561467,
+    "p": 0.070268
    }
   ],
   "chainlink": [
@@ -6218,6 +6302,10 @@
    {
     "t": 1785357180545,
     "p": 8.2
+   },
+   {
+    "t": 1785370561467,
+    "p": 8.34
    }
   ],
   "cardano": [
@@ -6232,6 +6320,10 @@
    {
     "t": 1785357180545,
     "p": 0.162101
+   },
+   {
+    "t": 1785370561467,
+    "p": 0.162409
    }
   ]
  }
