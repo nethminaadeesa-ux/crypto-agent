@@ -6057,7 +6057,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.02,
    "after_7d": null
   },
   {
@@ -6072,7 +6072,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.53,
    "after_7d": null
   },
   {
@@ -6087,7 +6087,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.05,
    "after_7d": null
   },
   {
@@ -6132,7 +6132,7 @@
    "detail": "Recent headlines regarding perpetual futures and board changes do not directly account for the recent price increase. No clear catalyst was identified in the provided sources.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.38,
    "after_7d": null
   },
   {
@@ -6278,6 +6278,10 @@
    {
     "t": 1785485954865,
     "p": 63841
+   },
+   {
+    "t": 1785513142753,
+    "p": 62608
    }
   ],
   "ethereum": [
@@ -6316,6 +6320,10 @@
    {
     "t": 1785485954865,
     "p": 1888.66
+   },
+   {
+    "t": 1785513142753,
+    "p": 1859.98
    }
   ],
   "binancecoin": [
@@ -6354,6 +6362,10 @@
    {
     "t": 1785485954865,
     "p": 591.12
+   },
+   {
+    "t": 1785513142753,
+    "p": 583.98
    }
   ],
   "ripple": [
@@ -6392,6 +6404,10 @@
    {
     "t": 1785485954865,
     "p": 1.078
+   },
+   {
+    "t": 1785513142753,
+    "p": 1.059
    }
   ],
   "solana": [
@@ -6430,6 +6446,10 @@
    {
     "t": 1785485954865,
     "p": 73.62
+   },
+   {
+    "t": 1785513142753,
+    "p": 72.96
    }
   ],
   "dogecoin": [
@@ -6468,6 +6488,10 @@
    {
     "t": 1785485954865,
     "p": 0.070036
+   },
+   {
+    "t": 1785513142753,
+    "p": 0.068893
    }
   ],
   "chainlink": [
@@ -6506,6 +6530,10 @@
    {
     "t": 1785485954865,
     "p": 8.31
+   },
+   {
+    "t": 1785513142753,
+    "p": 8.09
    }
   ],
   "cardano": [
@@ -6544,6 +6572,10 @@
    {
     "t": 1785485954865,
     "p": 0.170137
+   },
+   {
+    "t": 1785513142753,
+    "p": 0.167934
    }
   ]
  }

@@ -1,10 +1,10 @@
 {
- "updated": "2026-07-31T08:19:23.158584Z",
+ "updated": "2026-07-31T15:53:36.343332Z",
  "total_events": 416,
  "patterns": {
   "no_clear_cause": {
-   "cases": 6,
-   "next_day_median": 1.32,
+   "cases": 10,
+   "next_day_median": 2.02,
    "next_day_range": [
     -0.49,
     2.69
@@ -229,7 +229,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.02,
    "after_7d": null
   },
   {
@@ -244,7 +244,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.53,
    "after_7d": null
   },
   {
@@ -259,7 +259,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.05,
    "after_7d": null
   },
   {
@@ -304,7 +304,7 @@
    "detail": "Recent headlines regarding perpetual futures and board changes do not directly account for the recent price increase. No clear catalyst was identified in the provided sources.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.38,
    "after_7d": null
   },
   {
