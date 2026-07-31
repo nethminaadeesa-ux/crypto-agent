@@ -1,13 +1,13 @@
 {
- "updated": "2026-07-31T15:53:36.343332Z",
+ "updated": "2026-07-31T20:52:28.579327Z",
  "total_events": 416,
  "patterns": {
   "no_clear_cause": {
-   "cases": 10,
+   "cases": 14,
    "next_day_median": 2.02,
    "next_day_range": [
     -0.49,
-    2.69
+    5.33
    ],
    "fell_next_day": 1,
    "week_median": null,
@@ -274,7 +274,7 @@
    "detail": "None of the headlines provided from the past 12 hours indicate a clear cause for Chainlink's recent price decline. The move likely stems from general market fluctuations or unreported trading activity.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.05,
    "after_7d": null
   },
   {
@@ -289,7 +289,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.33,
    "after_7d": null
   },
   {
@@ -319,7 +319,7 @@
    "detail": "No relevant news headlines were provided for the given timeframe. As a result, the specific trigger for the price increase remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.06,
    "after_7d": null
   },
   {
@@ -364,7 +364,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.72,
    "after_7d": null
   },
   {

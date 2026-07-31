@@ -6102,7 +6102,7 @@
    "detail": "None of the headlines provided from the past 12 hours indicate a clear cause for Chainlink's recent price decline. The move likely stems from general market fluctuations or unreported trading activity.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.05,
    "after_7d": null
   },
   {
@@ -6117,7 +6117,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.33,
    "after_7d": null
   },
   {
@@ -6147,7 +6147,7 @@
    "detail": "No relevant news headlines were provided for the given timeframe. As a result, the specific trigger for the price increase remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.06,
    "after_7d": null
   },
   {
@@ -6192,7 +6192,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.72,
    "after_7d": null
   },
   {
@@ -6282,6 +6282,10 @@
    {
     "t": 1785513142753,
     "p": 62608
+   },
+   {
+    "t": 1785531074848,
+    "p": 62936
    }
   ],
   "ethereum": [
@@ -6324,6 +6328,10 @@
    {
     "t": 1785513142753,
     "p": 1859.98
+   },
+   {
+    "t": 1785531074848,
+    "p": 1863.72
    }
   ],
   "binancecoin": [
@@ -6366,6 +6374,10 @@
    {
     "t": 1785513142753,
     "p": 583.98
+   },
+   {
+    "t": 1785531074848,
+    "p": 587.1
    }
   ],
   "ripple": [
@@ -6408,6 +6420,10 @@
    {
     "t": 1785513142753,
     "p": 1.059
+   },
+   {
+    "t": 1785531074848,
+    "p": 1.062
    }
   ],
   "solana": [
@@ -6450,6 +6466,10 @@
    {
     "t": 1785513142753,
     "p": 72.96
+   },
+   {
+    "t": 1785531074848,
+    "p": 72.91
    }
   ],
   "dogecoin": [
@@ -6492,6 +6512,10 @@
    {
     "t": 1785513142753,
     "p": 0.068893
+   },
+   {
+    "t": 1785531074848,
+    "p": 0.069585
    }
   ],
   "chainlink": [
@@ -6534,6 +6558,10 @@
    {
     "t": 1785513142753,
     "p": 8.09
+   },
+   {
+    "t": 1785531074848,
+    "p": 8.16
    }
   ],
   "cardano": [
@@ -6576,6 +6604,10 @@
    {
     "t": 1785513142753,
     "p": 0.167934
+   },
+   {
+    "t": 1785531074848,
+    "p": 0.168909
    }
   ]
  }
