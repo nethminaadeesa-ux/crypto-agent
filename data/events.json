@@ -6254,6 +6254,51 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1785615434722,
+   "when": "2026-08-01 20:17 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 1835.37,
+   "move_pct": -1.82,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785615449126,
+   "when": "2026-08-01 20:17 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 71.29,
+   "move_pct": -2.02,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst found for Solana's recent price drop",
+   "detail": "The recent minor price drop of 2.02% does not appear to be driven by any specific negative news event in the available headlines. Recent reporting mainly covers general security warnings regarding AI scams, market volume stats, and routine technical developments.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1785615456142,
+   "when": "2026-08-01 20:17 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.068439,
+   "move_pct": -2.31,
+   "category": "no_clear_cause",
+   "headline": "No clear news cause found for the recent Dogecoin price drop",
+   "detail": "None of the recent headlines explain the 2.31% price drop in Dogecoin over the last 4.5 hours. The available news focuses on general predictions, spot flows, and NFT demand without citing a specific catalyst for the decline.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
@@ -6313,6 +6358,10 @@
    {
     "t": 1785599220628,
     "p": 62997
+   },
+   {
+    "t": 1785615295360,
+    "p": 62499
    }
   ],
   "ethereum": [
@@ -6371,6 +6420,10 @@
    {
     "t": 1785599220628,
     "p": 1869.36
+   },
+   {
+    "t": 1785615295360,
+    "p": 1835.37
    }
   ],
   "binancecoin": [
@@ -6429,6 +6482,10 @@
    {
     "t": 1785599220628,
     "p": 576.89
+   },
+   {
+    "t": 1785615295360,
+    "p": 575.27
    }
   ],
   "ripple": [
@@ -6487,6 +6544,10 @@
    {
     "t": 1785599220628,
     "p": 1.063
+   },
+   {
+    "t": 1785615295360,
+    "p": 1.053
    }
   ],
   "solana": [
@@ -6545,6 +6606,10 @@
    {
     "t": 1785599220628,
     "p": 72.76
+   },
+   {
+    "t": 1785615295360,
+    "p": 71.29
    }
   ],
   "dogecoin": [
@@ -6603,6 +6668,10 @@
    {
     "t": 1785599220628,
     "p": 0.070059
+   },
+   {
+    "t": 1785615295360,
+    "p": 0.068439
    }
   ],
   "chainlink": [
@@ -6661,6 +6730,10 @@
    {
     "t": 1785599220628,
     "p": 8.1
+   },
+   {
+    "t": 1785615295360,
+    "p": 8.0
    }
   ],
   "cardano": [
@@ -6719,6 +6792,10 @@
    {
     "t": 1785599220628,
     "p": 0.172547
+   },
+   {
+    "t": 1785615295360,
+    "p": 0.172605
    }
   ]
  }
