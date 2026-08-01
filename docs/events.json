@@ -1,15 +1,15 @@
 {
- "updated": "2026-08-01T06:53:12.501334Z",
- "total_events": 416,
+ "updated": "2026-08-01T11:50:29.408772Z",
+ "total_events": 417,
  "patterns": {
   "no_clear_cause": {
-   "cases": 17,
-   "next_day_median": 1.4,
+   "cases": 19,
+   "next_day_median": 1.06,
    "next_day_range": [
-    -1.26,
+    -3.49,
     5.33
    ],
-   "fell_next_day": 2,
+   "fell_next_day": 4,
    "week_median": null,
    "recovered_in_week": null
   },
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1784073600000,
-   "when": "2026-07-15",
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "price": 64977.363129,
-   "move_pct": 4.39,
-   "category": "sharp_rise",
-   "headline": "moved +4.4% in one day, about 3.4 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -0.39,
-   "after_7d": 2.35
-  },
   {
    "t": 1784073600000,
    "when": "2026-07-15",
@@ -379,7 +364,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.89,
    "after_7d": null
   },
   {
@@ -394,7 +379,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.49,
    "after_7d": null
   },
   {
@@ -410,6 +395,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -1.26,
+   "after_7d": null
+  },
+  {
+   "t": 1785585026404,
+   "when": "2026-08-01 11:50 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 579.64,
+   "move_pct": -1.94,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
