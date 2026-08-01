@@ -1,15 +1,15 @@
 {
- "updated": "2026-07-31T20:52:28.579327Z",
+ "updated": "2026-08-01T06:53:12.501334Z",
  "total_events": 416,
  "patterns": {
   "no_clear_cause": {
-   "cases": 14,
-   "next_day_median": 2.02,
+   "cases": 17,
+   "next_day_median": 1.4,
    "next_day_range": [
-    -0.49,
+    -1.26,
     5.33
    ],
-   "fell_next_day": 1,
+   "fell_next_day": 2,
    "week_median": null,
    "recovered_in_week": null
   },
@@ -334,7 +334,7 @@
    "detail": "No relevant news headlines were provided for the past 12 hours. Therefore, a specific cause for the price move cannot be determined.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.48,
    "after_7d": null
   },
   {
@@ -349,7 +349,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.4,
    "after_7d": null
   },
   {
@@ -409,7 +409,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.26,
    "after_7d": null
   }
  ]
