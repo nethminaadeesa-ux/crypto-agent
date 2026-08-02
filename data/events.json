@@ -6267,7 +6267,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.34,
    "after_7d": null
   },
   {
@@ -6282,7 +6282,7 @@
    "detail": "The recent minor price drop of 2.02% does not appear to be driven by any specific negative news event in the available headlines. Recent reporting mainly covers general security warnings regarding AI scams, market volume stats, and routine technical developments.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.12,
    "after_7d": null
   },
   {
@@ -6297,7 +6297,7 @@
    "detail": "None of the recent headlines explain the 2.31% price drop in Dogecoin over the last 4.5 hours. The available news focuses on general predictions, spot flows, and NFT demand without citing a specific catalyst for the decline.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.07,
    "after_7d": null
   }
  ],
@@ -6378,6 +6378,10 @@
    {
     "t": 1785688574994,
     "p": 63117
+   },
+   {
+    "t": 1785702744477,
+    "p": 63353
    }
   ],
   "ethereum": [
@@ -6456,6 +6460,10 @@
    {
     "t": 1785688574994,
     "p": 1859.81
+   },
+   {
+    "t": 1785702744477,
+    "p": 1878.24
    }
   ],
   "binancecoin": [
@@ -6534,6 +6542,10 @@
    {
     "t": 1785688574994,
     "p": 587.25
+   },
+   {
+    "t": 1785702744477,
+    "p": 587.83
    }
   ],
   "ripple": [
@@ -6611,6 +6623,10 @@
    },
    {
     "t": 1785688574994,
+    "p": 1.079
+   },
+   {
+    "t": 1785702744477,
     "p": 1.079
    }
   ],
@@ -6690,6 +6706,10 @@
    {
     "t": 1785688574994,
     "p": 73.08
+   },
+   {
+    "t": 1785702744477,
+    "p": 73.52
    }
   ],
   "dogecoin": [
@@ -6768,6 +6788,10 @@
    {
     "t": 1785688574994,
     "p": 0.070239
+   },
+   {
+    "t": 1785702744477,
+    "p": 0.070541
    }
   ],
   "chainlink": [
@@ -6846,6 +6870,10 @@
    {
     "t": 1785688574994,
     "p": 8.26
+   },
+   {
+    "t": 1785702744477,
+    "p": 8.33
    }
   ],
   "cardano": [
@@ -6924,6 +6952,10 @@
    {
     "t": 1785688574994,
     "p": 0.189781
+   },
+   {
+    "t": 1785702744477,
+    "p": 0.188674
    }
   ]
  }

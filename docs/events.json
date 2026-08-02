@@ -1,10 +1,10 @@
 {
- "updated": "2026-08-02T16:36:15.001184Z",
+ "updated": "2026-08-02T20:32:30.880486Z",
  "total_events": 420,
  "patterns": {
   "no_clear_cause": {
-   "cases": 20,
-   "next_day_median": 0.89,
+   "cases": 23,
+   "next_day_median": 1.4,
    "next_day_range": [
     -3.49,
     5.33
@@ -379,7 +379,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.34,
    "after_7d": null
   },
   {
@@ -394,7 +394,7 @@
    "detail": "The recent minor price drop of 2.02% does not appear to be driven by any specific negative news event in the available headlines. Recent reporting mainly covers general security warnings regarding AI scams, market volume stats, and routine technical developments.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.12,
    "after_7d": null
   },
   {
@@ -409,7 +409,7 @@
    "detail": "None of the recent headlines explain the 2.31% price drop in Dogecoin over the last 4.5 hours. The available news focuses on general predictions, spot flows, and NFT demand without citing a specific catalyst for the decline.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.07,
    "after_7d": null
   }
  ]
