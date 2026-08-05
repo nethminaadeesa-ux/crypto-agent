@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-05T15:51:55.677953Z",
- "total_events": 420,
+ "updated": "2026-08-05T20:49:16.342934Z",
+ "total_events": 421,
  "patterns": {
   "no_clear_cause": {
    "cases": 23,
@@ -10,8 +10,8 @@
     5.33
    ],
    "fell_next_day": 4,
-   "week_median": null,
-   "recovered_in_week": null
+   "week_median": 0.12,
+   "recovered_in_week": 2
   },
   "sharp_drop": {
    "cases": 196,
@@ -38,21 +38,6 @@
  },
  "recent": [
   {
-   "t": 1785196800000,
-   "when": "2026-07-28",
-   "coin": "ripple",
-   "name": "Ripple",
-   "price": 1.064659,
-   "move_pct": -4.22,
-   "category": "sharp_drop",
-   "headline": "moved -4.2% in one day, about 2.6 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 0.32,
-   "after_7d": 0.93
-  },
-  {
    "t": 1785351493092,
    "when": "2026-07-29 18:58 UTC",
    "coin": "ethereum",
@@ -65,7 +50,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.49,
-   "after_7d": null
+   "after_7d": -0.41
   },
   {
    "t": 1785351500518,
@@ -80,7 +65,7 @@
    "source": "Benzinga",
    "confidence": "high",
    "after_24h": -0.33,
-   "after_7d": null
+   "after_7d": -1.8
   },
   {
    "t": 1785351681825,
@@ -95,7 +80,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.11,
-   "after_7d": null
+   "after_7d": 0.12
   },
   {
    "t": 1785351823785,
@@ -140,7 +125,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 2.03,
-   "after_7d": null
+   "after_7d": 2.32
   },
   {
    "t": 1785357432667,
@@ -410,6 +395,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 3.07,
+   "after_7d": null
+  },
+  {
+   "t": 1785962953335,
+   "when": "2026-08-05 20:49 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 1921.32,
+   "move_pct": 2.42,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
