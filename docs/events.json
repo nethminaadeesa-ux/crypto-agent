@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T11:48:43.977459Z",
+ "updated": "2026-08-08T14:17:47.332129Z",
  "total_events": 421,
  "patterns": {
   "no_clear_cause": {
@@ -10,8 +10,8 @@
     5.33
    ],
    "fell_next_day": 5,
-   "week_median": 0.36,
-   "recovered_in_week": 12
+   "week_median": 0.7,
+   "recovered_in_week": 13
   },
   "sharp_drop": {
    "cases": 196,
@@ -350,7 +350,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.32,
-   "after_7d": null
+   "after_7d": 2.84
   },
   {
    "t": 1785615434722,
