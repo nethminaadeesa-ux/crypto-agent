@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-09T21:57:31.632656Z",
- "total_events": 421,
+ "updated": "2026-08-09T23:58:17.649685Z",
+ "total_events": 424,
  "patterns": {
   "no_clear_cause": {
    "cases": 24,
@@ -37,51 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785351493092,
-   "when": "2026-07-29 18:58 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 1924.32,
-   "move_pct": 1.53,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.49,
-   "after_7d": -0.41
-  },
-  {
-   "t": 1785351500518,
-   "when": "2026-07-29 18:58 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.088,
-   "move_pct": 1.68,
-   "category": "adoption_or_partnership",
-   "headline": "Ripple and Aviva launch the first tokenized fund on the XRP Ledger",
-   "detail": "Ripple announced a partnership with major financial institution Aviva to launch a tokenized fund on the XRP Ledger. This institutional adoption news likely boosted sentiment and drove the recent price rise.",
-   "source": "Benzinga",
-   "confidence": "high",
-   "after_24h": -0.33,
-   "after_7d": -1.8
-  },
-  {
-   "t": 1785351681825,
-   "when": "2026-07-29 19:01 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 74.38,
-   "move_pct": 1.6,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.11,
-   "after_7d": 0.12
-  },
   {
    "t": 1785351823785,
    "when": "2026-07-29 19:03 UTC",
@@ -410,6 +365,51 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.78,
+   "after_7d": null
+  },
+  {
+   "t": 1786319878604,
+   "when": "2026-08-09 23:57 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.069308,
+   "move_pct": -1.76,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst identified for the recent price decline",
+   "detail": "Available headlines focus on general price predictions, technical analysis, and market sentiment rather than specific recent events. No single news event accounts for the drop over the last two hours.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1786319885805,
+   "when": "2026-08-09 23:58 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.194601,
+   "move_pct": -1.77,
+   "category": "no_clear_cause",
+   "headline": "No specific news explains the recent minor Cardano price dip",
+   "detail": "The available headlines highlight recent bullish momentum, network milestones, and ETF discussions for Cardano. None of the provided articles point to a specific catalyst behind the recent minor price pullback.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1786319894642,
+   "when": "2026-08-09 23:58 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 8.18,
+   "move_pct": -1.8,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for Chainlink's recent price drop",
+   "detail": "The provided news articles only discuss bullish technical patterns and exchange outflows. None of the available headlines explain the sudden downward price movement.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
