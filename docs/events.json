@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-11T08:14:21.975704Z",
- "total_events": 424,
+ "updated": "2026-08-11T11:10:47.340347Z",
+ "total_events": 425,
  "patterns": {
   "no_clear_cause": {
    "cases": 27,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785351823785,
-   "when": "2026-07-29 19:03 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 8.43,
-   "move_pct": 1.93,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.62,
-   "after_7d": -2.65
-  },
   {
    "t": 1785351964171,
    "when": "2026-07-29 19:06 UTC",
@@ -410,6 +395,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 1.35,
+   "after_7d": null
+  },
+  {
+   "t": 1786446644333,
+   "when": "2026-08-11 11:10 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 8.67,
+   "move_pct": 2.48,
+   "category": "sharp_rise",
+   "headline": "Standard Chartered issued a bullish $200 price target for Chainlink",
+   "detail": "Standard Chartered published a highly optimistic forecast predicting Chainlink could reach $200 by 2030. The major bank's bullish prediction sparked buying interest and drove a sharp repricing in LINK.",
+   "source": "CryptoRank",
+   "confidence": "high",
+   "after_24h": null,
    "after_7d": null
   }
  ]
