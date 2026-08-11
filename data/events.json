@@ -6327,7 +6327,7 @@
    "detail": "Available headlines focus on general price predictions, technical analysis, and market sentiment rather than specific recent events. No single news event accounts for the drop over the last two hours.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.45,
    "after_7d": null
   },
   {
@@ -6342,7 +6342,7 @@
    "detail": "The available headlines highlight recent bullish momentum, network milestones, and ETF discussions for Cardano. None of the provided articles point to a specific catalyst behind the recent minor price pullback.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.01,
    "after_7d": null
   },
   {
@@ -6357,16 +6357,12 @@
    "detail": "The provided news articles only discuss bullish technical patterns and exchange outflows. None of the available headlines explain the sudden downward price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.35,
    "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1785627837180,
-    "p": 62769
-   },
    {
     "t": 1785661447044,
     "p": 63113
@@ -6554,13 +6550,13 @@
    {
     "t": 1786403906945,
     "p": 63945
+   },
+   {
+    "t": 1786421722385,
+    "p": 64074
    }
   ],
   "ethereum": [
-   {
-    "t": 1785627837180,
-    "p": 1844.05
-   },
    {
     "t": 1785661447044,
     "p": 1865.15
@@ -6748,13 +6744,13 @@
    {
     "t": 1786403906945,
     "p": 1873.42
+   },
+   {
+    "t": 1786421722385,
+    "p": 1878.17
    }
   ],
   "binancecoin": [
-   {
-    "t": 1785627837180,
-    "p": 575.02
-   },
    {
     "t": 1785661447044,
     "p": 582.47
@@ -6942,13 +6938,13 @@
    {
     "t": 1786403906945,
     "p": 599.15
+   },
+   {
+    "t": 1786421722385,
+    "p": 599.94
    }
   ],
   "ripple": [
-   {
-    "t": 1785627837180,
-    "p": 1.059
-   },
    {
     "t": 1785661447044,
     "p": 1.077
@@ -7136,13 +7132,13 @@
    {
     "t": 1786403906945,
     "p": 1.012
+   },
+   {
+    "t": 1786421722385,
+    "p": 1.014
    }
   ],
   "solana": [
-   {
-    "t": 1785627837180,
-    "p": 71.84
-   },
    {
     "t": 1785661447044,
     "p": 73.07
@@ -7330,13 +7326,13 @@
    {
     "t": 1786403906945,
     "p": 76.13
+   },
+   {
+    "t": 1786421722385,
+    "p": 76.12
    }
   ],
   "dogecoin": [
-   {
-    "t": 1785627837180,
-    "p": 0.069132
-   },
    {
     "t": 1785661447044,
     "p": 0.069924
@@ -7524,13 +7520,13 @@
    {
     "t": 1786403906945,
     "p": 0.069827
+   },
+   {
+    "t": 1786421722385,
+    "p": 0.070001
    }
   ],
   "chainlink": [
-   {
-    "t": 1785627837180,
-    "p": 8.05
-   },
    {
     "t": 1785661447044,
     "p": 8.32
@@ -7718,13 +7714,13 @@
    {
     "t": 1786403906945,
     "p": 8.31
+   },
+   {
+    "t": 1786421722385,
+    "p": 8.4
    }
   ],
   "cardano": [
-   {
-    "t": 1785627837180,
-    "p": 0.174113
-   },
    {
     "t": 1785661447044,
     "p": 0.185585
@@ -7912,6 +7908,10 @@
    {
     "t": 1786403906945,
     "p": 0.191894
+   },
+   {
+    "t": 1786421722385,
+    "p": 0.190228
    }
   ]
  }
