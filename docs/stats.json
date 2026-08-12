@@ -1,13 +1,13 @@
 {
- "updated": "2026-08-12T10:01:24.849539+00:00",
+ "updated": "2026-08-12T14:52:44.725956+00:00",
  "started": "2026-07-29",
  "days_running": 15,
- "notes_written": 16,
- "forecasts_made": 123,
- "forecasts_scored": 59,
- "forecasts_hit": 54,
+ "notes_written": 17,
+ "forecasts_made": 131,
+ "forecasts_scored": 75,
+ "forecasts_hit": 69,
  "lab_tests_scored": 0,
  "lab_awaiting": 0,
  "lab_coins": 44,
- "lab_readings_held": 2706
+ "lab_readings_held": 2747
 }
