@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-15T00:00:22.076439Z",
- "total_events": 431,
+ "updated": "2026-08-15T03:16:51.192487Z",
+ "total_events": 432,
  "patterns": {
   "no_clear_cause": {
    "cases": 32,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785357876703,
-   "when": "2026-07-29 20:44 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 8.2,
-   "move_pct": -2.73,
-   "category": "no_clear_cause",
-   "headline": "No specific news explains the recent price drop for Chainlink",
-   "detail": "None of the headlines provided from the past 12 hours indicate a clear cause for Chainlink's recent price decline. The move likely stems from general market fluctuations or unreported trading activity.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.05,
-   "after_7d": -0.29
-  },
   {
    "t": 1785358000678,
    "when": "2026-07-29 20:46 UTC",
@@ -404,6 +389,21 @@
    "name": "Cardano",
    "price": 0.178856,
    "move_pct": -2.09,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1786763808184,
+   "when": "2026-08-15 03:16 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 9.68,
+   "move_pct": 8.04,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
