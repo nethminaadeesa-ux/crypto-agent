@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-15T11:54:30.637477Z",
- "total_events": 433,
+ "updated": "2026-08-15T13:49:33.036889Z",
+ "total_events": 434,
  "patterns": {
   "no_clear_cause": {
    "cases": 32,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785370576010,
-   "when": "2026-07-30 00:16 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 1911.44,
-   "move_pct": 1.6,
-   "category": "no_clear_cause",
-   "headline": "No specific news found to explain the recent price movement",
-   "detail": "Recent headlines regarding perpetual futures and board changes do not directly account for the recent price increase. No clear catalyst was identified in the provided sources.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.38,
-   "after_7d": -0.27
-  },
   {
    "t": 1785370593827,
    "when": "2026-07-30 00:16 UTC",
@@ -407,6 +392,21 @@
    "category": "no_clear_cause",
    "headline": "No direct cause found in recent headlines for the price move",
    "detail": "The available news includes general updates on ETF inflows and reserve movements, but none account for the sudden drop. The price movement appears driven by general market dynamics rather than specific breaking news.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1786801770030,
+   "when": "2026-08-15 13:49 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 9.47,
+   "move_pct": 1.94,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
