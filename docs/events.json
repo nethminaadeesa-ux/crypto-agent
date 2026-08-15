@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-15T03:16:51.192487Z",
- "total_events": 432,
+ "updated": "2026-08-15T04:55:29.639866Z",
+ "total_events": 433,
  "patterns": {
   "no_clear_cause": {
    "cases": 32,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785358000678,
-   "when": "2026-07-29 20:46 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.162101,
-   "move_pct": -3.44,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 5.33,
-   "after_7d": 17.42
-  },
   {
    "t": 1785370576010,
    "when": "2026-07-30 00:16 UTC",
@@ -407,6 +392,21 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1786769726632,
+   "when": "2026-08-15 04:55 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 9.44,
+   "move_pct": -2.48,
+   "category": "no_clear_cause",
+   "headline": "No direct cause found in recent headlines for the price move",
+   "detail": "The available news includes general updates on ETF inflows and reserve movements, but none account for the sudden drop. The price movement appears driven by general market dynamics rather than specific breaking news.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
