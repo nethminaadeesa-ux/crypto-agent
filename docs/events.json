@@ -1,10 +1,10 @@
 {
- "updated": "2026-08-15T13:49:33.036889Z",
+ "updated": "2026-08-15T14:59:29.164077Z",
  "total_events": 434,
  "patterns": {
   "no_clear_cause": {
-   "cases": 32,
-   "next_day_median": 0.89,
+   "cases": 33,
+   "next_day_median": 0.72,
    "next_day_range": [
     -3.49,
     5.33
@@ -364,7 +364,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.02,
    "after_7d": null
   },
   {
