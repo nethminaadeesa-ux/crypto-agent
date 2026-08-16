@@ -1666,6 +1666,90 @@
    "breaker": "An emergency SEC announcement or major policy shift from the White House meeting would immediately break current range expectations.",
    "learned": "Cardano had minor drops recently with no clear cause identified. Our library tracks 32 past cases of unexplained moves, where prices saw a median next-day recovery of 0.89%.",
    "honesty": "Our past ranges hit expected target zones in 9 out of 10 tracked coins, though Chainlink previously breached its upper bound during its rally."
+  },
+  {
+   "date": "2026-08-16",
+   "prices": {
+    "Bitcoin": 63068,
+    "Ethereum": 1881.68,
+    "BNB": 605.99,
+    "XRP": 1.002,
+    "Solana": 75.54,
+    "Dogecoin": 0.069802,
+    "Chainlink": 9.43,
+    "Cardano": 0.17681
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 60762.6602,
+     "high": 65460.8045
+    },
+    {
+     "coin": "Ethereum",
+     "low": 1783.1953,
+     "high": 1985.604
+    },
+    {
+     "coin": "BNB",
+     "low": 579.1084,
+     "high": 634.1194
+    },
+    {
+     "coin": "XRP",
+     "low": 0.9571,
+     "high": 1.049
+    },
+    {
+     "coin": "Solana",
+     "low": 71.4245,
+     "high": 79.8927
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0666,
+     "high": 0.0732
+    },
+    {
+     "coin": "Chainlink",
+     "low": 8.9174,
+     "high": 9.9721
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1633,
+     "high": 0.1914
+    }
+   ],
+   "width_factor": 0.8,
+   "one_line": "Major crypto assets traded sideways today as Bitcoin held near $63,000 and Chainlink consolidated its weekly gains.",
+   "moved": [
+    "Chainlink held gains near $9.43 after spiking over 8% yesterday without a clear headline catalyst.",
+    "Bitcoin remained stagnant around $63,000 despite reports of UBS expanding ETF call options and Paul Tudor Jones increasing his ETF holdings.",
+    "Cardano fell 1.8% to $0.1768, extending its weekly decline to over 11%."
+   ],
+   "traded": "Price action was flat across most assets with narrow candles, meaning prices barely moved between opening and closing periods without big intraday spikes.",
+   "versus_yesterday": "Market conditions were mostly unchanged from yesterday, with Bitcoin extending its multi-day rangebound pattern while Chainlink paused after its recent surge.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 25,
+     "text": "Institutional ETF buying pushes Bitcoin back above $64,000 and lifts altcoins."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 50,
+     "text": "Trading stays quiet with low weekend volume, keeping prices within current tight ranges."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Regulatory friction or macro pressure pushes Bitcoin toward the lower $61,000 support level."
+    }
+   ],
+   "breaker": "A surprise macroeconomic shift or sudden regulatory update over the weekend would invalidate this quiet setup.",
+   "learned": "For price moves with no clear cause, our historical data of 33 cases shows prices rose the following day with a median gain of 0.72%, falling in only 9 cases.",
+   "honesty": "8 of our last 10 predicted ranges held true, but Chainlink missed twice recently due to sudden breakout volatility."
   }
  ],
  "forecasts": [
@@ -2678,7 +2762,8 @@
    "price_then": 64967,
    "lo": 62043.26658801669,
    "hi": 68028.51173241105,
-   "actual": null
+   "actual": 62996.3976329567,
+   "hit": true
   },
   {
    "coin": "ethereum",
@@ -2688,7 +2773,8 @@
    "price_then": 1916.27,
    "lo": 1793.975542335564,
    "hi": 2046.9012125546217,
-   "actual": null
+   "actual": 1880.5615236085205,
+   "hit": true
   },
   {
    "coin": "binancecoin",
@@ -2698,7 +2784,8 @@
    "price_then": 592.76,
    "lo": 561.2279392449382,
    "hi": 626.063659754211,
-   "actual": null
+   "actual": 607.0571389205222,
+   "hit": true
   },
   {
    "coin": "ripple",
@@ -2708,7 +2795,8 @@
    "price_then": 1.036,
    "lo": 0.9788609290087231,
    "hi": 1.0964744512654212,
-   "actual": null
+   "actual": 0.998803444306151,
+   "hit": true
   },
   {
    "coin": "solana",
@@ -2718,7 +2806,8 @@
    "price_then": 74.62,
    "lo": 69.62512633277804,
    "hi": 79.97320354417275,
-   "actual": null
+   "actual": 75.3388254222115,
+   "hit": true
   },
   {
    "coin": "dogecoin",
@@ -2728,7 +2817,8 @@
    "price_then": 0.070133,
    "lo": 0.06618234972833786,
    "hi": 0.07431947806612772,
-   "actual": null
+   "actual": 0.07000232661245999,
+   "hit": true
   },
   {
    "coin": "cardano",
@@ -2738,7 +2828,8 @@
    "price_then": 0.200933,
    "lo": 0.18251565198549757,
    "hi": 0.22120881168157602,
-   "actual": null
+   "actual": 0.17998977707474206,
+   "hit": false
   },
   {
    "coin": "chainlink",
@@ -2748,7 +2839,8 @@
    "price_then": 8.25,
    "lo": 7.7264985208543076,
    "hi": 8.808970818579077,
-   "actual": null
+   "actual": 8.968960049747587,
+   "hit": false
   },
   {
    "coin": "bitcoin",
@@ -3308,6 +3400,86 @@
    "price_then": 0.181171,
    "lo": 0.1673842476523218,
    "hi": 0.19609331045999845,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 63068,
+   "lo": 60762.66024628856,
+   "hi": 65460.8045118129,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 1881.68,
+   "lo": 1783.1952885510866,
+   "hi": 1985.6039577566225,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 605.99,
+   "lo": 579.1084448557212,
+   "hi": 634.1193663502697,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 1.002,
+   "lo": 0.9570772245734249,
+   "hi": 1.049031336470775,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 75.54,
+   "lo": 71.42447737983836,
+   "hi": 79.89266158229907,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 0.069802,
+   "lo": 0.06657858234700614,
+   "hi": 0.07318148017339235,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 9.43,
+   "lo": 8.917406317745142,
+   "hi": 9.972058783846641,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1786851260921,
+   "days": 7,
+   "price_then": 0.17681,
+   "lo": 0.16334271662614064,
+   "hi": 0.1913876342068686,
    "actual": null
   }
  ],
