@@ -1,7 +1,7 @@
 {
- "updated": "2026-08-16T19:10:21Z",
+ "updated": "2026-08-16T19:49:59Z",
  "tests_resolved": 490,
- "awaiting_marking": 35,
+ "awaiting_marking": 70,
  "note": "Right by chance is about 33%.",
  "verdict": "Not enough tests yet.",
  "findings": {}
