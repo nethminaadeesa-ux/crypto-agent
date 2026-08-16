@@ -1,15 +1,15 @@
 {
- "updated": "2026-08-16T03:37:08.492558Z",
+ "updated": "2026-08-16T05:48:31.771343Z",
  "total_events": 434,
  "patterns": {
   "no_clear_cause": {
-   "cases": 33,
-   "next_day_median": 0.72,
+   "cases": 35,
+   "next_day_median": 0.62,
    "next_day_range": [
     -3.49,
     5.33
    ],
-   "fell_next_day": 9,
+   "fell_next_day": 11,
    "week_median": 1.27,
    "recovered_in_week": 16
   },
@@ -379,7 +379,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.1,
    "after_7d": null
   },
   {
@@ -394,7 +394,7 @@
    "detail": "The available news includes general updates on ETF inflows and reserve movements, but none account for the sudden drop. The price movement appears driven by general market dynamics rather than specific breaking news.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.66,
    "after_7d": null
   },
   {
