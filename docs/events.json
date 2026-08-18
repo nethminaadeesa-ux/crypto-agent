@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-17T23:57:41.712994Z",
- "total_events": 434,
+ "updated": "2026-08-18T03:21:25.494563Z",
+ "total_events": 435,
  "patterns": {
   "no_clear_cause": {
    "cases": 36,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785370593827,
-   "when": "2026-07-30 00:16 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 73.74,
-   "move_pct": 1.5,
-   "category": "no_clear_cause",
-   "headline": "No clear cause identified for Solana's recent price movement.",
-   "detail": "No relevant news headlines were provided for the given timeframe. As a result, the specific trigger for the price increase remains unknown.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.06,
-   "after_7d": 0.36
-  },
   {
    "t": 1785370628691,
    "when": "2026-07-30 00:17 UTC",
@@ -410,6 +395,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -1.62,
+   "after_7d": null
+  },
+  {
+   "t": 1787023282487,
+   "when": "2026-08-18 03:21 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 9.38,
+   "move_pct": -1.68,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst found for the recent Chainlink price drop",
+   "detail": "The provided headlines consist mostly of promotional presale articles and general price speculation. None of the news stories provide a definitive cause for the recent drop to $9.38.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
