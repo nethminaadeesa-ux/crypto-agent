@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T09:57:44.124376Z",
+ "updated": "2026-08-18T11:43:57.613065Z",
  "total_events": 435,
  "patterns": {
   "no_clear_cause": {
@@ -32,8 +32,8 @@
     12.08
    ],
    "fell_next_day": 115,
-   "week_median": -2.02,
-   "recovered_in_week": 75
+   "week_median": -1.88,
+   "recovered_in_week": 76
   }
  },
  "recent": [
@@ -260,7 +260,7 @@
    "source": "CryptoRank",
    "confidence": "high",
    "after_24h": 1.5,
-   "after_7d": null
+   "after_7d": 9.01
   },
   {
    "t": 1786459704032,
