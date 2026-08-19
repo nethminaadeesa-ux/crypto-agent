@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-19T17:43:37.978731Z",
- "total_events": 443,
+ "updated": "2026-08-19T19:43:25.204956Z",
+ "total_events": 444,
  "patterns": {
   "no_clear_cause": {
    "cases": 37,
@@ -37,21 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1785615449126,
-   "when": "2026-08-01 20:17 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 71.29,
-   "move_pct": -2.02,
-   "category": "no_clear_cause",
-   "headline": "No clear news catalyst found for Solana's recent price drop",
-   "detail": "The recent minor price drop of 2.02% does not appear to be driven by any specific negative news event in the available headlines. Recent reporting mainly covers general security warnings regarding AI scams, market volume stats, and routine technical developments.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.12,
-   "after_7d": 6.75
-  },
   {
    "t": 1785615456142,
    "when": "2026-08-01 20:17 UTC",
@@ -409,6 +394,21 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787168602199,
+   "when": "2026-08-19 19:43 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 10.09,
+   "move_pct": 1.92,
+   "category": "adoption_or_partnership",
+   "headline": "Nethermind left LayerZero to become a Chainlink node operator",
+   "detail": "Major Ethereum engineering firm Nethermind migrated its infrastructure and joined Chainlink as a network node operator. The shift sparked positive momentum for Chainlink as its price crossed above ten dollars.",
+   "source": "The Block",
+   "confidence": "high",
    "after_24h": null,
    "after_7d": null
   }
