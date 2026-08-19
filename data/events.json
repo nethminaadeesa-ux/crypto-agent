@@ -6779,14 +6779,40 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787180687903,
+   "when": "2026-08-19 23:04 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.1,
+   "move_pct": -1.79,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787180775901,
+   "when": "2026-08-19 23:06 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 10.55,
+   "move_pct": -2.22,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst explains the recent short-term price decline",
+   "detail": "Recent headlines primarily highlight earlier positive news, including Nethermind joining Chainlink as a node operator and Wyoming moving infrastructure to CCIP. None of the provided sources explain the recent 2.22% pull back over the past hour.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786877989461,
-    "p": 62954
-   },
    {
     "t": 1786881341016,
     "p": 62932
@@ -6974,13 +7000,13 @@
    {
     "t": 1787175823484,
     "p": 69536
+   },
+   {
+    "t": 1787180562701,
+    "p": 69195
    }
   ],
   "ethereum": [
-   {
-    "t": 1786877989461,
-    "p": 1879.08
-   },
    {
     "t": 1786881341016,
     "p": 1878.47
@@ -7168,13 +7194,13 @@
    {
     "t": 1787175823484,
     "p": 2280.97
+   },
+   {
+    "t": 1787180562701,
+    "p": 2247.15
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786877989461,
-    "p": 606.21
-   },
    {
     "t": 1786881341016,
     "p": 606.53
@@ -7362,13 +7388,13 @@
    {
     "t": 1787175823484,
     "p": 631.67
+   },
+   {
+    "t": 1787180562701,
+    "p": 627.21
    }
   ],
   "ripple": [
-   {
-    "t": 1786877989461,
-    "p": 0.999392
-   },
    {
     "t": 1786881341016,
     "p": 0.998919
@@ -7556,13 +7582,13 @@
    {
     "t": 1787175823484,
     "p": 1.12
+   },
+   {
+    "t": 1787180562701,
+    "p": 1.1
    }
   ],
   "solana": [
-   {
-    "t": 1786877989461,
-    "p": 75.2
-   },
    {
     "t": 1786881341016,
     "p": 75.21
@@ -7750,13 +7776,13 @@
    {
     "t": 1787175823484,
     "p": 86.45
+   },
+   {
+    "t": 1787180562701,
+    "p": 85.34
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786877989461,
-    "p": 0.069714
-   },
    {
     "t": 1786881341016,
     "p": 0.069774
@@ -7944,13 +7970,13 @@
    {
     "t": 1787175823484,
     "p": 0.075571
+   },
+   {
+    "t": 1787180562701,
+    "p": 0.074724
    }
   ],
   "chainlink": [
-   {
-    "t": 1786877989461,
-    "p": 9.39
-   },
    {
     "t": 1786881341016,
     "p": 9.42
@@ -8138,13 +8164,13 @@
    {
     "t": 1787175823484,
     "p": 10.79
+   },
+   {
+    "t": 1787180562701,
+    "p": 10.55
    }
   ],
   "cardano": [
-   {
-    "t": 1786877989461,
-    "p": 0.176558
-   },
    {
     "t": 1786881341016,
     "p": 0.17689
@@ -8332,6 +8358,10 @@
    {
     "t": 1787175823484,
     "p": 0.189513
+   },
+   {
+    "t": 1787180562701,
+    "p": 0.18822
    }
   ]
  }
