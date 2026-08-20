@@ -6657,7 +6657,7 @@
    "detail": "Major Ethereum engineering firm Nethermind migrated its infrastructure and joined Chainlink as a network node operator. The shift sparked positive momentum for Chainlink as its price crossed above ten dollars.",
    "source": "The Block",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 5.57,
    "after_7d": null
   },
   {
@@ -6672,7 +6672,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 4.57,
    "after_7d": null
   },
   {
@@ -6687,7 +6687,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.68,
    "after_7d": null
   },
   {
@@ -7154,14 +7154,40 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787262654889,
+   "when": "2026-08-20 21:50 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.27,
+   "move_pct": 3.25,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787262802997,
+   "when": "2026-08-20 21:53 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.19854,
+   "move_pct": 1.91,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786921045007,
-    "p": 62772
-   },
    {
     "t": 1786924481556,
     "p": 62856
@@ -7349,13 +7375,13 @@
    {
     "t": 1787255420602,
     "p": 72617
+   },
+   {
+    "t": 1787262499898,
+    "p": 72718
    }
   ],
   "ethereum": [
-   {
-    "t": 1786921045007,
-    "p": 1872.64
-   },
    {
     "t": 1786924481556,
     "p": 1875.08
@@ -7543,13 +7569,13 @@
    {
     "t": 1787255420602,
     "p": 2325.31
+   },
+   {
+    "t": 1787262499898,
+    "p": 2319.36
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786921045007,
-    "p": 601.36
-   },
    {
     "t": 1786924481556,
     "p": 603.21
@@ -7737,13 +7763,13 @@
    {
     "t": 1787255420602,
     "p": 649.77
+   },
+   {
+    "t": 1787262499898,
+    "p": 653.42
    }
   ],
   "ripple": [
-   {
-    "t": 1786921045007,
-    "p": 0.992227
-   },
    {
     "t": 1786924481556,
     "p": 0.992443
@@ -7931,13 +7957,13 @@
    {
     "t": 1787255420602,
     "p": 1.23
+   },
+   {
+    "t": 1787262499898,
+    "p": 1.27
    }
   ],
   "solana": [
-   {
-    "t": 1786921045007,
-    "p": 74.36
-   },
    {
     "t": 1786924481556,
     "p": 74.57
@@ -8125,13 +8151,13 @@
    {
     "t": 1787255420602,
     "p": 87.19
+   },
+   {
+    "t": 1787262499898,
+    "p": 87.52
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786921045007,
-    "p": 0.069486
-   },
    {
     "t": 1786924481556,
     "p": 0.069539
@@ -8319,13 +8345,13 @@
    {
     "t": 1787255420602,
     "p": 0.079748
+   },
+   {
+    "t": 1787262499898,
+    "p": 0.08028
    }
   ],
   "chainlink": [
-   {
-    "t": 1786921045007,
-    "p": 9.36
-   },
    {
     "t": 1786924481556,
     "p": 9.39
@@ -8513,13 +8539,13 @@
    {
     "t": 1787255420602,
     "p": 10.64
+   },
+   {
+    "t": 1787262499898,
+    "p": 10.57
    }
   ],
   "cardano": [
-   {
-    "t": 1786921045007,
-    "p": 0.174999
-   },
    {
     "t": 1786924481556,
     "p": 0.17498
@@ -8707,6 +8733,10 @@
    {
     "t": 1787255420602,
     "p": 0.194814
+   },
+   {
+    "t": 1787262499898,
+    "p": 0.19854
    }
   ]
  }

@@ -1,10 +1,21 @@
 {
- "updated": "2026-08-20T19:58:32.679412Z",
- "total_events": 477,
+ "updated": "2026-08-20T21:53:26.005679Z",
+ "total_events": 479,
  "patterns": {
+  "adoption_or_partnership": {
+   "cases": 2,
+   "next_day_median": 2.62,
+   "next_day_range": [
+    -0.33,
+    5.57
+   ],
+   "fell_next_day": 1,
+   "week_median": -1.8,
+   "recovered_in_week": 0
+  },
   "no_clear_cause": {
-   "cases": 44,
-   "next_day_median": 1.2,
+   "cases": 46,
+   "next_day_median": 1.29,
    "next_day_range": [
     -3.49,
     17.61
@@ -37,36 +48,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787180687903,
-   "when": "2026-08-19 23:04 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.1,
-   "move_pct": -1.79,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
-  {
-   "t": 1787180775901,
-   "when": "2026-08-19 23:06 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 10.55,
-   "move_pct": -2.22,
-   "category": "no_clear_cause",
-   "headline": "No clear news catalyst explains the recent short-term price decline",
-   "detail": "Recent headlines primarily highlight earlier positive news, including Nethermind joining Chainlink as a node operator and Wyoming moving infrastructure to CCIP. None of the provided sources explain the recent 2.22% pull back over the past hour.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
   {
    "t": 1787196930234,
    "when": "2026-08-20 03:35 UTC",
@@ -404,6 +385,36 @@
    "name": "Cardano",
    "price": 0.194814,
    "move_pct": -3.87,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787262654889,
+   "when": "2026-08-20 21:50 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.27,
+   "move_pct": 3.25,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787262802997,
+   "when": "2026-08-20 21:53 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.19854,
+   "move_pct": 1.91,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
