@@ -6448,7 +6448,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -1.06,
-   "after_7d": null
+   "after_7d": 10.82
   },
   {
    "t": 1786717342489,
@@ -6627,7 +6627,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 8.16,
    "after_7d": null
   },
   {
@@ -6642,7 +6642,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 9.4,
    "after_7d": null
   },
   {
@@ -7094,14 +7094,70 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787255476981,
+   "when": "2026-08-20 19:51 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.23,
+   "move_pct": -7.52,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for the recent XRP price drop",
+   "detail": "The provided headlines focus entirely on recent price surges and bullish market predictions. None of the news stories explain the sudden decline in XRP's price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787255625993,
+   "when": "2026-08-20 19:53 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.079748,
+   "move_pct": -3.77,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787255785707,
+   "when": "2026-08-20 19:56 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 10.64,
+   "move_pct": -1.85,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787255909671,
+   "when": "2026-08-20 19:58 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.194814,
+   "move_pct": -3.87,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786917286890,
-    "p": 62909
-   },
    {
     "t": 1786921045007,
     "p": 62772
@@ -7289,13 +7345,13 @@
    {
     "t": 1787248299872,
     "p": 72742
+   },
+   {
+    "t": 1787255420602,
+    "p": 72617
    }
   ],
   "ethereum": [
-   {
-    "t": 1786917286890,
-    "p": 1874.74
-   },
    {
     "t": 1786921045007,
     "p": 1872.64
@@ -7483,13 +7539,13 @@
    {
     "t": 1787248299872,
     "p": 2344.36
+   },
+   {
+    "t": 1787255420602,
+    "p": 2325.31
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786917286890,
-    "p": 603.93
-   },
    {
     "t": 1786921045007,
     "p": 601.36
@@ -7677,13 +7733,13 @@
    {
     "t": 1787248299872,
     "p": 653.0
+   },
+   {
+    "t": 1787255420602,
+    "p": 649.77
    }
   ],
   "ripple": [
-   {
-    "t": 1786917286890,
-    "p": 0.99544
-   },
    {
     "t": 1786921045007,
     "p": 0.992227
@@ -7871,13 +7927,13 @@
    {
     "t": 1787248299872,
     "p": 1.33
+   },
+   {
+    "t": 1787255420602,
+    "p": 1.23
    }
   ],
   "solana": [
-   {
-    "t": 1786917286890,
-    "p": 74.42
-   },
    {
     "t": 1786921045007,
     "p": 74.36
@@ -8065,13 +8121,13 @@
    {
     "t": 1787248299872,
     "p": 87.69
+   },
+   {
+    "t": 1787255420602,
+    "p": 87.19
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786917286890,
-    "p": 0.0694
-   },
    {
     "t": 1786921045007,
     "p": 0.069486
@@ -8259,13 +8315,13 @@
    {
     "t": 1787248299872,
     "p": 0.082873
+   },
+   {
+    "t": 1787255420602,
+    "p": 0.079748
    }
   ],
   "chainlink": [
-   {
-    "t": 1786917286890,
-    "p": 9.39
-   },
    {
     "t": 1786921045007,
     "p": 9.36
@@ -8453,13 +8509,13 @@
    {
     "t": 1787248299872,
     "p": 10.84
+   },
+   {
+    "t": 1787255420602,
+    "p": 10.64
    }
   ],
   "cardano": [
-   {
-    "t": 1786917286890,
-    "p": 0.176039
-   },
    {
     "t": 1786921045007,
     "p": 0.174999
@@ -8647,6 +8703,10 @@
    {
     "t": 1787248299872,
     "p": 0.202665
+   },
+   {
+    "t": 1787255420602,
+    "p": 0.194814
    }
   ]
  }
