@@ -6537,7 +6537,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.76,
    "after_7d": null
   },
   {
@@ -6552,7 +6552,7 @@
    "detail": "A recent move by the Treasury sparked concerns over soaring inflation, driving broad buying across major cryptocurrencies. Ethereum surged sharply alongside Bitcoin and XRP as investors responded to the macroeconomic shift.",
    "source": "benzinga.com",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 11.62,
    "after_7d": null
   },
   {
@@ -6567,7 +6567,7 @@
    "detail": "The available headlines consist mostly of routine market commentary and promotional price predictions. None of the provided news sources indicate a specific driver for the recent price surge.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.46,
    "after_7d": null
   },
   {
@@ -7004,14 +7004,55 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787241618656,
+   "when": "2026-08-20 16:00 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2327.17,
+   "move_pct": 2.17,
+   "category": "regulation",
+   "headline": "President Trump pushes Congress to pass the crypto Clarity Act, boosting market sentiment",
+   "detail": "Ethereum and other major cryptocurrencies surged as political momentum built around passing the crypto Clarity Act. Investor optimism over regulatory clarity drove broad gains across the crypto market.",
+   "source": "Yahoo Finance",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787241748247,
+   "when": "2026-08-20 16:02 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.26,
+   "move_pct": 1.61,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787241888466,
+   "when": "2026-08-20 16:04 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.080386,
+   "move_pct": 3.3,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786909802057,
-    "p": 63119
-   },
    {
     "t": 1786913886429,
     "p": 63013
@@ -7199,13 +7240,13 @@
    {
     "t": 1787235658368,
     "p": 71647
+   },
+   {
+    "t": 1787241606989,
+    "p": 72459
    }
   ],
   "ethereum": [
-   {
-    "t": 1786909802057,
-    "p": 1884.1
-   },
    {
     "t": 1786913886429,
     "p": 1881.25
@@ -7393,13 +7434,13 @@
    {
     "t": 1787235658368,
     "p": 2277.76
+   },
+   {
+    "t": 1787241606989,
+    "p": 2327.17
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786909802057,
-    "p": 605.57
-   },
    {
     "t": 1786913886429,
     "p": 604.82
@@ -7587,13 +7628,13 @@
    {
     "t": 1787235658368,
     "p": 642.18
+   },
+   {
+    "t": 1787241606989,
+    "p": 651.68
    }
   ],
   "ripple": [
-   {
-    "t": 1786909802057,
-    "p": 1.001
-   },
    {
     "t": 1786913886429,
     "p": 0.998893
@@ -7781,13 +7822,13 @@
    {
     "t": 1787235658368,
     "p": 1.24
+   },
+   {
+    "t": 1787241606989,
+    "p": 1.26
    }
   ],
   "solana": [
-   {
-    "t": 1786909802057,
-    "p": 75.2
-   },
    {
     "t": 1786913886429,
     "p": 75.0
@@ -7975,13 +8016,13 @@
    {
     "t": 1787235658368,
     "p": 86.39
+   },
+   {
+    "t": 1787241606989,
+    "p": 87.37
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786909802057,
-    "p": 0.06995
-   },
    {
     "t": 1786913886429,
     "p": 0.069815
@@ -8169,13 +8210,13 @@
    {
     "t": 1787235658368,
     "p": 0.077816
+   },
+   {
+    "t": 1787241606989,
+    "p": 0.080386
    }
   ],
   "chainlink": [
-   {
-    "t": 1786909802057,
-    "p": 9.44
-   },
    {
     "t": 1786913886429,
     "p": 9.45
@@ -8363,13 +8404,13 @@
    {
     "t": 1787235658368,
     "p": 10.63
+   },
+   {
+    "t": 1787241606989,
+    "p": 10.71
    }
   ],
   "cardano": [
-   {
-    "t": 1786909802057,
-    "p": 0.178711
-   },
    {
     "t": 1786913886429,
     "p": 0.177132
@@ -8557,6 +8598,10 @@
    {
     "t": 1787235658368,
     "p": 0.196078
+   },
+   {
+    "t": 1787241606989,
+    "p": 0.196774
    }
   ]
  }

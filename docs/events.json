@@ -1,13 +1,13 @@
 {
- "updated": "2026-08-20T14:26:05.861709Z",
- "total_events": 467,
+ "updated": "2026-08-20T16:04:51.474472Z",
+ "total_events": 470,
  "patterns": {
   "no_clear_cause": {
-   "cases": 37,
-   "next_day_median": 0.62,
+   "cases": 39,
+   "next_day_median": 0.72,
    "next_day_range": [
     -3.49,
-    5.33
+    5.76
    ],
    "fell_next_day": 12,
    "week_median": 1.03,
@@ -37,51 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787155972904,
-   "when": "2026-08-19 16:12 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.179955,
-   "move_pct": 3.03,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
-  {
-   "t": 1787168602199,
-   "when": "2026-08-19 19:43 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 10.09,
-   "move_pct": 1.92,
-   "category": "adoption_or_partnership",
-   "headline": "Nethermind left LayerZero to become a Chainlink node operator",
-   "detail": "Major Ethereum engineering firm Nethermind migrated its infrastructure and joined Chainlink as a network node operator. The shift sparked positive momentum for Chainlink as its price crossed above ten dollars.",
-   "source": "The Block",
-   "confidence": "high",
-   "after_24h": null,
-   "after_7d": null
-  },
-  {
-   "t": 1787175968324,
-   "when": "2026-08-19 21:46 UTC",
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "price": 69536,
-   "move_pct": 1.9,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
   {
    "t": 1787176092400,
    "when": "2026-08-19 21:48 UTC",
@@ -404,6 +359,51 @@
    "name": "Cardano",
    "price": 0.196078,
    "move_pct": 1.58,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787241618656,
+   "when": "2026-08-20 16:00 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2327.17,
+   "move_pct": 2.17,
+   "category": "regulation",
+   "headline": "President Trump pushes Congress to pass the crypto Clarity Act, boosting market sentiment",
+   "detail": "Ethereum and other major cryptocurrencies surged as political momentum built around passing the crypto Clarity Act. Investor optimism over regulatory clarity drove broad gains across the crypto market.",
+   "source": "Yahoo Finance",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787241748247,
+   "when": "2026-08-20 16:02 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.26,
+   "move_pct": 1.61,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787241888466,
+   "when": "2026-08-20 16:04 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.080386,
+   "move_pct": 3.3,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
