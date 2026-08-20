@@ -6929,14 +6929,55 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787226431729,
+   "when": "2026-08-20 11:47 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.19,
+   "move_pct": 3.48,
+   "category": "regulation",
+   "headline": "Donald Trump urged Congress to pass the crypto Clarity Act.",
+   "detail": "XRP jumped as news reported Donald Trump encouraging Congress to pass the Clarity Act for cryptocurrency regulation. The push for clearer regulatory frameworks sparked broader market optimism and increased trading activity.",
+   "source": "24/7 Wall St.",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787226615160,
+   "when": "2026-08-20 11:50 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 10.74,
+   "move_pct": 1.61,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787226777704,
+   "when": "2026-08-20 11:52 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.193032,
+   "move_pct": 2.05,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786902836174,
-    "p": 63095
-   },
    {
     "t": 1786907422466,
     "p": 63107
@@ -7124,13 +7165,13 @@
    {
     "t": 1787220084834,
     "p": 71725
+   },
+   {
+    "t": 1787226408055,
+    "p": 72127
    }
   ],
   "ethereum": [
-   {
-    "t": 1786902836174,
-    "p": 1884.47
-   },
    {
     "t": 1786907422466,
     "p": 1884.96
@@ -7318,13 +7359,13 @@
    {
     "t": 1787220084834,
     "p": 2276.76
+   },
+   {
+    "t": 1787226408055,
+    "p": 2306.66
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786902836174,
-    "p": 606.01
-   },
    {
     "t": 1786907422466,
     "p": 604.9
@@ -7512,13 +7553,13 @@
    {
     "t": 1787220084834,
     "p": 642.2
+   },
+   {
+    "t": 1787226408055,
+    "p": 647.02
    }
   ],
   "ripple": [
-   {
-    "t": 1786902836174,
-    "p": 1.001
-   },
    {
     "t": 1786907422466,
     "p": 0.999463
@@ -7706,13 +7747,13 @@
    {
     "t": 1787220084834,
     "p": 1.15
+   },
+   {
+    "t": 1787226408055,
+    "p": 1.19
    }
   ],
   "solana": [
-   {
-    "t": 1786902836174,
-    "p": 75.26
-   },
    {
     "t": 1786907422466,
     "p": 75.17
@@ -7900,13 +7941,13 @@
    {
     "t": 1787220084834,
     "p": 87.27
+   },
+   {
+    "t": 1787226408055,
+    "p": 87.7
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786902836174,
-    "p": 0.069971
-   },
    {
     "t": 1786907422466,
     "p": 0.069981
@@ -8094,13 +8135,13 @@
    {
     "t": 1787220084834,
     "p": 0.076626
+   },
+   {
+    "t": 1787226408055,
+    "p": 0.07756
    }
   ],
   "chainlink": [
-   {
-    "t": 1786902836174,
-    "p": 9.42
-   },
    {
     "t": 1786907422466,
     "p": 9.42
@@ -8288,13 +8329,13 @@
    {
     "t": 1787220084834,
     "p": 10.57
+   },
+   {
+    "t": 1787226408055,
+    "p": 10.74
    }
   ],
   "cardano": [
-   {
-    "t": 1786902836174,
-    "p": 0.176312
-   },
    {
     "t": 1786907422466,
     "p": 0.177315
@@ -8482,6 +8523,10 @@
    {
     "t": 1787220084834,
     "p": 0.18915
+   },
+   {
+    "t": 1787226408055,
+    "p": 0.193032
    }
   ]
  }
