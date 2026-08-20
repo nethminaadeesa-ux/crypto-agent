@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20T21:53:26.005679Z",
+ "updated": "2026-08-20T23:44:02.130552Z",
  "total_events": 479,
  "patterns": {
   "adoption_or_partnership": {
@@ -14,8 +14,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 46,
-   "next_day_median": 1.29,
+   "cases": 50,
+   "next_day_median": 1.38,
    "next_day_range": [
     -3.49,
     17.61
