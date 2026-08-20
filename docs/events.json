@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-19T23:58:14.082787Z",
- "total_events": 454,
+ "updated": "2026-08-20T03:37:37.165860Z",
+ "total_events": 456,
  "patterns": {
   "no_clear_cause": {
    "cases": 37,
@@ -37,36 +37,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1786645045344,
-   "when": "2026-08-13 18:17 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.18158,
-   "move_pct": -1.5,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.06,
-   "after_7d": null
-  },
-  {
-   "t": 1786717342489,
-   "when": "2026-08-14 14:22 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.178856,
-   "move_pct": -2.09,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.02,
-   "after_7d": null
-  },
   {
    "t": 1786763808184,
    "when": "2026-08-15 03:16 UTC",
@@ -407,6 +377,36 @@
    "category": "no_clear_cause",
    "headline": "No clear news catalyst explains the recent short-term price decline",
    "detail": "Recent headlines primarily highlight earlier positive news, including Nethermind joining Chainlink as a node operator and Wyoming moving infrastructure to CCIP. None of the provided sources explain the recent 2.22% pull back over the past hour.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787196930234,
+   "when": "2026-08-20 03:35 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.092,
+   "move_pct": -1.62,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787197054157,
+   "when": "2026-08-20 03:37 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.182329,
+   "move_pct": -2.45,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
