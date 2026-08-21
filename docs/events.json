@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-21T10:05:23.647783Z",
- "total_events": 486,
+ "updated": "2026-08-21T11:50:43.766069Z",
+ "total_events": 488,
  "patterns": {
   "adoption_or_partnership": {
    "cases": 2,
@@ -14,11 +14,11 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 57,
-   "next_day_median": 1.68,
+   "cases": 60,
+   "next_day_median": 2.02,
    "next_day_range": [
     -3.49,
-    19.86
+    23.48
    ],
    "fell_next_day": 13,
    "week_median": 1.19,
@@ -48,36 +48,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787220943750,
-   "when": "2026-08-20 10:15 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.18915,
-   "move_pct": 2.71,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
-  {
-   "t": 1787226431729,
-   "when": "2026-08-20 11:47 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.19,
-   "move_pct": 3.48,
-   "category": "regulation",
-   "headline": "Donald Trump urged Congress to pass the crypto Clarity Act.",
-   "detail": "XRP jumped as news reported Donald Trump encouraging Congress to pass the Clarity Act for cryptocurrency regulation. The push for clearer regulatory frameworks sparked broader market optimism and increased trading activity.",
-   "source": "24/7 Wall St.",
-   "confidence": "high",
-   "after_24h": null,
-   "after_7d": null
-  },
   {
    "t": 1787226615160,
    "when": "2026-08-20 11:50 UTC",
@@ -415,6 +385,36 @@
    "name": "XRP",
    "price": 1.42,
    "move_pct": 5.19,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787312912076,
+   "when": "2026-08-21 11:48 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.38,
+   "move_pct": -2.82,
+   "category": "no_clear_cause",
+   "headline": "No specific cause found for the recent short-term price drop",
+   "detail": "The provided news headlines focus on recent price gains, general crypto rallies, and institutional activity. None of the articles mention a specific trigger or event causing the recent sudden drop in XRP's price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787313040757,
+   "when": "2026-08-21 11:50 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.27,
+   "move_pct": -1.66,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",

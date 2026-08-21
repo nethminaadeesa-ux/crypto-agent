@@ -6867,7 +6867,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 8.56,
    "after_7d": null
   },
   {
@@ -6882,7 +6882,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.56,
    "after_7d": null
   },
   {
@@ -6897,7 +6897,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 23.48,
    "after_7d": null
   },
   {
@@ -7289,14 +7289,40 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787312912076,
+   "when": "2026-08-21 11:48 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.38,
+   "move_pct": -2.82,
+   "category": "no_clear_cause",
+   "headline": "No specific cause found for the recent short-term price drop",
+   "detail": "The provided news headlines focus on recent price gains, general crypto rallies, and institutional activity. None of the articles mention a specific trigger or event causing the recent sudden drop in XRP's price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787313040757,
+   "when": "2026-08-21 11:50 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.27,
+   "move_pct": -1.66,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786964016479,
-    "p": 63540
-   },
    {
     "t": 1786968010457,
     "p": 63547
@@ -7484,13 +7510,13 @@
    {
     "t": 1787306576516,
     "p": 77800
+   },
+   {
+    "t": 1787312806094,
+    "p": 76831
    }
   ],
   "ethereum": [
-   {
-    "t": 1786964016479,
-    "p": 1903.39
-   },
    {
     "t": 1786968010457,
     "p": 1902.48
@@ -7678,13 +7704,13 @@
    {
     "t": 1787306576516,
     "p": 2400.63
+   },
+   {
+    "t": 1787312806094,
+    "p": 2372.74
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786964016479,
-    "p": 604.28
-   },
    {
     "t": 1786968010457,
     "p": 604.35
@@ -7872,13 +7898,13 @@
    {
     "t": 1787306576516,
     "p": 677.33
+   },
+   {
+    "t": 1787312806094,
+    "p": 673.91
    }
   ],
   "ripple": [
-   {
-    "t": 1786964016479,
-    "p": 1.001
-   },
    {
     "t": 1786968010457,
     "p": 0.99933
@@ -8066,13 +8092,13 @@
    {
     "t": 1787306576516,
     "p": 1.42
+   },
+   {
+    "t": 1787312806094,
+    "p": 1.38
    }
   ],
   "solana": [
-   {
-    "t": 1786964016479,
-    "p": 75.67
-   },
    {
     "t": 1786968010457,
     "p": 75.63
@@ -8260,13 +8286,13 @@
    {
     "t": 1787306576516,
     "p": 91.53
+   },
+   {
+    "t": 1787312806094,
+    "p": 90.46
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786964016479,
-    "p": 0.070285
-   },
    {
     "t": 1786968010457,
     "p": 0.070135
@@ -8454,13 +8480,13 @@
    {
     "t": 1787306576516,
     "p": 0.084355
+   },
+   {
+    "t": 1787312806094,
+    "p": 0.083162
    }
   ],
   "chainlink": [
-   {
-    "t": 1786964016479,
-    "p": 9.49
-   },
    {
     "t": 1786968010457,
     "p": 9.51
@@ -8648,13 +8674,13 @@
    {
     "t": 1787306576516,
     "p": 11.46
+   },
+   {
+    "t": 1787312806094,
+    "p": 11.27
    }
   ],
   "cardano": [
-   {
-    "t": 1786964016479,
-    "p": 0.174119
-   },
    {
     "t": 1786968010457,
     "p": 0.174987
@@ -8842,6 +8868,10 @@
    {
     "t": 1787306576516,
     "p": 0.215086
+   },
+   {
+    "t": 1787312806094,
+    "p": 0.212556
    }
   ]
  }
