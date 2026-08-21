@@ -6747,7 +6747,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.9,
    "after_7d": null
   },
   {
@@ -6762,7 +6762,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.37,
    "after_7d": null
   },
   {
@@ -6852,7 +6852,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.49,
    "after_7d": null
   },
   {
@@ -7184,14 +7184,100 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787300544621,
+   "when": "2026-08-21 08:22 UTC",
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "price": 77020,
+   "move_pct": 2.16,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787300696798,
+   "when": "2026-08-21 08:24 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 676.87,
+   "move_pct": 1.86,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787300881213,
+   "when": "2026-08-21 08:28 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.35,
+   "move_pct": 3.05,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787301021818,
+   "when": "2026-08-21 08:30 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.084267,
+   "move_pct": 1.79,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787301085561,
+   "when": "2026-08-21 08:31 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.55,
+   "move_pct": 5.48,
+   "category": "adoption_or_partnership",
+   "headline": "Wyoming migrated its Frontier stablecoin infrastructure to Chainlink's CCIP protocol",
+   "detail": "Chainlink saw price gains following increased adoption of its Cross-Chain Interoperability Protocol. Key drivers include the Wyoming Stable Token Commission selecting CCIP for its Frontier token alongside other cross-chain migrations.",
+   "source": "Bitcoinist.com",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787301245674,
+   "when": "2026-08-21 08:34 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.213197,
+   "move_pct": 1.97,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1786946509257,
-    "p": 63469
-   },
    {
     "t": 1786955159879,
     "p": 63362
@@ -7379,13 +7465,13 @@
    {
     "t": 1787292345643,
     "p": 75388
+   },
+   {
+    "t": 1787300379463,
+    "p": 77020
    }
   ],
   "ethereum": [
-   {
-    "t": 1786946509257,
-    "p": 1898.15
-   },
    {
     "t": 1786955159879,
     "p": 1890.88
@@ -7573,13 +7659,13 @@
    {
     "t": 1787292345643,
     "p": 2369.65
+   },
+   {
+    "t": 1787300379463,
+    "p": 2385.32
    }
   ],
   "binancecoin": [
-   {
-    "t": 1786946509257,
-    "p": 605.16
-   },
    {
     "t": 1786955159879,
     "p": 604.46
@@ -7767,13 +7853,13 @@
    {
     "t": 1787292345643,
     "p": 664.49
+   },
+   {
+    "t": 1787300379463,
+    "p": 676.87
    }
   ],
   "ripple": [
-   {
-    "t": 1786946509257,
-    "p": 1.001
-   },
    {
     "t": 1786955159879,
     "p": 0.999407
@@ -7961,13 +8047,13 @@
    {
     "t": 1787292345643,
     "p": 1.31
+   },
+   {
+    "t": 1787300379463,
+    "p": 1.35
    }
   ],
   "solana": [
-   {
-    "t": 1786946509257,
-    "p": 75.36
-   },
    {
     "t": 1786955159879,
     "p": 75.34
@@ -8155,13 +8241,13 @@
    {
     "t": 1787292345643,
     "p": 90.87
+   },
+   {
+    "t": 1787300379463,
+    "p": 90.89
    }
   ],
   "dogecoin": [
-   {
-    "t": 1786946509257,
-    "p": 0.070121
-   },
    {
     "t": 1786955159879,
     "p": 0.070092
@@ -8349,13 +8435,13 @@
    {
     "t": 1787292345643,
     "p": 0.082787
+   },
+   {
+    "t": 1787300379463,
+    "p": 0.084267
    }
   ],
   "chainlink": [
-   {
-    "t": 1786946509257,
-    "p": 9.41
-   },
    {
     "t": 1786955159879,
     "p": 9.37
@@ -8543,13 +8629,13 @@
    {
     "t": 1787292345643,
     "p": 10.95
+   },
+   {
+    "t": 1787300379463,
+    "p": 11.55
    }
   ],
   "cardano": [
-   {
-    "t": 1786946509257,
-    "p": 0.176453
-   },
    {
     "t": 1786955159879,
     "p": 0.175126
@@ -8737,6 +8823,10 @@
    {
     "t": 1787292345643,
     "p": 0.209073
+   },
+   {
+    "t": 1787300379463,
+    "p": 0.213197
    }
   ]
  }
