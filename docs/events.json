@@ -1,7 +1,18 @@
 {
- "updated": "2026-08-21T16:02:04.549887Z",
+ "updated": "2026-08-21T17:51:55.723848Z",
  "total_events": 489,
  "patterns": {
+  "regulation": {
+   "cases": 2,
+   "next_day_median": 8.27,
+   "next_day_range": [
+    2.83,
+    13.71
+   ],
+   "fell_next_day": 0,
+   "week_median": null,
+   "recovered_in_week": null
+  },
   "adoption_or_partnership": {
    "cases": 2,
    "next_day_median": 2.62,
@@ -14,8 +25,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 65,
-   "next_day_median": 2.1,
+   "cases": 67,
+   "next_day_median": 2.34,
    "next_day_range": [
     -3.49,
     23.48
@@ -90,7 +101,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 10.84,
    "after_7d": null
   },
   {
@@ -105,7 +116,7 @@
    "detail": "Ethereum and other major cryptocurrencies surged as political momentum built around passing the crypto Clarity Act. Investor optimism over regulatory clarity drove broad gains across the crypto market.",
    "source": "Yahoo Finance",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 2.83,
    "after_7d": null
   },
   {
@@ -120,7 +131,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 11.26,
    "after_7d": null
   },
   {
