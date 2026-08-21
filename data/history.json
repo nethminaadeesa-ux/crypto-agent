@@ -2089,6 +2089,90 @@
    "breaker": "A sudden macro risk-off event or unexpected negative regulatory news that halts market momentum.",
    "learned": "Based on 201 past cases of sharp price rises, the median move the following day was -0.44%, with prices falling in 115 of those instances.",
    "honesty": "My past range estimates missed this sudden upward breakout, underestimating high targets across most coins."
+  },
+  {
+   "date": "2026-08-21",
+   "prices": {
+    "Bitcoin": 75388,
+    "Ethereum": 2364.1,
+    "BNB": 664.02,
+    "XRP": 1.31,
+    "Solana": 90.3,
+    "Dogecoin": 0.082659,
+    "Chainlink": 10.93,
+    "Cardano": 0.20859
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 71595.3994,
+     "high": 79381.5049
+    },
+    {
+     "coin": "Ethereum",
+     "low": 2185.3946,
+     "high": 2557.4186
+    },
+    {
+     "coin": "BNB",
+     "low": 627.2588,
+     "high": 702.9357
+    },
+    {
+     "coin": "XRP",
+     "low": 1.2183,
+     "high": 1.4086
+    },
+    {
+     "coin": "Solana",
+     "low": 83.8884,
+     "high": 97.2017
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0776,
+     "high": 0.0881
+    },
+    {
+     "coin": "Chainlink",
+     "low": 10.1639,
+     "high": 11.7539
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1887,
+     "high": 0.2305
+    }
+   ],
+   "width_factor": 0.968,
+   "one_line": "Crypto markets extended their massive rally today as Bitcoin crossed $75,000 and XRP jumped nearly 19%.",
+   "moved": [
+    "Bitcoin rose 8.5% past $75,000 as another $1 billion in short positions were wiped out.",
+    "XRP surged 18.9% to $1.31 after Ripple announced support for an RLUSD credit fund.",
+    "Cardano gained 13.6% and Dogecoin added 10.5% in a broad altcoin rally driven by market momentum."
+   ],
+   "traded": "Trading showed a steady push upward across consecutive candles. Prices closed near their highs rather than spiking and getting sold back quickly.",
+   "versus_yesterday": "The rally accelerated today, turning yesterday's breakout into a strong two-day streak across all major coins.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 30,
+     "text": "Continued short liquidations and strong spot demand push Bitcoin toward $78,000."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 45,
+     "text": "Trading activity cools off as buyers digest the large two-day gains."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Profit taking triggers a pullback toward previous breakout support levels."
+    }
+   ],
+   "breaker": "A sudden regulatory delay or broader macroeconomic sell-off that halts crypto liquidations.",
+   "learned": "Our event library shows 50 cases of unclassified price moves. In those past cases, assets gained a median of 1.38% the following day, falling 12 times.",
+   "honesty": "Our recent price ranges missed the upper bounds across most tokens, underestimating the strength of this breakout."
   }
  ],
  "forecasts": [
@@ -3541,7 +3625,8 @@
    "price_then": 63835,
    "lo": 61449.04134941049,
    "hi": 66313.60124610135,
-   "actual": null
+   "actual": 69418.43799253453,
+   "hit": false
   },
   {
    "coin": "ethereum",
@@ -3551,7 +3636,8 @@
    "price_then": 1894.98,
    "lo": 1793.183248177849,
    "hi": 2002.5556250589325,
-   "actual": null
+   "actual": 2253.555445653698,
+   "hit": false
   },
   {
    "coin": "binancecoin",
@@ -3561,7 +3647,8 @@
    "price_then": 612.9,
    "lo": 584.940745314483,
    "hi": 642.1956634223529,
-   "actual": null
+   "actual": 627.8500068520094,
+   "hit": true
   },
   {
    "coin": "ripple",
@@ -3571,7 +3658,8 @@
    "price_then": 1.013,
    "lo": 0.966613541737494,
    "hi": 1.0616124807805347,
-   "actual": null
+   "actual": 1.106249013000074,
+   "hit": false
   },
   {
    "coin": "solana",
@@ -3581,7 +3669,8 @@
    "price_then": 76.47,
    "lo": 72.19310308539879,
    "hi": 81.00027080263712,
-   "actual": null
+   "actual": 85.47150238671998,
+   "hit": false
   },
   {
    "coin": "dogecoin",
@@ -3591,7 +3680,8 @@
    "price_then": 0.07059,
    "lo": 0.06718760702181878,
    "hi": 0.07416469079456597,
-   "actual": null
+   "actual": 0.07509487958391202,
+   "hit": false
   },
   {
    "coin": "cardano",
@@ -3601,7 +3691,8 @@
    "price_then": 0.184357,
    "lo": 0.17003564976100424,
    "hi": 0.19988457418648128,
-   "actual": null
+   "actual": 0.1877960982729326,
+   "hit": true
   },
   {
    "coin": "chainlink",
@@ -3611,7 +3702,8 @@
    "price_then": 8.79,
    "lo": 8.310970500421215,
    "hi": 9.29663990457963,
-   "actual": null
+   "actual": 10.571040584316137,
+   "hit": false
   },
   {
    "coin": "bitcoin",
@@ -3621,7 +3713,8 @@
    "price_then": 63276,
    "lo": 60961.99311359634,
    "hi": 65677.8423982831,
-   "actual": null
+   "actual": 75362.08394687118,
+   "hit": false
   },
   {
    "coin": "ethereum",
@@ -3631,7 +3724,8 @@
    "price_then": 1880.3,
    "lo": 1781.5139201960842,
    "hi": 1984.5638307506788,
-   "actual": null
+   "actual": 2362.5105926218225,
+   "hit": false
   },
   {
    "coin": "binancecoin",
@@ -3641,7 +3735,8 @@
    "price_then": 609.85,
    "lo": 582.7504929271227,
    "hi": 638.2097089817667,
-   "actual": null
+   "actual": 664.0257597226363,
+   "hit": false
   },
   {
    "coin": "ripple",
@@ -3651,7 +3746,8 @@
    "price_then": 1.008,
    "lo": 0.9628292124507628,
    "hi": 1.0552899588637683,
-   "actual": null
+   "actual": 1.309471873650511,
+   "hit": false
   },
   {
    "coin": "solana",
@@ -3661,7 +3757,8 @@
    "price_then": 75.77,
    "lo": 71.63895374913805,
    "hi": 80.1392622246256,
-   "actual": null
+   "actual": 90.32899641814157,
+   "hit": false
   },
   {
    "coin": "dogecoin",
@@ -3671,7 +3768,8 @@
    "price_then": 0.069879,
    "lo": 0.06661225182108764,
    "hi": 0.07330595359717519,
-   "actual": null
+   "actual": 0.08260101447116909,
+   "hit": false
   },
   {
    "coin": "cardano",
@@ -3681,7 +3779,8 @@
    "price_then": 0.181697,
    "lo": 0.16787826177121068,
    "hi": 0.19665321442267583,
-   "actual": null
+   "actual": 0.20856590734173164,
+   "hit": false
   },
   {
    "coin": "chainlink",
@@ -3691,7 +3790,8 @@
    "price_then": 8.78,
    "lo": 8.312828417577496,
    "hi": 9.273426098510152,
-   "actual": null
+   "actual": 10.932062849708855,
+   "hit": false
   },
   {
    "coin": "bitcoin",
@@ -4172,7 +4272,87 @@
    "lo": 0.16667702542142096,
    "hi": 0.19908559179107713,
    "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 75388,
+   "lo": 71595.39937023135,
+   "hi": 79381.50487310614,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 2364.1,
+   "lo": 2185.39464602448,
+   "hi": 2557.4185514580017,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 664.02,
+   "lo": 627.2587521679387,
+   "hi": 702.9356846374458,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 1.31,
+   "lo": 1.218275731431647,
+   "hi": 1.4086302104888349,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 90.3,
+   "lo": 83.88835830921502,
+   "hi": 97.20168762802317,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 0.082659,
+   "lo": 0.07759571725300267,
+   "hi": 0.08805267252988254,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 10.93,
+   "lo": 10.163888240670854,
+   "hi": 11.753858087691338,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1787292190743,
+   "days": 7,
+   "price_then": 0.20859,
+   "lo": 0.18874202666344617,
+   "hi": 0.23052517168094275,
+   "actual": null
   }
  ],
- "width_factor": 0.8800000000000001
+ "width_factor": 0.9680000000000002
 }
