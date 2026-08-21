@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-21T21:06:44.384279Z",
- "total_events": 490,
+ "updated": "2026-08-21T22:12:41.313519Z",
+ "total_events": 496,
  "patterns": {
   "regulation": {
    "cases": 2,
@@ -25,8 +25,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 73,
-   "next_day_median": 2.66,
+   "cases": 77,
+   "next_day_median": 3.05,
    "next_day_range": [
     -3.49,
     23.48
@@ -59,96 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787235833863,
-   "when": "2026-08-20 14:23 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.24,
-   "move_pct": 4.2,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 14.14,
-   "after_7d": null
-  },
-  {
-   "t": 1787235962853,
-   "when": "2026-08-20 14:26 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.196078,
-   "move_pct": 1.58,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 10.84,
-   "after_7d": null
-  },
-  {
-   "t": 1787241618656,
-   "when": "2026-08-20 16:00 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2327.17,
-   "move_pct": 2.17,
-   "category": "regulation",
-   "headline": "President Trump pushes Congress to pass the crypto Clarity Act, boosting market sentiment",
-   "detail": "Ethereum and other major cryptocurrencies surged as political momentum built around passing the crypto Clarity Act. Investor optimism over regulatory clarity drove broad gains across the crypto market.",
-   "source": "Yahoo Finance",
-   "confidence": "high",
-   "after_24h": 2.83,
-   "after_7d": null
-  },
-  {
-   "t": 1787241748247,
-   "when": "2026-08-20 16:02 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.26,
-   "move_pct": 1.61,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 11.26,
-   "after_7d": null
-  },
-  {
-   "t": 1787241888466,
-   "when": "2026-08-20 16:04 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.080386,
-   "move_pct": 3.3,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 4.19,
-   "after_7d": null
-  },
-  {
-   "t": 1787248491890,
-   "when": "2026-08-20 17:54 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.33,
-   "move_pct": 5.56,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 4.26,
-   "after_7d": null
-  },
   {
    "t": 1787248671005,
    "when": "2026-08-20 17:57 UTC",
@@ -221,7 +131,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 9.49,
    "after_7d": null
   },
   {
@@ -236,7 +146,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 11.13,
    "after_7d": null
   },
   {
@@ -251,7 +161,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 10.68,
    "after_7d": null
   },
   {
@@ -266,7 +176,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 13.9,
    "after_7d": null
   },
   {
@@ -426,6 +336,96 @@
    "name": "Dogecoin",
    "price": 0.087248,
    "move_pct": 2.95,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787349735273,
+   "when": "2026-08-21 22:02 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2512.76,
+   "move_pct": 3.0,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787349863234,
+   "when": "2026-08-21 22:04 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.41,
+   "move_pct": 2.92,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787349987056,
+   "when": "2026-08-21 22:06 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 93.65,
+   "move_pct": 2.04,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787350110836,
+   "when": "2026-08-21 22:08 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.091399,
+   "move_pct": 4.76,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787350234568,
+   "when": "2026-08-21 22:10 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.15,
+   "move_pct": 2.53,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787350358304,
+   "when": "2026-08-21 22:12 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.226215,
+   "move_pct": 3.3,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
