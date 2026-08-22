@@ -1,111 +1,6 @@
 {
  "events": [
   {
-   "t": 1754611200000,
-   "when": "2025-08-08",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.222239,
-   "move_pct": 8.36,
-   "category": "sharp_rise",
-   "headline": "moved +8.4% in one day, about 4.1 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 3.72,
-   "after_7d": 0.86
-  },
-  {
-   "t": 1754611200000,
-   "when": "2025-08-08",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 18.46734,
-   "move_pct": 10.88,
-   "category": "sharp_rise",
-   "headline": "moved +10.9% in one day, about 4.6 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 7.81,
-   "after_7d": 21.79
-  },
-  {
-   "t": 1754697600000,
-   "when": "2025-08-09",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 19.910438,
-   "move_pct": 7.81,
-   "category": "sharp_rise",
-   "headline": "moved +7.8% in one day, about 3.3 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 10.17,
-   "after_7d": 9.26
-  },
-  {
-   "t": 1754784000000,
-   "when": "2025-08-10",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 4265.563258,
-   "move_pct": 6.29,
-   "category": "sharp_rise",
-   "headline": "moved +6.3% in one day, about 3.4 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -0.28,
-   "after_7d": 3.78
-  },
-  {
-   "t": 1754784000000,
-   "when": "2025-08-10",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 21.934714,
-   "move_pct": 10.17,
-   "category": "sharp_rise",
-   "headline": "moved +10.2% in one day, about 4.3 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 0.68,
-   "after_7d": 3.27
-  },
-  {
-   "t": 1755043200000,
-   "when": "2025-08-13",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 4606.809428,
-   "move_pct": 8.94,
-   "category": "sharp_rise",
-   "headline": "moved +8.9% in one day, about 4.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 3.4,
-   "after_7d": -11.55
-  },
-  {
-   "t": 1755043200000,
-   "when": "2025-08-13",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 191.786448,
-   "move_pct": 9.62,
-   "category": "sharp_rise",
-   "headline": "moved +9.6% in one day, about 4.5 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 5.13,
-   "after_7d": -8.09
-  },
-  {
    "t": 1755043200000,
    "when": "2025-08-13",
    "coin": "ripple",
@@ -7499,14 +7394,115 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787378635257,
+   "when": "2026-08-22 06:03 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2438.78,
+   "move_pct": -3.1,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787378759047,
+   "when": "2026-08-22 06:05 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.53,
+   "move_pct": -7.83,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787378882702,
+   "when": "2026-08-22 06:08 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 698.76,
+   "move_pct": -3.56,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787379006518,
+   "when": "2026-08-22 06:10 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 94.31,
+   "move_pct": -5.3,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787379130211,
+   "when": "2026-08-22 06:12 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.091798,
+   "move_pct": -6.94,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787379154450,
+   "when": "2026-08-22 06:12 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.84,
+   "move_pct": -5.73,
+   "category": "no_clear_cause",
+   "headline": "No clear news cause found for the recent price drop",
+   "detail": "The available headlines do not contain any news explaining the sudden drop in Chainlink's price over the past hour. Recent news primarily reports on prior price gains and general market outlooks.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787379278138,
+   "when": "2026-08-22 06:14 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.232359,
+   "move_pct": -8.78,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787037914681,
-    "p": 64258
-   },
    {
     "t": 1787047064116,
     "p": 64106
@@ -7694,13 +7690,13 @@
    {
     "t": 1787374787750,
     "p": 78501
+   },
+   {
+    "t": 1787378510184,
+    "p": 77385
    }
   ],
   "ethereum": [
-   {
-    "t": 1787037914681,
-    "p": 1899.41
-   },
    {
     "t": 1787047064116,
     "p": 1894.91
@@ -7888,13 +7884,13 @@
    {
     "t": 1787374787750,
     "p": 2516.77
+   },
+   {
+    "t": 1787378510184,
+    "p": 2438.78
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787037914681,
-    "p": 603.33
-   },
    {
     "t": 1787047064116,
     "p": 600.69
@@ -8082,13 +8078,13 @@
    {
     "t": 1787374787750,
     "p": 724.55
+   },
+   {
+    "t": 1787378510184,
+    "p": 698.76
    }
   ],
   "ripple": [
-   {
-    "t": 1787037914681,
-    "p": 0.99717
-   },
    {
     "t": 1787047064116,
     "p": 0.994821
@@ -8276,13 +8272,13 @@
    {
     "t": 1787374787750,
     "p": 1.66
+   },
+   {
+    "t": 1787378510184,
+    "p": 1.53
    }
   ],
   "solana": [
-   {
-    "t": 1787037914681,
-    "p": 76.06
-   },
    {
     "t": 1787047064116,
     "p": 75.87
@@ -8470,13 +8466,13 @@
    {
     "t": 1787374787750,
     "p": 99.59
+   },
+   {
+    "t": 1787378510184,
+    "p": 94.31
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787037914681,
-    "p": 0.069881
-   },
    {
     "t": 1787047064116,
     "p": 0.069822
@@ -8664,13 +8660,13 @@
    {
     "t": 1787374787750,
     "p": 0.098649
+   },
+   {
+    "t": 1787378510184,
+    "p": 0.091798
    }
   ],
   "chainlink": [
-   {
-    "t": 1787037914681,
-    "p": 9.4
-   },
    {
     "t": 1787047064116,
     "p": 9.45
@@ -8858,13 +8854,13 @@
    {
     "t": 1787374787750,
     "p": 12.56
+   },
+   {
+    "t": 1787378510184,
+    "p": 11.84
    }
   ],
   "cardano": [
-   {
-    "t": 1787037914681,
-    "p": 0.17342
-   },
    {
     "t": 1787047064116,
     "p": 0.173073
@@ -9052,6 +9048,10 @@
    {
     "t": 1787374787750,
     "p": 0.254717
+   },
+   {
+    "t": 1787378510184,
+    "p": 0.232359
    }
   ]
  }
