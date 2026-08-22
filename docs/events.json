@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T09:51:01.628536Z",
+ "updated": "2026-08-22T11:00:46.600646Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -14,8 +14,8 @@
    "recovered_in_week": null
   },
   "adoption_or_partnership": {
-   "cases": 2,
-   "next_day_median": 2.62,
+   "cases": 3,
+   "next_day_median": 0.43,
    "next_day_range": [
     -0.33,
     5.57
@@ -25,8 +25,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 81,
-   "next_day_median": 3.07,
+   "cases": 83,
+   "next_day_median": 3.12,
    "next_day_range": [
     -3.49,
     23.48
@@ -47,33 +47,18 @@
    "recovered_in_week": 91
   },
   "sharp_rise": {
-   "cases": 185,
-   "next_day_median": -0.63,
+   "cases": 184,
+   "next_day_median": -0.67,
    "next_day_range": [
     -7.68,
     12.08
    ],
    "fell_next_day": 110,
-   "week_median": -2.4,
+   "week_median": -2.41,
    "recovered_in_week": 65
   }
  },
  "recent": [
-  {
-   "t": 1787350358304,
-   "when": "2026-08-21 22:12 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.226215,
-   "move_pct": 3.3,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
   {
    "t": 1787353454060,
    "when": "2026-08-21 23:04 UTC",
@@ -429,6 +414,21 @@
    "category": "no_clear_cause",
    "headline": "No specific news found explaining Cardano's recent price drop",
    "detail": "Recent news headlines focus primarily on Cardano's preceding price rally and positive momentum. There is no clear specific news or catalyst explaining the recent short-term decline.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787396443592,
+   "when": "2026-08-22 11:00 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.22172,
+   "move_pct": -2.23,
+   "category": "no_clear_cause",
+   "headline": "No clear cause for Cardano's recent price movement",
+   "detail": "No news headlines were reported for Cardano in the last twelve hours. As a result, there is no verified reason available to explain the recent price change.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
