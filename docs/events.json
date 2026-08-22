@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-21T23:06:20.811987Z",
- "total_events": 498,
+ "updated": "2026-08-22T00:01:43.955082Z",
+ "total_events": 499,
  "patterns": {
   "regulation": {
    "cases": 2,
@@ -59,21 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787255476981,
-   "when": "2026-08-20 19:51 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.23,
-   "move_pct": -7.52,
-   "category": "no_clear_cause",
-   "headline": "No clear cause found for the recent XRP price drop",
-   "detail": "The provided headlines focus entirely on recent price surges and bullish market predictions. None of the news stories explain the sudden decline in XRP's price.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 11.35,
-   "after_7d": null
-  },
   {
    "t": 1787255625993,
    "when": "2026-08-20 19:53 UTC",
@@ -426,6 +411,21 @@
    "name": "Cardano",
    "price": 0.231053,
    "move_pct": 2.14,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787356900946,
+   "when": "2026-08-22 00:01 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.09166,
+   "move_pct": -2.29,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
