@@ -1,36 +1,6 @@
 {
  "events": [
   {
-   "t": 1755129600000,
-   "when": "2025-08-14",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.905169,
-   "move_pct": 7.54,
-   "category": "sharp_rise",
-   "headline": "moved +7.5% in one day, about 2.9 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 2.14,
-   "after_7d": -2.7
-  },
-  {
-   "t": 1755216000000,
-   "when": "2025-08-15",
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "price": 118405.595798,
-   "move_pct": -4.17,
-   "category": "sharp_drop",
-   "headline": "moved -4.2% in one day, about 3.3 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -0.9,
-   "after_7d": -5.06
-  },
-  {
    "t": 1755216000000,
    "when": "2025-08-15",
    "coin": "ripple",
@@ -7017,7 +6987,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 8.06,
    "after_7d": null
   },
   {
@@ -7499,14 +7469,40 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787435948645,
+   "when": "2026-08-22 21:59 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 92.88,
+   "move_pct": -1.63,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst found for the recent short-term price drop",
+   "detail": "None of the headlines from the past twelve hours explain the modest price decline over the last hour. The move appears to be normal short-term market fluctuation without a specific reported trigger.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787436159436,
+   "when": "2026-08-22 22:02 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.224096,
+   "move_pct": -2.87,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787119117593,
-    "p": 64216
-   },
    {
     "t": 1787126727767,
     "p": 64249
@@ -7694,13 +7690,13 @@
    {
     "t": 1787432468718,
     "p": 77308
+   },
+   {
+    "t": 1787435843525,
+    "p": 76928
    }
   ],
   "ethereum": [
-   {
-    "t": 1787119117593,
-    "p": 1909.53
-   },
    {
     "t": 1787126727767,
     "p": 1914.74
@@ -7888,13 +7884,13 @@
    {
     "t": 1787432468718,
     "p": 2432.11
+   },
+   {
+    "t": 1787435843525,
+    "p": 2408.15
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787119117593,
-    "p": 600.97
-   },
    {
     "t": 1787126727767,
     "p": 601.29
@@ -8082,13 +8078,13 @@
    {
     "t": 1787432468718,
     "p": 697.76
+   },
+   {
+    "t": 1787435843525,
+    "p": 692.89
    }
   ],
   "ripple": [
-   {
-    "t": 1787119117593,
-    "p": 0.999651
-   },
    {
     "t": 1787126727767,
     "p": 1.003
@@ -8276,13 +8272,13 @@
    {
     "t": 1787432468718,
     "p": 1.5
+   },
+   {
+    "t": 1787435843525,
+    "p": 1.46
    }
   ],
   "solana": [
-   {
-    "t": 1787119117593,
-    "p": 76.77
-   },
    {
     "t": 1787126727767,
     "p": 76.87
@@ -8470,13 +8466,13 @@
    {
     "t": 1787432468718,
     "p": 94.42
+   },
+   {
+    "t": 1787435843525,
+    "p": 92.88
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787119117593,
-    "p": 0.069918
-   },
    {
     "t": 1787126727767,
     "p": 0.069853
@@ -8664,13 +8660,13 @@
    {
     "t": 1787432468718,
     "p": 0.094307
+   },
+   {
+    "t": 1787435843525,
+    "p": 0.09189
    }
   ],
   "chainlink": [
-   {
-    "t": 1787119117593,
-    "p": 9.61
-   },
    {
     "t": 1787126727767,
     "p": 9.68
@@ -8858,13 +8854,13 @@
    {
     "t": 1787432468718,
     "p": 11.71
+   },
+   {
+    "t": 1787435843525,
+    "p": 11.51
    }
   ],
   "cardano": [
-   {
-    "t": 1787119117593,
-    "p": 0.175397
-   },
    {
     "t": 1787126727767,
     "p": 0.175147
@@ -9052,6 +9048,10 @@
    {
     "t": 1787432468718,
     "p": 0.230712
+   },
+   {
+    "t": 1787435843525,
+    "p": 0.224096
    }
   ]
  }
