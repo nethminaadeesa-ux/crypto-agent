@@ -1,66 +1,6 @@
 {
  "events": [
   {
-   "t": 1754092800000,
-   "when": "2025-08-02",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 3483.178955,
-   "move_pct": -5.78,
-   "category": "sharp_drop",
-   "headline": "moved -5.8% in one day, about 3.1 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -2.46,
-   "after_7d": 15.21
-  },
-  {
-   "t": 1754092800000,
-   "when": "2025-08-02",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 162.746073,
-   "move_pct": -5.42,
-   "category": "sharp_drop",
-   "headline": "moved -5.4% in one day, about 2.5 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -2.66,
-   "after_7d": 8.67
-  },
-  {
-   "t": 1754092800000,
-   "when": "2025-08-02",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 756.457411,
-   "move_pct": -3.39,
-   "category": "sharp_drop",
-   "headline": "moved -3.4% in one day, about 2.5 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -2.62,
-   "after_7d": 4.85
-  },
-  {
-   "t": 1754179200000,
-   "when": "2025-08-03",
-   "coin": "ripple",
-   "name": "Ripple",
-   "price": 2.779365,
-   "move_pct": -6.21,
-   "category": "sharp_drop",
-   "headline": "moved -6.2% in one day, about 3.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 5.97,
-   "after_7d": 16.17
-  },
-  {
    "t": 1754265600000,
    "when": "2025-08-04",
    "coin": "ripple",
@@ -7484,14 +7424,85 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1787368666272,
+   "when": "2026-08-22 03:17 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.55,
+   "move_pct": 6.9,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787368790035,
+   "when": "2026-08-22 03:19 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 710.71,
+   "move_pct": 3.46,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787368913899,
+   "when": "2026-08-22 03:21 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 96.01,
+   "move_pct": 2.54,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787369060715,
+   "when": "2026-08-22 03:24 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.093647,
+   "move_pct": 2.17,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787369184531,
+   "when": "2026-08-22 03:26 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.240379,
+   "move_pct": 4.79,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787023275840,
-    "p": 64082
-   },
    {
     "t": 1787029448334,
     "p": 64141
@@ -7679,13 +7690,13 @@
    {
     "t": 1787356775177,
     "p": 78317
+   },
+   {
+    "t": 1787368531442,
+    "p": 78409
    }
   ],
   "ethereum": [
-   {
-    "t": 1787023275840,
-    "p": 1891.67
-   },
    {
     "t": 1787029448334,
     "p": 1894.41
@@ -7873,13 +7884,13 @@
    {
     "t": 1787356775177,
     "p": 2514.49
+   },
+   {
+    "t": 1787368531442,
+    "p": 2513.59
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787023275840,
-    "p": 602.62
-   },
    {
     "t": 1787029448334,
     "p": 602.88
@@ -8067,13 +8078,13 @@
    {
     "t": 1787356775177,
     "p": 686.93
+   },
+   {
+    "t": 1787368531442,
+    "p": 710.71
    }
   ],
   "ripple": [
-   {
-    "t": 1787023275840,
-    "p": 0.991087
-   },
    {
     "t": 1787029448334,
     "p": 0.994019
@@ -8261,13 +8272,13 @@
    {
     "t": 1787356775177,
     "p": 1.45
+   },
+   {
+    "t": 1787368531442,
+    "p": 1.55
    }
   ],
   "solana": [
-   {
-    "t": 1787023275840,
-    "p": 75.35
-   },
    {
     "t": 1787029448334,
     "p": 75.76
@@ -8455,13 +8466,13 @@
    {
     "t": 1787356775177,
     "p": 93.63
+   },
+   {
+    "t": 1787368531442,
+    "p": 96.01
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787023275840,
-    "p": 0.069828
-   },
    {
     "t": 1787029448334,
     "p": 0.069867
@@ -8649,13 +8660,13 @@
    {
     "t": 1787356775177,
     "p": 0.09166
+   },
+   {
+    "t": 1787368531442,
+    "p": 0.093647
    }
   ],
   "chainlink": [
-   {
-    "t": 1787023275840,
-    "p": 9.38
-   },
    {
     "t": 1787029448334,
     "p": 9.41
@@ -8843,13 +8854,13 @@
    {
     "t": 1787356775177,
     "p": 12.01
+   },
+   {
+    "t": 1787368531442,
+    "p": 12.19
    }
   ],
   "cardano": [
-   {
-    "t": 1787023275840,
-    "p": 0.172316
-   },
    {
     "t": 1787029448334,
     "p": 0.173686
@@ -9037,6 +9048,10 @@
    {
     "t": 1787356775177,
     "p": 0.229396
+   },
+   {
+    "t": 1787368531442,
+    "p": 0.240379
    }
   ]
  }
