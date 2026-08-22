@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T11:00:46.600646Z",
+ "updated": "2026-08-22T11:57:12.611954Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,8 +25,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 83,
-   "next_day_median": 3.12,
+   "cases": 85,
+   "next_day_median": 3.48,
    "next_day_range": [
     -3.49,
     23.48
