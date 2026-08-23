@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T23:57:16.306092Z",
+ "updated": "2026-08-23T03:39:44.598488Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,25 +25,25 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 95,
-   "next_day_median": 3.05,
+   "cases": 99,
+   "next_day_median": 2.66,
    "next_day_range": [
     -5.23,
     23.48
    ],
-   "fell_next_day": 19,
+   "fell_next_day": 22,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
   "sharp_drop": {
-   "cases": 191,
-   "next_day_median": -0.03,
+   "cases": 190,
+   "next_day_median": -0.01,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 96,
-   "week_median": -0.13,
+   "fell_next_day": 95,
+   "week_median": -0.12,
    "recovered_in_week": 91
   },
   "sharp_rise": {
@@ -60,21 +60,6 @@
  },
  "recent": [
   {
-   "t": 1787368666272,
-   "when": "2026-08-22 03:17 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.55,
-   "move_pct": 6.9,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
-  {
    "t": 1787368790035,
    "when": "2026-08-22 03:19 UTC",
    "coin": "binancecoin",
@@ -86,7 +71,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.88,
    "after_7d": null
   },
   {
@@ -101,7 +86,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.15,
    "after_7d": null
   },
   {
@@ -429,6 +414,21 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787456381590,
+   "when": "2026-08-23 03:39 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.21993,
+   "move_pct": -2.83,
+   "category": "no_clear_cause",
+   "headline": "No clear cause identified for Cardano's recent price drop",
+   "detail": "None of the recent news headlines mention any specific reason for Cardano's 2.83% price decline over the past few hours. The provided articles primarily consist of general market commentary, promotional content, and long-term predictions.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
