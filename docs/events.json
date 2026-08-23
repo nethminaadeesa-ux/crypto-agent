@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T21:57:01.727589Z",
+ "updated": "2026-08-23T22:58:28.473736Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,7 +25,7 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 119,
+   "cases": 121,
    "next_day_median": 1.4,
    "next_day_range": [
     -15.26,
@@ -401,7 +401,7 @@
    "detail": "None of the headlines from the past twelve hours explain the modest price decline over the last hour. The move appears to be normal short-term market fluctuation without a specific reported trigger.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.89,
    "after_7d": null
   },
   {
@@ -416,7 +416,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.2,
    "after_7d": null
   },
   {
