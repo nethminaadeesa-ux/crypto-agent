@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T07:55:33.714714Z",
+ "updated": "2026-08-23T09:48:27.477153Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 107,
-   "next_day_median": 2.05,
+   "cases": 111,
+   "next_day_median": 2.02,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 30,
+   "fell_next_day": 34,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
@@ -206,7 +206,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -10.42,
    "after_7d": null
   },
   {
@@ -221,7 +221,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.65,
    "after_7d": null
   },
   {
@@ -251,7 +251,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.25,
    "after_7d": null
   },
   {
@@ -296,7 +296,7 @@
    "detail": "The available headlines do not contain any news explaining the sudden drop in Chainlink's price over the past hour. Recent news primarily reports on prior price gains and general market outlooks.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -5.95,
    "after_7d": null
   },
   {
