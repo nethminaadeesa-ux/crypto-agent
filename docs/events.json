@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T05:51:52.711406Z",
+ "updated": "2026-08-23T07:55:33.714714Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 103,
-   "next_day_median": 2.34,
+   "cases": 107,
+   "next_day_median": 2.05,
    "next_day_range": [
-    -12.38,
+    -15.26,
     23.48
    ],
-   "fell_next_day": 26,
+   "fell_next_day": 30,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
@@ -146,7 +146,7 @@
    "detail": "The available headlines from the past 12 hours mostly consist of promotional presale articles and earlier ecosystem news. None of the reported events coincide with or directly explain the price movement over the last 1.7 hours.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -5.87,
    "after_7d": null
   },
   {
@@ -161,7 +161,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -7.01,
    "after_7d": null
   },
   {
@@ -191,7 +191,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -15.26,
    "after_7d": null
   },
   {
@@ -236,7 +236,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -5.36,
    "after_7d": null
   },
   {
