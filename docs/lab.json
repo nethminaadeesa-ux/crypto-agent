@@ -1,59 +1,59 @@
 {
- "updated": "2026-08-23T19:31:04Z",
- "tests_resolved": 3328,
+ "updated": "2026-08-23T20:58:55Z",
+ "tests_resolved": 3365,
  "awaiting_marking": 37,
  "note": "Right by chance is about 33%.",
  "verdict": "momentum_1h edges past doing nothing on 1 of 35 coins. Below the 7 needed to rule out luck across this many coins. Not a finding - crypto moves together, so a handful of winners is what a coincidence looks like.",
  "findings": {
   "bitcoin": {
-   "doing_nothing_scores": 25.3,
+   "doing_nothing_scores": 26.0,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 29.5,
-     "edge_over_doing_nothing": 4.2,
-     "margin_of_luck": 21.3,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 22.1,
-     "edge_over_doing_nothing": -3.2,
-     "margin_of_luck": 19.3,
+     "tested": 96,
+     "right": 21.9,
+     "edge_over_doing_nothing": -4.2,
+     "margin_of_luck": 19.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 45.3,
-     "edge_over_doing_nothing": 20.0,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 45.8,
+     "edge_over_doing_nothing": 19.8,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 26.0,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.3,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 29.5,
+     "tested": 96,
+     "right": 30.2,
      "edge_over_doing_nothing": 4.2,
      "margin_of_luck": 21.3,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 26.0,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 9.5,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 9.4,
      "margin_of_luck": 22.2,
      "real": false
     }
@@ -62,110 +62,54 @@
    "beats_doing_nothing": false
   },
   "ethereum": {
-   "doing_nothing_scores": 26.3,
+   "doing_nothing_scores": 27.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 45.3,
-     "edge_over_doing_nothing": 18.9,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 17.7,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 29.5,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 21.3,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": 2.1,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 47.4,
-     "edge_over_doing_nothing": 21.1,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 47.9,
+     "edge_over_doing_nothing": 20.8,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 29.2,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 9.5,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 9.4,
      "margin_of_luck": 22.3,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 16.8,
-     "margin_of_luck": 23.1,
-     "real": false
-    }
-   },
-   "best": "momentum_24h",
-   "beats_doing_nothing": false
-  },
-  "binancecoin": {
-   "doing_nothing_scores": 31.6,
-   "theories": {
-    "momentum_1h": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 22.9,
-     "real": false
-    },
-    "reversion_1h": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 22.9,
-     "real": false
-    },
-    "momentum_24h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 12.6,
-     "margin_of_luck": 23.1,
-     "real": false
-    },
-    "breakout_fade": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 22.0,
-     "real": false
-    },
-    "volume_push": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 22.2,
-     "real": false
-    },
-    "always_flat": {
-     "tested": 95,
-     "right": 31.6,
-     "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.7,
-     "real": false
-    },
-    "ensemble": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 10.5,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 16.7,
      "margin_of_luck": 23.0,
      "real": false
     }
@@ -173,55 +117,111 @@
    "best": "momentum_24h",
    "beats_doing_nothing": false
   },
-  "ripple": {
-   "doing_nothing_scores": 35.8,
+  "binancecoin": {
+   "doing_nothing_scores": 32.3,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 8.4,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.9,
+     "real": false
+    },
+    "reversion_1h": {
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.9,
+     "real": false
+    },
+    "momentum_24h": {
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 12.5,
+     "margin_of_luck": 23.1,
+     "real": false
+    },
+    "breakout_fade": {
+     "tested": 96,
+     "right": 34.4,
+     "edge_over_doing_nothing": 2.1,
+     "margin_of_luck": 22.0,
+     "real": false
+    },
+    "volume_push": {
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 22.2,
+     "real": false
+    },
+    "always_flat": {
+     "tested": 96,
+     "right": 32.3,
+     "edge_over_doing_nothing": 0.0,
+     "margin_of_luck": 21.7,
+     "real": false
+    },
+    "ensemble": {
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 10.4,
+     "margin_of_luck": 22.9,
+     "real": false
+    }
+   },
+   "best": "momentum_24h",
+   "beats_doing_nothing": false
+  },
+  "ripple": {
+   "doing_nothing_scores": 36.5,
+   "theories": {
+    "momentum_1h": {
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 8.3,
      "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 31.6,
+     "tested": 96,
+     "right": 32.3,
      "edge_over_doing_nothing": -4.2,
      "margin_of_luck": 21.7,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 4.2,
      "margin_of_luck": 22.8,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.2,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 22.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 35.8,
+     "tested": 96,
+     "right": 36.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 22.7,
      "real": false
     }
@@ -230,55 +230,55 @@
    "beats_doing_nothing": false
   },
   "solana": {
-   "doing_nothing_scores": 30.5,
+   "doing_nothing_scores": 31.2,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 7.4,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 7.3,
      "margin_of_luck": 22.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 25.3,
-     "edge_over_doing_nothing": -5.3,
+     "tested": 96,
+     "right": 26.0,
+     "edge_over_doing_nothing": -5.2,
      "margin_of_luck": 20.3,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 53.7,
-     "edge_over_doing_nothing": 23.2,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 54.2,
+     "edge_over_doing_nothing": 22.9,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 27.4,
-     "edge_over_doing_nothing": -3.2,
+     "tested": 96,
+     "right": 28.1,
+     "edge_over_doing_nothing": -3.1,
      "margin_of_luck": 20.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 31.6,
-     "edge_over_doing_nothing": 1.1,
+     "tested": 96,
+     "right": 32.3,
+     "edge_over_doing_nothing": 1.0,
      "margin_of_luck": 21.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 30.5,
+     "tested": 96,
+     "right": 31.2,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 21.5,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 11.6,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 11.5,
+     "margin_of_luck": 22.9,
      "real": false
     }
    },
@@ -286,55 +286,55 @@
    "beats_doing_nothing": false
   },
   "tron": {
-   "doing_nothing_scores": 35.8,
+   "doing_nothing_scores": 36.5,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 4.2,
      "margin_of_luck": 22.8,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 18.9,
-     "edge_over_doing_nothing": -16.8,
-     "margin_of_luck": 18.3,
+     "tested": 96,
+     "right": 19.8,
+     "edge_over_doing_nothing": -16.7,
+     "margin_of_luck": 18.5,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 37.9,
+     "tested": 96,
+     "right": 38.5,
      "edge_over_doing_nothing": 2.1,
      "margin_of_luck": 22.6,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.2,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 22.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 35.8,
+     "tested": 96,
+     "right": 36.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 7.4,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 7.3,
+     "margin_of_luck": 23.0,
      "real": false
     }
    },
@@ -342,55 +342,55 @@
    "beats_doing_nothing": false
   },
   "figure-heloc": {
-   "doing_nothing_scores": 83.2,
+   "doing_nothing_scores": 83.3,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 76.8,
-     "edge_over_doing_nothing": -6.3,
-     "margin_of_luck": 19.7,
+     "tested": 96,
+     "right": 77.1,
+     "edge_over_doing_nothing": -6.2,
+     "margin_of_luck": 19.5,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 76.8,
-     "edge_over_doing_nothing": -6.3,
-     "margin_of_luck": 19.7,
+     "tested": 96,
+     "right": 77.1,
+     "edge_over_doing_nothing": -6.2,
+     "margin_of_luck": 19.5,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 47.4,
-     "edge_over_doing_nothing": -35.8,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 47.9,
+     "edge_over_doing_nothing": -35.4,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 78.9,
+     "tested": 96,
+     "right": 79.2,
      "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 19.0,
+     "margin_of_luck": 18.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 82.1,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 17.9,
+     "tested": 96,
+     "right": 82.3,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 17.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 83.2,
+     "tested": 96,
+     "right": 83.3,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 17.4,
+     "margin_of_luck": 17.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 81.1,
+     "tested": 96,
+     "right": 81.2,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 18.3,
+     "margin_of_luck": 18.1,
      "real": false
     }
    },
@@ -398,54 +398,54 @@
    "beats_doing_nothing": false
   },
   "hyperliquid": {
-   "doing_nothing_scores": 29.5,
+   "doing_nothing_scores": 30.2,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 13.7,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 13.5,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 22.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": 10.5,
-     "margin_of_luck": 22.8,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.7,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 11.6,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 11.5,
      "margin_of_luck": 22.9,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 22.2,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 29.5,
+     "tested": 96,
+     "right": 30.2,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 21.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 8.4,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 8.3,
      "margin_of_luck": 22.6,
      "real": false
     }
@@ -454,55 +454,55 @@
    "beats_doing_nothing": false
   },
   "dogecoin": {
-   "doing_nothing_scores": 24.2,
+   "doing_nothing_scores": 25.0,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 54.7,
-     "edge_over_doing_nothing": 30.5,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 55.2,
+     "edge_over_doing_nothing": 30.2,
+     "margin_of_luck": 23.1,
      "real": true
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 11.6,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 11.5,
      "margin_of_luck": 22.3,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 48.4,
-     "edge_over_doing_nothing": 24.2,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 49.0,
+     "edge_over_doing_nothing": 24.0,
+     "margin_of_luck": 23.2,
      "real": true
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 30.5,
-     "edge_over_doing_nothing": 6.3,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": 6.2,
      "margin_of_luck": 21.5,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 14.7,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 14.6,
      "margin_of_luck": 22.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 24.2,
+     "tested": 96,
+     "right": 25.0,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.0,
+     "margin_of_luck": 20.1,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 48.4,
-     "edge_over_doing_nothing": 24.2,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 49.0,
+     "edge_over_doing_nothing": 24.0,
+     "margin_of_luck": 23.2,
      "real": true
     }
    },
@@ -510,55 +510,55 @@
    "beats_doing_nothing": true
   },
   "rain": {
-   "doing_nothing_scores": 65.3,
+   "doing_nothing_scores": 65.6,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 52.6,
-     "edge_over_doing_nothing": -12.6,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 53.1,
+     "edge_over_doing_nothing": -12.5,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 49.5,
-     "edge_over_doing_nothing": -15.8,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 50.0,
+     "edge_over_doing_nothing": -15.6,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": -21.1,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": -20.8,
      "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 61.1,
+     "tested": 96,
+     "right": 61.5,
      "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 22.7,
+     "margin_of_luck": 22.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 65.3,
+     "tested": 96,
+     "right": 65.6,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 22.2,
+     "margin_of_luck": 22.0,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 65.3,
+     "tested": 96,
+     "right": 65.6,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 22.2,
+     "margin_of_luck": 22.0,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 62.1,
-     "edge_over_doing_nothing": -3.2,
-     "margin_of_luck": 22.6,
+     "tested": 96,
+     "right": 62.5,
+     "edge_over_doing_nothing": -3.1,
+     "margin_of_luck": 22.4,
      "real": false
     }
    },
@@ -566,55 +566,55 @@
    "beats_doing_nothing": false
   },
   "zcash": {
-   "doing_nothing_scores": 28.4,
+   "doing_nothing_scores": 28.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 12.6,
-     "margin_of_luck": 22.9,
-     "real": false
-    },
-    "reversion_1h": {
-     "tested": 95,
-     "right": 26.3,
-     "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 20.5,
-     "real": false
-    },
-    "momentum_24h": {
-     "tested": 95,
-     "right": 47.4,
-     "edge_over_doing_nothing": 18.9,
-     "margin_of_luck": 23.3,
-     "real": false
-    },
-    "breakout_fade": {
-     "tested": 95,
-     "right": 27.4,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 20.8,
-     "real": false
-    },
-    "volume_push": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": 11.6,
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": 12.5,
      "margin_of_luck": 22.8,
      "real": false
     },
+    "reversion_1h": {
+     "tested": 96,
+     "right": 26.0,
+     "edge_over_doing_nothing": -2.1,
+     "margin_of_luck": 20.3,
+     "real": false
+    },
+    "momentum_24h": {
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": 18.8,
+     "margin_of_luck": 23.1,
+     "real": false
+    },
+    "breakout_fade": {
+     "tested": 96,
+     "right": 27.1,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 20.6,
+     "real": false
+    },
+    "volume_push": {
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 11.5,
+     "margin_of_luck": 22.7,
+     "real": false
+    },
     "always_flat": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 20.8,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 14.7,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 14.6,
+     "margin_of_luck": 22.9,
      "real": false
     }
    },
@@ -622,55 +622,55 @@
    "beats_doing_nothing": false
   },
   "leo-token": {
-   "doing_nothing_scores": 57.9,
+   "doing_nothing_scores": 57.3,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": -11.6,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": -10.4,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 48.4,
-     "edge_over_doing_nothing": -9.5,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 47.9,
+     "edge_over_doing_nothing": -9.4,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 25.3,
-     "edge_over_doing_nothing": -32.6,
+     "tested": 96,
+     "right": 26.0,
+     "edge_over_doing_nothing": -31.2,
      "margin_of_luck": 20.3,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 56.8,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 23.1,
-     "real": false
-    },
-    "volume_push": {
-     "tested": 95,
-     "right": 53.7,
-     "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 23.2,
-     "real": false
-    },
-    "always_flat": {
-     "tested": 95,
-     "right": 57.9,
-     "edge_over_doing_nothing": 0.0,
+     "tested": 96,
+     "right": 56.2,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 23.0,
      "real": false
     },
+    "volume_push": {
+     "tested": 96,
+     "right": 53.1,
+     "edge_over_doing_nothing": -4.2,
+     "margin_of_luck": 23.1,
+     "real": false
+    },
+    "always_flat": {
+     "tested": 96,
+     "right": 57.3,
+     "edge_over_doing_nothing": 0.0,
+     "margin_of_luck": 22.9,
+     "real": false
+    },
     "ensemble": {
-     "tested": 95,
-     "right": 52.6,
-     "edge_over_doing_nothing": -5.3,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 52.1,
+     "edge_over_doing_nothing": -5.2,
+     "margin_of_luck": 23.2,
      "real": false
     }
    },
@@ -678,54 +678,54 @@
    "beats_doing_nothing": false
   },
   "monero": {
-   "doing_nothing_scores": 27.4,
+   "doing_nothing_scores": 28.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 8.4,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 8.3,
      "margin_of_luck": 22.3,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 7.4,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 7.3,
      "margin_of_luck": 22.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 26.0,
      "edge_over_doing_nothing": -2.1,
      "margin_of_luck": 20.3,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 27.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 27.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.8,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 27.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.8,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 30.5,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 21.5,
      "real": false
     }
@@ -734,54 +734,54 @@
    "beats_doing_nothing": false
   },
   "chainlink": {
-   "doing_nothing_scores": 26.3,
+   "doing_nothing_scores": 27.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 11.6,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 11.5,
      "margin_of_luck": 22.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 29.5,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 30.2,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 21.3,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 12.6,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 12.5,
      "margin_of_luck": 22.7,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 24.2,
+     "tested": 96,
+     "right": 25.0,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 20.0,
+     "margin_of_luck": 20.1,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 29.2,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 25.3,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 26.0,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 20.3,
      "real": false
     }
@@ -790,55 +790,55 @@
    "beats_doing_nothing": false
   },
   "cardano": {
-   "doing_nothing_scores": 30.5,
+   "doing_nothing_scores": 30.2,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 22.0,
+     "tested": 96,
+     "right": 33.3,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 21.9,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 11.6,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 11.5,
+     "margin_of_luck": 22.9,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 11.6,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 11.5,
+     "margin_of_luck": 22.9,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 29.5,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 21.3,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 34.7,
+     "tested": 96,
+     "right": 34.4,
      "edge_over_doing_nothing": 4.2,
-     "margin_of_luck": 22.2,
+     "margin_of_luck": 22.0,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 30.5,
+     "tested": 96,
+     "right": 30.2,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.5,
+     "margin_of_luck": 21.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 22.8,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.7,
      "real": false
     }
    },
@@ -846,55 +846,55 @@
    "beats_doing_nothing": false
   },
   "whitebit": {
-   "doing_nothing_scores": 22.1,
+   "doing_nothing_scores": 22.9,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 31.6,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 21.7,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": 8.3,
+     "margin_of_luck": 21.5,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 24.2,
-     "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 20.0,
+     "tested": 96,
+     "right": 24.0,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 19.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 20.0,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 19.8,
+     "margin_of_luck": 22.9,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 23.2,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 19.7,
+     "tested": 96,
+     "right": 24.0,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 19.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 29.5,
-     "edge_over_doing_nothing": 7.4,
+     "tested": 96,
+     "right": 30.2,
+     "edge_over_doing_nothing": 7.3,
      "margin_of_luck": 21.3,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 22.1,
+     "tested": 96,
+     "right": 22.9,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 19.3,
+     "margin_of_luck": 19.5,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 4.2,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     }
    },
@@ -902,55 +902,55 @@
    "beats_doing_nothing": false
   },
   "stellar": {
-   "doing_nothing_scores": 32.6,
+   "doing_nothing_scores": 32.3,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 45.3,
-     "edge_over_doing_nothing": 12.6,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 12.5,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 32.6,
+     "tested": 96,
+     "right": 32.3,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.9,
+     "margin_of_luck": 21.7,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.9,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 22.0,
-     "real": false
-    },
-    "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 6.3,
-     "margin_of_luck": 22.7,
-     "real": false
-    },
-    "always_flat": {
-     "tested": 95,
-     "right": 32.6,
-     "edge_over_doing_nothing": 0.0,
+     "tested": 96,
+     "right": 33.3,
+     "edge_over_doing_nothing": 1.0,
      "margin_of_luck": 21.9,
      "real": false
     },
+    "volume_push": {
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 6.2,
+     "margin_of_luck": 22.6,
+     "real": false
+    },
+    "always_flat": {
+     "tested": 96,
+     "right": 32.3,
+     "edge_over_doing_nothing": 0.0,
+     "margin_of_luck": 21.7,
+     "real": false
+    },
     "ensemble": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 8.4,
-     "margin_of_luck": 22.9,
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": 8.3,
+     "margin_of_luck": 22.8,
      "real": false
     }
    },
@@ -958,55 +958,55 @@
    "beats_doing_nothing": false
   },
   "bitcoin-cash": {
-   "doing_nothing_scores": 40.0,
+   "doing_nothing_scores": 40.6,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": 6.3,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": 6.2,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.7,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": 6.3,
-     "margin_of_luck": 23.2,
-     "real": false
-    },
-    "breakout_fade": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": 6.2,
      "margin_of_luck": 23.1,
      "real": false
     },
+    "breakout_fade": {
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 23.0,
+     "real": false
+    },
     "volume_push": {
-     "tested": 95,
-     "right": 47.4,
-     "edge_over_doing_nothing": 7.4,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 47.9,
+     "edge_over_doing_nothing": 7.3,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.8,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 50.5,
-     "edge_over_doing_nothing": 10.5,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 51.0,
+     "edge_over_doing_nothing": 10.4,
+     "margin_of_luck": 23.2,
      "real": false
     }
    },
@@ -1014,55 +1014,55 @@
    "beats_doing_nothing": false
   },
   "canton-network": {
-   "doing_nothing_scores": 25.3,
+   "doing_nothing_scores": 25.0,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 8.4,
-     "margin_of_luck": 22.0,
+     "tested": 96,
+     "right": 33.3,
+     "edge_over_doing_nothing": 8.3,
+     "margin_of_luck": 21.9,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 28.4,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 21.0,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": 4.2,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 8.4,
-     "margin_of_luck": 22.0,
+     "tested": 96,
+     "right": 33.3,
+     "edge_over_doing_nothing": 8.3,
+     "margin_of_luck": 21.9,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 27.4,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 20.8,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 25.0,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.3,
+     "margin_of_luck": 20.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 25.0,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.3,
+     "margin_of_luck": 20.1,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 29.5,
+     "tested": 96,
+     "right": 29.2,
      "edge_over_doing_nothing": 4.2,
-     "margin_of_luck": 21.3,
+     "margin_of_luck": 21.1,
      "real": false
     }
    },
@@ -1070,55 +1070,55 @@
    "beats_doing_nothing": false
   },
   "the-open-network": {
-   "doing_nothing_scores": 47.4,
+   "doing_nothing_scores": 46.9,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": -11.6,
-     "margin_of_luck": 22.3,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": -11.5,
+     "margin_of_luck": 22.2,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 32.6,
-     "edge_over_doing_nothing": -14.7,
-     "margin_of_luck": 21.9,
+     "tested": 96,
+     "right": 32.3,
+     "edge_over_doing_nothing": -14.6,
+     "margin_of_luck": 21.7,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 45.3,
+     "tested": 96,
+     "right": 44.8,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 23.2,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 45.8,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 48.4,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 47.9,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 47.4,
+     "tested": 96,
+     "right": 46.9,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 23.3,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 47.4,
+     "tested": 96,
+     "right": 46.9,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 23.3,
+     "margin_of_luck": 23.1,
      "real": false
     }
    },
@@ -1126,54 +1126,54 @@
    "beats_doing_nothing": false
   },
   "litecoin": {
-   "doing_nothing_scores": 25.3,
+   "doing_nothing_scores": 26.0,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 45.3,
-     "edge_over_doing_nothing": 20.0,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 45.8,
+     "edge_over_doing_nothing": 19.8,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 28.4,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 21.0,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 12.6,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 12.5,
      "margin_of_luck": 22.6,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 26.3,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 20.5,
+     "tested": 96,
+     "right": 27.1,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 9.5,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 9.4,
      "margin_of_luck": 22.2,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 25.3,
+     "tested": 96,
+     "right": 26.0,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 12.6,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 12.5,
      "margin_of_luck": 22.6,
      "real": false
     }
@@ -1182,55 +1182,55 @@
    "beats_doing_nothing": false
   },
   "hedera-hashgraph": {
-   "doing_nothing_scores": 45.3,
+   "doing_nothing_scores": 45.8,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": -5.3,
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": -5.2,
      "margin_of_luck": 22.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 43.2,
+     "tested": 96,
+     "right": 43.8,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 23.1,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 45.3,
+     "tested": 96,
+     "right": 45.8,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 23.2,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 45.3,
+     "tested": 96,
+     "right": 45.8,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 23.2,
+     "margin_of_luck": 23.1,
      "real": false
     }
    },
@@ -1238,54 +1238,54 @@
    "beats_doing_nothing": false
   },
   "avalanche-2": {
-   "doing_nothing_scores": 38.9,
+   "doing_nothing_scores": 39.6,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 23.1,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 45.3,
-     "edge_over_doing_nothing": 6.3,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 45.8,
+     "edge_over_doing_nothing": 6.2,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
+     "tested": 96,
+     "right": 39.6,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 38.9,
+     "tested": 96,
+     "right": 39.6,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.7,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 23.1,
      "real": false
     }
@@ -1294,54 +1294,54 @@
    "beats_doing_nothing": false
   },
   "sui": {
-   "doing_nothing_scores": 35.8,
+   "doing_nothing_scores": 36.5,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 8.4,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 8.3,
      "margin_of_luck": 23.1,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 4.2,
      "margin_of_luck": 22.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 49.5,
-     "edge_over_doing_nothing": 13.7,
-     "margin_of_luck": 23.3,
+     "tested": 96,
+     "right": 50.0,
+     "edge_over_doing_nothing": 13.5,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 35.8,
+     "tested": 96,
+     "right": 36.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.3,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": 8.4,
+     "tested": 96,
+     "right": 44.8,
+     "edge_over_doing_nothing": 8.3,
      "margin_of_luck": 23.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 35.8,
+     "tested": 96,
+     "right": 36.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 41.7,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 22.9,
      "real": false
     }
@@ -1350,55 +1350,55 @@
    "beats_doing_nothing": false
   },
   "shiba-inu": {
-   "doing_nothing_scores": 27.4,
+   "doing_nothing_scores": 28.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 15.8,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 15.6,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 30.5,
-     "edge_over_doing_nothing": 3.2,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": 3.1,
      "margin_of_luck": 21.5,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 15.8,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": 15.6,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 26.3,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 20.5,
+     "tested": 96,
+     "right": 27.1,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 28.4,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 21.0,
+     "tested": 96,
+     "right": 29.2,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 21.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 27.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 20.8,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 24.2,
-     "edge_over_doing_nothing": -3.2,
-     "margin_of_luck": 20.0,
+     "tested": 96,
+     "right": 25.0,
+     "edge_over_doing_nothing": -3.1,
+     "margin_of_luck": 20.1,
      "real": false
     }
    },
@@ -1406,55 +1406,55 @@
    "beats_doing_nothing": false
   },
   "crypto-com-chain": {
-   "doing_nothing_scores": 41.1,
+   "doing_nothing_scores": 41.7,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 43.2,
+     "tested": 96,
+     "right": 43.8,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 23.1,
-     "real": false
-    },
-    "reversion_1h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 1.1,
      "margin_of_luck": 23.0,
      "real": false
     },
+    "reversion_1h": {
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 22.9,
+     "real": false
+    },
     "momentum_24h": {
-     "tested": 95,
-     "right": 30.5,
-     "edge_over_doing_nothing": -10.5,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": -10.4,
      "margin_of_luck": 21.5,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": -1.1,
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": -1.0,
      "margin_of_luck": 22.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 43.2,
+     "tested": 96,
+     "right": 43.8,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 23.1,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 41.1,
+     "tested": 96,
+     "right": 41.7,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.9,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 1.1,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 1.0,
+     "margin_of_luck": 22.9,
      "real": false
     }
    },
@@ -1462,54 +1462,54 @@
    "beats_doing_nothing": false
   },
   "okb": {
-   "doing_nothing_scores": 37.9,
+   "doing_nothing_scores": 38.5,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 37.9,
+     "tested": 96,
+     "right": 38.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": -3.2,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": -3.1,
      "margin_of_luck": 22.2,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 26.3,
-     "edge_over_doing_nothing": -11.6,
-     "margin_of_luck": 20.5,
+     "tested": 96,
+     "right": 27.1,
+     "edge_over_doing_nothing": -11.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 2.1,
      "margin_of_luck": 22.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 40.0,
+     "tested": 96,
+     "right": 40.6,
      "edge_over_doing_nothing": 2.1,
      "margin_of_luck": 22.8,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 37.9,
+     "tested": 96,
+     "right": 38.5,
      "edge_over_doing_nothing": 0.0,
      "margin_of_luck": 22.6,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 1.1,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 1.0,
      "margin_of_luck": 22.7,
      "real": false
     }
@@ -1518,55 +1518,55 @@
    "beats_doing_nothing": false
   },
   "near": {
-   "doing_nothing_scores": 30.5,
+   "doing_nothing_scores": 30.2,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 26.0,
      "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.3,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 20.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 22.8,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 9.4,
+     "margin_of_luck": 22.7,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 20.8,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 33.7,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 22.0,
+     "tested": 96,
+     "right": 33.3,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 21.9,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 30.5,
+     "tested": 96,
+     "right": 30.2,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.5,
+     "margin_of_luck": 21.3,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 36.8,
-     "edge_over_doing_nothing": 6.3,
-     "margin_of_luck": 22.5,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 6.2,
+     "margin_of_luck": 22.3,
      "real": false
     }
    },
@@ -1574,54 +1574,54 @@
    "beats_doing_nothing": false
   },
   "uniswap": {
-   "doing_nothing_scores": 24.2,
+   "doing_nothing_scores": 25.0,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 13.7,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 13.5,
      "margin_of_luck": 22.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": 17.9,
-     "margin_of_luck": 23.0,
-     "real": false
-    },
-    "momentum_24h": {
-     "tested": 95,
-     "right": 41.1,
-     "edge_over_doing_nothing": 16.8,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 17.7,
      "margin_of_luck": 22.9,
      "real": false
     },
+    "momentum_24h": {
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": 15.6,
+     "margin_of_luck": 22.8,
+     "real": false
+    },
     "breakout_fade": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 2.1,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 24.2,
+     "tested": 96,
+     "right": 25.0,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.0,
+     "margin_of_luck": 20.1,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 13.7,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 13.5,
      "margin_of_luck": 22.6,
      "real": false
     }
@@ -1630,55 +1630,55 @@
    "beats_doing_nothing": false
   },
   "bittensor": {
-   "doing_nothing_scores": 32.6,
+   "doing_nothing_scores": 32.3,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 32.6,
+     "tested": 96,
+     "right": 32.3,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.9,
+     "margin_of_luck": 21.7,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 28.4,
+     "tested": 96,
+     "right": 28.1,
      "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 21.0,
+     "margin_of_luck": 20.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 37.9,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 6.2,
      "margin_of_luck": 22.6,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 31.6,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 21.7,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 21.5,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 3.2,
-     "margin_of_luck": 22.3,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 22.2,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 32.6,
+     "tested": 96,
+     "right": 32.3,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.9,
+     "margin_of_luck": 21.7,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 36.8,
-     "edge_over_doing_nothing": 4.2,
-     "margin_of_luck": 22.5,
+     "tested": 96,
+     "right": 37.5,
+     "edge_over_doing_nothing": 5.2,
+     "margin_of_luck": 22.4,
      "real": false
     }
    },
@@ -1686,55 +1686,55 @@
    "beats_doing_nothing": false
   },
   "world-liberty-financial": {
-   "doing_nothing_scores": 47.4,
+   "doing_nothing_scores": 47.9,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 44.2,
-     "edge_over_doing_nothing": -3.2,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 43.8,
+     "edge_over_doing_nothing": -4.2,
+     "margin_of_luck": 23.0,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": -4.2,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": -5.2,
+     "margin_of_luck": 22.9,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 40.0,
-     "edge_over_doing_nothing": -7.4,
+     "tested": 96,
+     "right": 40.6,
+     "edge_over_doing_nothing": -7.3,
      "margin_of_luck": 22.8,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 45.3,
+     "tested": 96,
+     "right": 45.8,
      "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 23.2,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": -1.1,
-     "margin_of_luck": 23.2,
+     "tested": 96,
+     "right": 46.9,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 23.1,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 47.4,
+     "tested": 96,
+     "right": 47.9,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 23.3,
+     "margin_of_luck": 23.2,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 42.1,
-     "edge_over_doing_nothing": -5.3,
-     "margin_of_luck": 23.0,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": -5.2,
+     "margin_of_luck": 22.9,
      "real": false
     }
    },
@@ -1742,55 +1742,55 @@
    "beats_doing_nothing": false
   },
   "aster-2": {
-   "doing_nothing_scores": 31.6,
+   "doing_nothing_scores": 31.2,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 36.8,
-     "edge_over_doing_nothing": 5.3,
-     "margin_of_luck": 22.5,
-     "real": false
-    },
-    "reversion_1h": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 4.2,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 22.3,
      "real": false
     },
-    "momentum_24h": {
-     "tested": 95,
-     "right": 46.3,
-     "edge_over_doing_nothing": 14.7,
-     "margin_of_luck": 23.2,
-     "real": false
-    },
-    "breakout_fade": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": 3.2,
+    "reversion_1h": {
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 4.2,
      "margin_of_luck": 22.2,
      "real": false
     },
+    "momentum_24h": {
+     "tested": 96,
+     "right": 45.8,
+     "edge_over_doing_nothing": 14.6,
+     "margin_of_luck": 23.1,
+     "real": false
+    },
+    "breakout_fade": {
+     "tested": 96,
+     "right": 34.4,
+     "edge_over_doing_nothing": 3.1,
+     "margin_of_luck": 22.0,
+     "real": false
+    },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 7.4,
-     "margin_of_luck": 22.7,
+     "tested": 96,
+     "right": 38.5,
+     "edge_over_doing_nothing": 7.3,
+     "margin_of_luck": 22.6,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 31.6,
+     "tested": 96,
+     "right": 31.2,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 21.7,
+     "margin_of_luck": 21.5,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 43.2,
-     "edge_over_doing_nothing": 11.6,
-     "margin_of_luck": 23.1,
+     "tested": 96,
+     "right": 42.7,
+     "edge_over_doing_nothing": 11.5,
+     "margin_of_luck": 22.9,
      "real": false
     }
    },
@@ -1854,54 +1854,54 @@
    "beats_doing_nothing": false
   },
   "ondo-finance": {
-   "doing_nothing_scores": 26.3,
+   "doing_nothing_scores": 27.1,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 9.5,
-     "margin_of_luck": 22.3,
+     "tested": 96,
+     "right": 35.4,
+     "edge_over_doing_nothing": 8.3,
+     "margin_of_luck": 22.2,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 26.3,
-     "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.5,
+     "tested": 96,
+     "right": 26.0,
+     "edge_over_doing_nothing": -1.0,
+     "margin_of_luck": 20.3,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 36.8,
-     "edge_over_doing_nothing": 10.5,
-     "margin_of_luck": 22.5,
+     "tested": 96,
+     "right": 37.5,
+     "edge_over_doing_nothing": 10.4,
+     "margin_of_luck": 22.4,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 31.6,
-     "edge_over_doing_nothing": 5.3,
+     "tested": 96,
+     "right": 32.3,
+     "edge_over_doing_nothing": 5.2,
      "margin_of_luck": 21.7,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 38.9,
-     "edge_over_doing_nothing": 12.6,
+     "tested": 96,
+     "right": 39.6,
+     "edge_over_doing_nothing": 12.5,
      "margin_of_luck": 22.7,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 26.3,
+     "tested": 96,
+     "right": 27.1,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 20.5,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 35.8,
-     "edge_over_doing_nothing": 9.5,
+     "tested": 96,
+     "right": 36.5,
+     "edge_over_doing_nothing": 9.4,
      "margin_of_luck": 22.3,
      "real": false
     }
@@ -1910,53 +1910,53 @@
    "beats_doing_nothing": false
   },
   "memecore": {
-   "doing_nothing_scores": 36.8,
+   "doing_nothing_scores": 37.5,
    "theories": {
     "momentum_1h": {
-     "tested": 95,
-     "right": 27.4,
-     "edge_over_doing_nothing": -9.5,
-     "margin_of_luck": 20.8,
+     "tested": 96,
+     "right": 27.1,
+     "edge_over_doing_nothing": -10.4,
+     "margin_of_luck": 20.6,
      "real": false
     },
     "reversion_1h": {
-     "tested": 95,
-     "right": 34.7,
-     "edge_over_doing_nothing": -2.1,
-     "margin_of_luck": 22.2,
+     "tested": 96,
+     "right": 34.4,
+     "edge_over_doing_nothing": -3.1,
+     "margin_of_luck": 22.0,
      "real": false
     },
     "momentum_24h": {
-     "tested": 95,
-     "right": 30.5,
-     "edge_over_doing_nothing": -6.3,
+     "tested": 96,
+     "right": 31.2,
+     "edge_over_doing_nothing": -6.2,
      "margin_of_luck": 21.5,
      "real": false
     },
     "breakout_fade": {
-     "tested": 95,
-     "right": 38.9,
+     "tested": 96,
+     "right": 39.6,
      "edge_over_doing_nothing": 2.1,
      "margin_of_luck": 22.7,
      "real": false
     },
     "volume_push": {
-     "tested": 95,
-     "right": 36.8,
+     "tested": 96,
+     "right": 37.5,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 22.5,
+     "margin_of_luck": 22.4,
      "real": false
     },
     "always_flat": {
-     "tested": 95,
-     "right": 36.8,
+     "tested": 96,
+     "right": 37.5,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 22.5,
+     "margin_of_luck": 22.4,
      "real": false
     },
     "ensemble": {
-     "tested": 95,
-     "right": 38.9,
+     "tested": 96,
+     "right": 39.6,
      "edge_over_doing_nothing": 2.1,
      "margin_of_luck": 22.7,
      "real": false
