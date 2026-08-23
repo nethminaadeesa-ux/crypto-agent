@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T09:48:27.477153Z",
+ "updated": "2026-08-23T11:01:32.734853Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 111,
-   "next_day_median": 2.02,
+   "cases": 115,
+   "next_day_median": 1.68,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 34,
+   "fell_next_day": 38,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
@@ -266,7 +266,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.15,
    "after_7d": null
   },
   {
@@ -281,7 +281,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.53,
    "after_7d": null
   },
   {
@@ -311,7 +311,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -7.69,
    "after_7d": null
   },
   {
@@ -356,7 +356,7 @@
    "detail": "Recent news headlines focus primarily on Cardano's preceding price rally and positive momentum. There is no clear specific news or catalyst explaining the recent short-term decline.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.81,
    "after_7d": null
   },
   {
