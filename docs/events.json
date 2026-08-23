@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T11:01:32.734853Z",
+ "updated": "2026-08-23T11:57:22.817755Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 115,
-   "next_day_median": 1.68,
+   "cases": 118,
+   "next_day_median": 1.38,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 38,
+   "fell_next_day": 41,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
@@ -326,7 +326,7 @@
    "detail": "The available headlines highlight recent bullish momentum and general price analysis rather than a catalyst for the recent decline. Without news pointing to a direct cause, the sudden price pullback lacks a clear explanation.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.17,
    "after_7d": null
   },
   {
@@ -341,7 +341,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.16,
    "after_7d": null
   },
   {
@@ -371,7 +371,7 @@
    "detail": "No news headlines were reported for Cardano in the last twelve hours. As a result, there is no verified reason available to explain the recent price change.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.17,
    "after_7d": null
   },
   {
