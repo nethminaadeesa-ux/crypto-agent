@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T14:10:40.517411Z",
+ "updated": "2026-08-24T16:08:47.204105Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 25
   },
   "sharp_drop": {
-   "cases": 186,
-   "next_day_median": -0.01,
+   "cases": 185,
+   "next_day_median": -0.03,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 93,
-   "week_median": -0.12,
-   "recovered_in_week": 89
+   "week_median": -0.13,
+   "recovered_in_week": 88
   },
   "sharp_rise": {
    "cases": 181,
@@ -59,21 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787374934265,
-   "when": "2026-08-22 05:02 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 724.55,
-   "move_pct": 1.95,
-   "category": "no_clear_cause",
-   "headline": "No clear news catalyst identified for the recent BNB price increase",
-   "detail": "The available headlines from the past 12 hours mostly consist of promotional presale articles and earlier ecosystem news. None of the reported events coincide with or directly explain the price movement over the last 1.7 hours.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -5.87,
-   "after_7d": null
-  },
   {
    "t": 1787375063286,
    "when": "2026-08-22 05:04 UTC",
@@ -426,6 +411,21 @@
    "name": "Ethereum",
    "price": 2495.87,
    "move_pct": 1.53,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787587724196,
+   "when": "2026-08-24 16:08 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 96.72,
+   "move_pct": 1.75,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
