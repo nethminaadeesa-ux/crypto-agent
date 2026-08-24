@@ -1,7 +1,7 @@
 {
- "updated": "2026-08-23T23:56:07Z",
+ "updated": "2026-08-24T03:38:41Z",
  "tests_resolved": 3474,
- "awaiting_marking": 36,
+ "awaiting_marking": 37,
  "note": "Right by chance is about 33%.",
  "verdict": "momentum_1h edges past doing nothing on 1 of 35 coins. Below the 7 needed to rule out luck across this many coins. Not a finding - crypto moves together, so a handful of winners is what a coincidence looks like.",
  "findings": {

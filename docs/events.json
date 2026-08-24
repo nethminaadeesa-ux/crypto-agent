@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T23:56:08.209062Z",
+ "updated": "2026-08-24T03:53:16.397139Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,74 +36,29 @@
    "recovered_in_week": 25
   },
   "sharp_drop": {
-   "cases": 190,
+   "cases": 188,
    "next_day_median": -0.01,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 95,
+   "fell_next_day": 94,
    "week_median": -0.12,
-   "recovered_in_week": 91
+   "recovered_in_week": 90
   },
   "sharp_rise": {
-   "cases": 182,
-   "next_day_median": -0.71,
+   "cases": 181,
+   "next_day_median": -0.72,
    "next_day_range": [
     -7.68,
     12.08
    ],
    "fell_next_day": 110,
-   "week_median": -2.41,
-   "recovered_in_week": 64
+   "week_median": -2.42,
+   "recovered_in_week": 63
   }
  },
  "recent": [
-  {
-   "t": 1787368790035,
-   "when": "2026-08-22 03:19 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 710.71,
-   "move_pct": 3.46,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.88,
-   "after_7d": null
-  },
-  {
-   "t": 1787368913899,
-   "when": "2026-08-22 03:21 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 96.01,
-   "move_pct": 2.54,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.15,
-   "after_7d": null
-  },
-  {
-   "t": 1787369060715,
-   "when": "2026-08-22 03:24 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.093647,
-   "move_pct": 2.17,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.92,
-   "after_7d": null
-  },
   {
    "t": 1787369184531,
    "when": "2026-08-22 03:26 UTC",
@@ -429,6 +384,51 @@
    "category": "no_clear_cause",
    "headline": "No clear cause identified for Cardano's recent price drop",
    "detail": "None of the recent news headlines mention any specific reason for Cardano's 2.83% price decline over the past few hours. The provided articles primarily consist of general market commentary, promotional content, and long-term predictions.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787543430467,
+   "when": "2026-08-24 03:50 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.47,
+   "move_pct": -3.29,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787543580508,
+   "when": "2026-08-24 03:53 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 93.87,
+   "move_pct": -1.52,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787543593390,
+   "when": "2026-08-24 03:53 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.217948,
+   "move_pct": -3.75,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for the recent drop",
+   "detail": "None of the provided headlines explain the recent drop in Cardano's price. The news from the past 12 hours focuses on general market activity, previous gains, and network updates.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
