@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T03:53:16.397139Z",
+ "updated": "2026-08-24T06:06:07.366704Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 121,
-   "next_day_median": 1.4,
+   "cases": 122,
+   "next_day_median": 1.38,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 41,
+   "fell_next_day": 42,
    "week_median": 1.5,
    "recovered_in_week": 25
   },
@@ -386,7 +386,7 @@
    "detail": "None of the recent news headlines mention any specific reason for Cardano's 2.83% price decline over the past few hours. The provided articles primarily consist of general market commentary, promotional content, and long-term predictions.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.83,
    "after_7d": null
   },
   {
