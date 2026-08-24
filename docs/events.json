@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T11:03:40.055453Z",
+ "updated": "2026-08-24T14:10:40.517411Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 25
   },
   "sharp_drop": {
-   "cases": 188,
+   "cases": 186,
    "next_day_median": -0.01,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 94,
+   "fell_next_day": 93,
    "week_median": -0.12,
-   "recovered_in_week": 90
+   "recovered_in_week": 89
   },
   "sharp_rise": {
    "cases": 181,
@@ -59,36 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787369184531,
-   "when": "2026-08-22 03:26 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.240379,
-   "move_pct": 4.79,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -7.12,
-   "after_7d": null
-  },
-  {
-   "t": 1787374926277,
-   "when": "2026-08-22 05:02 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.66,
-   "move_pct": 7.1,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -12.38,
-   "after_7d": null
-  },
   {
    "t": 1787374934265,
    "when": "2026-08-22 05:02 UTC",
@@ -429,6 +399,36 @@
    "category": "no_clear_cause",
    "headline": "No clear cause found for the recent drop",
    "detail": "None of the provided headlines explain the recent drop in Cardano's price. The news from the past 12 hours focuses on general market activity, previous gains, and network updates.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787580493226,
+   "when": "2026-08-24 14:08 UTC",
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "price": 78730,
+   "move_pct": 1.56,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787580637508,
+   "when": "2026-08-24 14:10 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2495.87,
+   "move_pct": 1.53,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
