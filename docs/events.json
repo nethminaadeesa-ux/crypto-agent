@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T16:08:47.204105Z",
+ "updated": "2026-08-24T17:59:57.129680Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 25
   },
   "sharp_drop": {
-   "cases": 185,
-   "next_day_median": -0.03,
+   "cases": 183,
+   "next_day_median": -0.05,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 93,
-   "week_median": -0.13,
-   "recovered_in_week": 88
+   "week_median": -0.34,
+   "recovered_in_week": 86
   },
   "sharp_rise": {
    "cases": 181,
@@ -59,36 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787375063286,
-   "when": "2026-08-22 05:04 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 99.59,
-   "move_pct": 3.73,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -7.01,
-   "after_7d": null
-  },
-  {
-   "t": 1787375187044,
-   "when": "2026-08-22 05:06 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.098649,
-   "move_pct": 5.34,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -9.25,
-   "after_7d": null
-  },
   {
    "t": 1787375310759,
    "when": "2026-08-22 05:08 UTC",
@@ -431,6 +401,36 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787594302935,
+   "when": "2026-08-24 17:58 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 95.24,
+   "move_pct": -1.53,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for the recent price decline",
+   "detail": "The provided headlines do not show any recent negative catalysts or major events explaining the sudden price drop. Most news from the period covers positive network metrics and general price predictions.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787594394121,
+   "when": "2026-08-24 17:59 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.088792,
+   "move_pct": -2.92,
+   "category": "large_holder_selling",
+   "headline": "CleanCore sold its $33.4M Dogecoin treasury to fund an AI pivot",
+   "detail": "CleanCore liquidated its entire $33.4 million Dogecoin holding to reallocate capital toward artificial intelligence initiatives. The substantial dump triggered market-wide pressure, causing Dogecoin to lead declines among major cryptocurrencies.",
+   "source": "Crypto News",
+   "confidence": "high",
    "after_24h": null,
    "after_7d": null
   }
