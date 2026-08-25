@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T05:57:27.496522Z",
+ "updated": "2026-08-25T08:30:47.552522Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,89 +36,29 @@
    "recovered_in_week": 26
   },
   "sharp_drop": {
-   "cases": 182,
-   "next_day_median": -0.08,
+   "cases": 180,
+   "next_day_median": -0.15,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 93,
-   "week_median": -0.34,
-   "recovered_in_week": 85
+   "week_median": -0.42,
+   "recovered_in_week": 83
   },
   "sharp_rise": {
-   "cases": 176,
-   "next_day_median": -0.62,
+   "cases": 174,
+   "next_day_median": -0.56,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 105,
-   "week_median": -2.7,
+   "fell_next_day": 103,
+   "week_median": -2.54,
    "recovered_in_week": 61
   }
  },
  "recent": [
-  {
-   "t": 1787379130211,
-   "when": "2026-08-22 06:12 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.091798,
-   "move_pct": -6.94,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.53,
-   "after_7d": null
-  },
-  {
-   "t": 1787379154450,
-   "when": "2026-08-22 06:12 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 11.84,
-   "move_pct": -5.73,
-   "category": "no_clear_cause",
-   "headline": "No clear news cause found for the recent price drop",
-   "detail": "The available headlines do not contain any news explaining the sudden drop in Chainlink's price over the past hour. Recent news primarily reports on prior price gains and general market outlooks.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -5.95,
-   "after_7d": null
-  },
-  {
-   "t": 1787379278138,
-   "when": "2026-08-22 06:14 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.232359,
-   "move_pct": -8.78,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -7.69,
-   "after_7d": null
-  },
-  {
-   "t": 1787392103776,
-   "when": "2026-08-22 09:48 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.51,
-   "move_pct": -4.43,
-   "category": "no_clear_cause",
-   "headline": "No specific news explanation found for the recent XRP price drop",
-   "detail": "The available headlines highlight recent bullish momentum and general price analysis rather than a catalyst for the recent decline. Without news pointing to a direct cause, the sudden price pullback lacks a clear explanation.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.17,
-   "after_7d": null
-  },
   {
    "t": 1787392246696,
    "when": "2026-08-22 09:50 UTC",
@@ -426,6 +366,66 @@
    "name": "Cardano",
    "price": 0.227587,
    "move_pct": 3.01,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787646231968,
+   "when": "2026-08-25 08:23 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.49,
+   "move_pct": -1.97,
+   "category": "no_clear_cause",
+   "headline": "No clear cause identified for the recent price decline",
+   "detail": "The recent headlines do not offer a specific catalyst for the minor price drop in XRP. Most recent news highlights general market rallies, ETF flows, and bullish predictions without pointing to a negative driver.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787646371208,
+   "when": "2026-08-25 08:26 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 100.59,
+   "move_pct": -1.61,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787646507832,
+   "when": "2026-08-25 08:28 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.091191,
+   "move_pct": -1.79,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787646644544,
+   "when": "2026-08-25 08:30 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.221894,
+   "move_pct": -2.5,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
