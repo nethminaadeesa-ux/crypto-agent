@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T19:49:06.686809Z",
+ "updated": "2026-08-25T20:53:13.801472Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,33 +47,18 @@
    "recovered_in_week": 83
   },
   "sharp_rise": {
-   "cases": 172,
-   "next_day_median": -0.56,
+   "cases": 171,
+   "next_day_median": -0.52,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 102,
-   "week_median": -2.54,
+   "fell_next_day": 101,
+   "week_median": -2.42,
    "recovered_in_week": 60
   }
  },
  "recent": [
-  {
-   "t": 1787396443592,
-   "when": "2026-08-22 11:00 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.22172,
-   "move_pct": -2.23,
-   "category": "no_clear_cause",
-   "headline": "No clear cause for Cardano's recent price movement",
-   "detail": "No news headlines were reported for Cardano in the last twelve hours. As a result, there is no verified reason available to explain the recent price change.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.17,
-   "after_7d": null
-  },
   {
    "t": 1787410834508,
    "when": "2026-08-22 15:00 UTC",
@@ -426,6 +411,21 @@
    "name": "Dogecoin",
    "price": 0.088509,
    "move_pct": -2.43,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787691190793,
+   "when": "2026-08-25 20:53 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.086224,
+   "move_pct": -2.02,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
