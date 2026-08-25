@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T17:50:22.995632Z",
+ "updated": "2026-08-25T19:03:38.086443Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,8 +25,8 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 128,
-   "next_day_median": 1.42,
+   "cases": 129,
+   "next_day_median": 1.43,
    "next_day_range": [
     -15.26,
     23.48
@@ -236,7 +236,7 @@
    "detail": "The provided headlines do not show any recent negative catalysts or major events explaining the sudden price drop. Most news from the period covers positive network metrics and general price predictions.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.09,
    "after_7d": null
   },
   {
@@ -251,7 +251,7 @@
    "detail": "CleanCore liquidated its entire $33.4 million Dogecoin holding to reallocate capital toward artificial intelligence initiatives. The substantial dump triggered market-wide pressure, causing Dogecoin to lead declines among major cryptocurrencies.",
    "source": "Crypto News",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 0.05,
    "after_7d": null
   },
   {

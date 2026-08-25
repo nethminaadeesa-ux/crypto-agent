@@ -7302,7 +7302,7 @@
    "detail": "The provided headlines do not show any recent negative catalysts or major events explaining the sudden price drop. Most news from the period covers positive network metrics and general price predictions.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.09,
    "after_7d": null
   },
   {
@@ -7317,7 +7317,7 @@
    "detail": "CleanCore liquidated its entire $33.4 million Dogecoin holding to reallocate capital toward artificial intelligence initiatives. The substantial dump triggered market-wide pressure, causing Dogecoin to lead declines among major cryptocurrencies.",
    "source": "Crypto News",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 0.05,
    "after_7d": null
   },
   {
@@ -7503,10 +7503,6 @@
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787385020555,
-    "p": 77338
-   },
    {
     "t": 1787391999684,
     "p": 77183
@@ -7694,13 +7690,13 @@
    {
     "t": 1787680222987,
     "p": 79199
+   },
+   {
+    "t": 1787684613839,
+    "p": 79142
    }
   ],
   "ethereum": [
-   {
-    "t": 1787385020555,
-    "p": 2434.93
-   },
    {
     "t": 1787391999684,
     "p": 2422.62
@@ -7888,13 +7884,13 @@
    {
     "t": 1787680222987,
     "p": 2469.17
+   },
+   {
+    "t": 1787684613839,
+    "p": 2467.78
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787385020555,
-    "p": 705.59
-   },
    {
     "t": 1787391999684,
     "p": 700.93
@@ -8082,13 +8078,13 @@
    {
     "t": 1787680222987,
     "p": 700.05
+   },
+   {
+    "t": 1787684613839,
+    "p": 699.62
    }
   ],
   "ripple": [
-   {
-    "t": 1787385020555,
-    "p": 1.58
-   },
    {
     "t": 1787391999684,
     "p": 1.51
@@ -8276,13 +8272,13 @@
    {
     "t": 1787680222987,
     "p": 1.48
+   },
+   {
+    "t": 1787684613839,
+    "p": 1.48
    }
   ],
   "solana": [
-   {
-    "t": 1787385020555,
-    "p": 94.59
-   },
    {
     "t": 1787391999684,
     "p": 94.23
@@ -8470,13 +8466,13 @@
    {
     "t": 1787680222987,
     "p": 98.13
+   },
+   {
+    "t": 1787684613839,
+    "p": 98.52
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787385020555,
-    "p": 0.092903
-   },
    {
     "t": 1787391999684,
     "p": 0.091247
@@ -8664,13 +8660,13 @@
    {
     "t": 1787680222987,
     "p": 0.088821
+   },
+   {
+    "t": 1787684613839,
+    "p": 0.088764
    }
   ],
   "chainlink": [
-   {
-    "t": 1787385020555,
-    "p": 11.76
-   },
    {
     "t": 1787391999684,
     "p": 11.66
@@ -8858,13 +8854,13 @@
    {
     "t": 1787680222987,
     "p": 11.53
+   },
+   {
+    "t": 1787684613839,
+    "p": 11.57
    }
   ],
   "cardano": [
-   {
-    "t": 1787385020555,
-    "p": 0.233067
-   },
    {
     "t": 1787391999684,
     "p": 0.226775
@@ -9052,6 +9048,10 @@
    {
     "t": 1787680222987,
     "p": 0.215016
+   },
+   {
+    "t": 1787684613839,
+    "p": 0.21522
    }
   ]
  }
