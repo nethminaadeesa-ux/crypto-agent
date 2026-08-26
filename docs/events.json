@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T08:03:43.743728Z",
+ "updated": "2026-08-26T09:06:40.252987Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 0
   },
   "no_clear_cause": {
-   "cases": 135,
-   "next_day_median": 1.35,
+   "cases": 138,
+   "next_day_median": 1.21,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 49,
+   "fell_next_day": 52,
    "week_median": 1.51,
    "recovered_in_week": 26
   },
@@ -341,7 +341,7 @@
    "detail": "The recent headlines do not offer a specific catalyst for the minor price drop in XRP. Most recent news highlights general market rallies, ETF flows, and bullish predictions without pointing to a negative driver.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.85,
    "after_7d": null
   },
   {
@@ -356,7 +356,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.65,
    "after_7d": null
   },
   {
@@ -371,7 +371,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -5.01,
    "after_7d": null
   },
   {
