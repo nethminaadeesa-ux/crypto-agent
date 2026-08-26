@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T10:01:12.321238Z",
+ "updated": "2026-08-26T10:59:58.939974Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,63 +47,18 @@
    "recovered_in_week": 83
   },
   "sharp_rise": {
-   "cases": 171,
-   "next_day_median": -0.52,
+   "cases": 168,
+   "next_day_median": -0.45,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 101,
-   "week_median": -2.42,
+   "fell_next_day": 98,
+   "week_median": -2.4,
    "recovered_in_week": 60
   }
  },
  "recent": [
-  {
-   "t": 1787410834508,
-   "when": "2026-08-22 15:00 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.44,
-   "move_pct": -4.0,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 5.24,
-   "after_7d": null
-  },
-  {
-   "t": 1787435948645,
-   "when": "2026-08-22 21:59 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 92.88,
-   "move_pct": -1.63,
-   "category": "no_clear_cause",
-   "headline": "No clear news catalyst found for the recent short-term price drop",
-   "detail": "None of the headlines from the past twelve hours explain the modest price decline over the last hour. The move appears to be normal short-term market fluctuation without a specific reported trigger.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 2.89,
-   "after_7d": null
-  },
-  {
-   "t": 1787436159436,
-   "when": "2026-08-22 22:02 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.224096,
-   "move_pct": -2.87,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.2,
-   "after_7d": null
-  },
   {
    "t": 1787456381590,
    "when": "2026-08-23 03:39 UTC",
@@ -426,6 +381,51 @@
    "name": "Dogecoin",
    "price": 0.086224,
    "move_pct": -2.02,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787741709397,
+   "when": "2026-08-26 10:55 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 706.02,
+   "move_pct": 1.57,
+   "category": "no_clear_cause",
+   "headline": "No clear news catalyst found for BNB's recent price rise",
+   "detail": "BNB experienced a brief 1.57% increase over the last hour without a clear driving news event. Available headlines cover earlier general ecosystem updates that do not directly account for the recent short-term price movement.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787741849593,
+   "when": "2026-08-26 10:57 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 97.72,
+   "move_pct": 1.65,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1787741995930,
+   "when": "2026-08-26 10:59 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.45,
+   "move_pct": 1.6,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
