@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T14:34:41.188273Z",
+ "updated": "2026-08-29T18:39:42.242343Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -33,7 +33,7 @@
    ],
    "fell_next_day": 55,
    "week_median": 10.27,
-   "recovered_in_week": 61
+   "recovered_in_week": 65
   },
   "sharp_drop": {
    "cases": 175,
