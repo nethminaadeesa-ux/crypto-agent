@@ -1,36 +1,6 @@
 {
  "events": [
   {
-   "t": 1756166400000,
-   "when": "2025-08-26",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 23.398236,
-   "move_pct": -9.4,
-   "category": "sharp_drop",
-   "headline": "moved -9.4% in one day, about 4.0 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 4.24,
-   "after_7d": -3.85
-  },
-  {
-   "t": 1756252800000,
-   "when": "2025-08-27",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 4602.369685,
-   "move_pct": 5.04,
-   "category": "sharp_rise",
-   "headline": "moved +5.0% in one day, about 2.7 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -2.22,
-   "after_7d": -6.01
-  },
-  {
    "t": 1756252800000,
    "when": "2025-08-27",
    "coin": "ripple",
@@ -6643,7 +6613,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -1.87,
-   "after_7d": null
+   "after_7d": -12.42
   },
   {
    "t": 1787356900946,
@@ -6658,7 +6628,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.32,
-   "after_7d": null
+   "after_7d": -7.02
   },
   {
    "t": 1787368666272,
@@ -6688,7 +6658,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -2.88,
-   "after_7d": null
+   "after_7d": -2.87
   },
   {
    "t": 1787368913899,
@@ -6733,7 +6703,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -7.12,
-   "after_7d": null
+   "after_7d": -16.06
   },
   {
    "t": 1787374926277,
@@ -7499,14 +7469,40 @@
    "confidence": "medium",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1788124648018,
+   "when": "2026-08-30 21:17 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.39,
+   "move_pct": -2.11,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788124786603,
+   "when": "2026-08-30 21:19 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.199888,
+   "move_pct": -2.19,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787580348731,
-    "p": 78730
-   },
    {
     "t": 1787587576186,
     "p": 79265
@@ -7694,13 +7690,13 @@
    {
     "t": 1788111347040,
     "p": 78943
+   },
+   {
+    "t": 1788124445474,
+    "p": 78474
    }
   ],
   "ethereum": [
-   {
-    "t": 1787580348731,
-    "p": 2495.87
-   },
    {
     "t": 1787587576186,
     "p": 2490.95
@@ -7888,13 +7884,13 @@
    {
     "t": 1788111347040,
     "p": 2499.75
+   },
+   {
+    "t": 1788124445474,
+    "p": 2473.31
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787580348731,
-    "p": 700.28
-   },
    {
     "t": 1787587576186,
     "p": 707.44
@@ -8082,13 +8078,13 @@
    {
     "t": 1788111347040,
     "p": 699.4
+   },
+   {
+    "t": 1788124445474,
+    "p": 695.64
    }
   ],
   "ripple": [
-   {
-    "t": 1787580348731,
-    "p": 1.49
-   },
    {
     "t": 1787587576186,
     "p": 1.5
@@ -8276,13 +8272,13 @@
    {
     "t": 1788111347040,
     "p": 1.42
+   },
+   {
+    "t": 1788124445474,
+    "p": 1.39
    }
   ],
   "solana": [
-   {
-    "t": 1787580348731,
-    "p": 95.06
-   },
    {
     "t": 1787587576186,
     "p": 96.72
@@ -8470,13 +8466,13 @@
    {
     "t": 1788111347040,
     "p": 105.85
+   },
+   {
+    "t": 1788124445474,
+    "p": 104.09
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787580348731,
-    "p": 0.090938
-   },
    {
     "t": 1787587576186,
     "p": 0.091466
@@ -8664,13 +8660,13 @@
    {
     "t": 1788111347040,
     "p": 0.085705
+   },
+   {
+    "t": 1788124445474,
+    "p": 0.084666
    }
   ],
   "chainlink": [
-   {
-    "t": 1787580348731,
-    "p": 11.63
-   },
    {
     "t": 1787587576186,
     "p": 11.59
@@ -8858,13 +8854,13 @@
    {
     "t": 1788111347040,
     "p": 11.65
+   },
+   {
+    "t": 1788124445474,
+    "p": 11.48
    }
   ],
   "cardano": [
-   {
-    "t": 1787580348731,
-    "p": 0.221732
-   },
    {
     "t": 1787587576186,
     "p": 0.221944
@@ -9052,6 +9048,10 @@
    {
     "t": 1788111347040,
     "p": 0.204354
+   },
+   {
+    "t": 1788124445474,
+    "p": 0.199888
    }
   ]
  }

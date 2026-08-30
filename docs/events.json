@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T17:37:42.647291Z",
+ "updated": "2026-08-30T21:19:49.611628Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -32,63 +32,33 @@
     23.48
    ],
    "fell_next_day": 55,
-   "week_median": 8.71,
+   "week_median": 7.55,
    "recovered_in_week": 73
   },
   "sharp_drop": {
-   "cases": 174,
-   "next_day_median": -0.29,
+   "cases": 173,
+   "next_day_median": -0.34,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 93,
-   "week_median": -0.42,
+   "week_median": -0.35,
    "recovered_in_week": 80
   },
   "sharp_rise": {
-   "cases": 168,
-   "next_day_median": -0.45,
+   "cases": 167,
+   "next_day_median": -0.44,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 98,
-   "week_median": -2.4,
+   "fell_next_day": 97,
+   "week_median": -2.39,
    "recovered_in_week": 60
   }
  },
  "recent": [
-  {
-   "t": 1787587724196,
-   "when": "2026-08-24 16:08 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 96.72,
-   "move_pct": 1.75,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.43,
-   "after_7d": null
-  },
-  {
-   "t": 1787594302935,
-   "when": "2026-08-24 17:58 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 95.24,
-   "move_pct": -1.53,
-   "category": "no_clear_cause",
-   "headline": "No clear cause found for the recent price decline",
-   "detail": "The provided headlines do not show any recent negative catalysts or major events explaining the sudden price drop. Most news from the period covers positive network metrics and general price predictions.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.09,
-   "after_7d": null
-  },
   {
    "t": 1787594394121,
    "when": "2026-08-24 17:59 UTC",
@@ -431,6 +401,36 @@
    "detail": "Chainlink revealed a weekly expansion featuring nine new integrations spanning multiple networks and services. The announcement highlights ongoing adoption and growth within the Chainlink oracle ecosystem.",
    "source": "Crypto Briefing",
    "confidence": "medium",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788124648018,
+   "when": "2026-08-30 21:17 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.39,
+   "move_pct": -2.11,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788124786603,
+   "when": "2026-08-30 21:19 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.199888,
+   "move_pct": -2.19,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
    "after_24h": null,
    "after_7d": null
   }
