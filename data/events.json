@@ -3,21 +3,6 @@
   {
    "t": 1756166400000,
    "when": "2025-08-26",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 840.28681,
-   "move_pct": -4.08,
-   "category": "sharp_drop",
-   "headline": "moved -4.1% in one day, about 3.0 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 2.84,
-   "after_7d": 0.67
-  },
-  {
-   "t": 1756166400000,
-   "when": "2025-08-26",
    "coin": "chainlink",
    "name": "Chainlink",
    "price": 23.398236,
@@ -6613,7 +6598,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -5.23,
-   "after_7d": null
+   "after_7d": -6.89
   },
   {
    "t": 1787350358304,
@@ -6628,7 +6613,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -1.05,
-   "after_7d": null
+   "after_7d": -11.44
   },
   {
    "t": 1787353454060,
@@ -6643,7 +6628,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -2.03,
-   "after_7d": null
+   "after_7d": -9.23
   },
   {
    "t": 1787353577803,
@@ -6688,7 +6673,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -4.31,
-   "after_7d": null
+   "after_7d": -10.79
   },
   {
    "t": 1787368790035,
@@ -7499,14 +7484,25 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1788111459639,
+   "when": "2026-08-30 17:37 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.65,
+   "move_pct": 1.66,
+   "category": "adoption_or_partnership",
+   "headline": "Chainlink announced nine new integrations across five different blockchain services and chains.",
+   "detail": "Chainlink revealed a weekly expansion featuring nine new integrations spanning multiple networks and services. The announcement highlights ongoing adoption and growth within the Chainlink oracle ecosystem.",
+   "source": "Crypto Briefing",
+   "confidence": "medium",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787569420047,
-    "p": 77517
-   },
    {
     "t": 1787580348731,
     "p": 78730
@@ -7694,13 +7690,13 @@
    {
     "t": 1788095388125,
     "p": 78720
+   },
+   {
+    "t": 1788111347040,
+    "p": 78943
    }
   ],
   "ethereum": [
-   {
-    "t": 1787569420047,
-    "p": 2458.28
-   },
    {
     "t": 1787580348731,
     "p": 2495.87
@@ -7888,13 +7884,13 @@
    {
     "t": 1788095388125,
     "p": 2466.87
+   },
+   {
+    "t": 1788111347040,
+    "p": 2499.75
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787569420047,
-    "p": 698.17
-   },
    {
     "t": 1787580348731,
     "p": 700.28
@@ -8082,13 +8078,13 @@
    {
     "t": 1788095388125,
     "p": 695.99
+   },
+   {
+    "t": 1788111347040,
+    "p": 699.4
    }
   ],
   "ripple": [
-   {
-    "t": 1787569420047,
-    "p": 1.48
-   },
    {
     "t": 1787580348731,
     "p": 1.49
@@ -8276,13 +8272,13 @@
    {
     "t": 1788095388125,
     "p": 1.4
+   },
+   {
+    "t": 1788111347040,
+    "p": 1.42
    }
   ],
   "solana": [
-   {
-    "t": 1787569420047,
-    "p": 94.41
-   },
    {
     "t": 1787580348731,
     "p": 95.06
@@ -8470,13 +8466,13 @@
    {
     "t": 1788095388125,
     "p": 106.05
+   },
+   {
+    "t": 1788111347040,
+    "p": 105.85
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787569420047,
-    "p": 0.090571
-   },
    {
     "t": 1787580348731,
     "p": 0.090938
@@ -8664,13 +8660,13 @@
    {
     "t": 1788095388125,
     "p": 0.085346
+   },
+   {
+    "t": 1788111347040,
+    "p": 0.085705
    }
   ],
   "chainlink": [
-   {
-    "t": 1787569420047,
-    "p": 11.51
-   },
    {
     "t": 1787580348731,
     "p": 11.63
@@ -8858,13 +8854,13 @@
    {
     "t": 1788095388125,
     "p": 11.46
+   },
+   {
+    "t": 1788111347040,
+    "p": 11.65
    }
   ],
   "cardano": [
-   {
-    "t": 1787569420047,
-    "p": 0.217783
-   },
    {
     "t": 1787580348731,
     "p": 0.221732
@@ -9052,6 +9048,10 @@
    {
     "t": 1788095388125,
     "p": 0.203104
+   },
+   {
+    "t": 1788111347040,
+    "p": 0.204354
    }
   ]
  }

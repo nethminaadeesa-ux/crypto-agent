@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T13:09:56.854914Z",
+ "updated": "2026-08-30T17:37:42.647291Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -32,19 +32,19 @@
     23.48
    ],
    "fell_next_day": 55,
-   "week_median": 9.39,
+   "week_median": 8.71,
    "recovered_in_week": 73
   },
   "sharp_drop": {
-   "cases": 175,
-   "next_day_median": -0.24,
+   "cases": 174,
+   "next_day_median": -0.29,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 93,
-   "week_median": -0.35,
-   "recovered_in_week": 81
+   "week_median": -0.42,
+   "recovered_in_week": 80
   },
   "sharp_rise": {
    "cases": 168,
@@ -59,21 +59,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1787580637508,
-   "when": "2026-08-24 14:10 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2495.87,
-   "move_pct": 1.53,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.46,
-   "after_7d": null
-  },
   {
    "t": 1787587724196,
    "when": "2026-08-24 16:08 UTC",
@@ -431,6 +416,21 @@
    "detail": "Headlines from the past 12 hours cover general technical support around $0.21 and earlier statements regarding Ethereum collaboration. There is no clear breaking news event in the last few hours directly driving this price movement.",
    "source": "none found",
    "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788111459639,
+   "when": "2026-08-30 17:37 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.65,
+   "move_pct": 1.66,
+   "category": "adoption_or_partnership",
+   "headline": "Chainlink announced nine new integrations across five different blockchain services and chains.",
+   "detail": "Chainlink revealed a weekly expansion featuring nine new integrations spanning multiple networks and services. The announcement highlights ongoing adoption and growth within the Chainlink oracle ecosystem.",
+   "source": "Crypto Briefing",
+   "confidence": "medium",
    "after_24h": null,
    "after_7d": null
   }
