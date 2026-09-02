@@ -7167,7 +7167,7 @@
    "detail": "Coinbase partnered with Chainlink to enable tokenized stock trading and DeFi lending collateral on the Base network. This adoption expands Chainlink's oracle usage into traditional equity tokenization.",
    "source": "Cryptonews.net",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 2.87,
    "after_7d": null
   },
   {
@@ -7212,7 +7212,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.23,
    "after_7d": null
   },
   {
@@ -7227,7 +7227,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.63,
    "after_7d": null
   },
   {
@@ -7272,7 +7272,7 @@
    "detail": "The provided headlines focus on positive news like record network activity, strong ETF inflows, and adoption by Charles Schwab. None of the news stories explain the short-term negative price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.9,
    "after_7d": null
   },
   {
@@ -7504,10 +7504,6 @@
  "trail": {
   "bitcoin": [
    {
-    "t": 1787687346680,
-    "p": 78760
-   },
-   {
     "t": 1787691017559,
     "p": 78258
    },
@@ -7694,13 +7690,13 @@
    {
     "t": 1788359638520,
     "p": 77095
+   },
+   {
+    "t": 1788374844231,
+    "p": 77293
    }
   ],
   "ethereum": [
-   {
-    "t": 1787687346680,
-    "p": 2457.27
-   },
    {
     "t": 1787691017559,
     "p": 2438.12
@@ -7888,13 +7884,13 @@
    {
     "t": 1788359638520,
     "p": 2395.01
+   },
+   {
+    "t": 1788374844231,
+    "p": 2391.53
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787687346680,
-    "p": 696.8
-   },
    {
     "t": 1787691017559,
     "p": 693.57
@@ -8082,13 +8078,13 @@
    {
     "t": 1788359638520,
     "p": 686.19
+   },
+   {
+    "t": 1788374844231,
+    "p": 686.07
    }
   ],
   "ripple": [
-   {
-    "t": 1787687346680,
-    "p": 1.47
-   },
    {
     "t": 1787691017559,
     "p": 1.45
@@ -8276,13 +8272,13 @@
    {
     "t": 1788359638520,
     "p": 1.34
+   },
+   {
+    "t": 1788374844231,
+    "p": 1.34
    }
   ],
   "solana": [
-   {
-    "t": 1787687346680,
-    "p": 97.68
-   },
    {
     "t": 1787691017559,
     "p": 96.82
@@ -8470,13 +8466,13 @@
    {
     "t": 1788359638520,
     "p": 99.02
+   },
+   {
+    "t": 1788374844231,
+    "p": 99.28
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787687346680,
-    "p": 0.088003
-   },
    {
     "t": 1787691017559,
     "p": 0.086224
@@ -8664,13 +8660,13 @@
    {
     "t": 1788359638520,
     "p": 0.081503
+   },
+   {
+    "t": 1788374844231,
+    "p": 0.081352
    }
   ],
   "chainlink": [
-   {
-    "t": 1787687346680,
-    "p": 11.45
-   },
    {
     "t": 1787691017559,
     "p": 11.3
@@ -8858,13 +8854,13 @@
    {
     "t": 1788359638520,
     "p": 11.09
+   },
+   {
+    "t": 1788374844231,
+    "p": 11.12
    }
   ],
   "cardano": [
-   {
-    "t": 1787687346680,
-    "p": 0.213517
-   },
    {
     "t": 1787691017559,
     "p": 0.210685
@@ -9052,6 +9048,10 @@
    {
     "t": 1788359638520,
     "p": 0.195688
+   },
+   {
+    "t": 1788374844231,
+    "p": 0.196827
    }
   ]
  }
