@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T18:48:37.963169Z",
+ "updated": "2026-09-02T21:54:01.506607Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 152,
+   "cases": 156,
    "next_day_median": 1.18,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 58,
+   "fell_next_day": 59,
    "week_median": 2.32,
    "recovered_in_week": 84
   },
@@ -176,7 +176,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.66,
    "after_7d": null
   },
   {
@@ -191,7 +191,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.42,
    "after_7d": null
   },
   {
@@ -221,7 +221,7 @@
    "detail": "The available headlines primarily consist of general market commentary and promotional presale content. There is no specific news event or catalyst reported to explain the recent price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.89,
    "after_7d": null
   },
   {
@@ -266,7 +266,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.41,
    "after_7d": null
   },
   {
