@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T04:55:56.363658Z",
+ "updated": "2026-09-02T09:59:05.195316Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -14,19 +14,19 @@
    "recovered_in_week": 2
   },
   "adoption_or_partnership": {
-   "cases": 3,
-   "next_day_median": 0.43,
+   "cases": 4,
+   "next_day_median": 0.05,
    "next_day_range": [
-    -0.33,
+    -2.26,
     5.57
    ],
-   "fell_next_day": 1,
+   "fell_next_day": 2,
    "week_median": 0.99,
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 145,
-   "next_day_median": 1.18,
+   "cases": 148,
+   "next_day_median": 1.19,
    "next_day_range": [
     -15.26,
     23.48
@@ -36,89 +36,29 @@
    "recovered_in_week": 83
   },
   "sharp_drop": {
-   "cases": 170,
-   "next_day_median": -0.37,
+   "cases": 167,
+   "next_day_median": -0.34,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 92,
-   "week_median": -0.42,
-   "recovered_in_week": 79
+   "fell_next_day": 89,
+   "week_median": -0.35,
+   "recovered_in_week": 78
   },
   "sharp_rise": {
-   "cases": 156,
-   "next_day_median": -0.42,
+   "cases": 155,
+   "next_day_median": -0.44,
    "next_day_range": [
     -7.68,
     12.08
    ],
    "fell_next_day": 91,
-   "week_median": -2.4,
+   "week_median": -2.39,
    "recovered_in_week": 55
   }
  },
  "recent": [
-  {
-   "t": 1787741709397,
-   "when": "2026-08-26 10:55 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 706.02,
-   "move_pct": 1.57,
-   "category": "no_clear_cause",
-   "headline": "No clear news catalyst found for BNB's recent price rise",
-   "detail": "BNB experienced a brief 1.57% increase over the last hour without a clear driving news event. Available headlines cover earlier general ecosystem updates that do not directly account for the recent short-term price movement.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.12,
-   "after_7d": null
-  },
-  {
-   "t": 1787741849593,
-   "when": "2026-08-26 10:57 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 97.72,
-   "move_pct": 1.65,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 6.49,
-   "after_7d": null
-  },
-  {
-   "t": 1787741995930,
-   "when": "2026-08-26 10:59 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 11.45,
-   "move_pct": 1.6,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 2.47,
-   "after_7d": null
-  },
-  {
-   "t": 1787788091153,
-   "when": "2026-08-26 23:48 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.42,
-   "move_pct": 2.9,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": null,
-   "after_7d": null
-  },
   {
    "t": 1787788229221,
    "when": "2026-08-26 23:50 UTC",
@@ -131,7 +71,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 8.26,
    "after_7d": null
   },
   {
@@ -176,7 +116,7 @@
    "detail": "Headlines from the past 12 hours cover general technical support around $0.21 and earlier statements regarding Ethereum collaboration. There is no clear breaking news event in the last few hours directly driving this price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.7,
    "after_7d": null
   },
   {
@@ -191,7 +131,7 @@
    "detail": "Chainlink revealed a weekly expansion featuring nine new integrations spanning multiple networks and services. The announcement highlights ongoing adoption and growth within the Chainlink oracle ecosystem.",
    "source": "Crypto Briefing",
    "confidence": "medium",
-   "after_24h": null,
+   "after_24h": -2.26,
    "after_7d": null
   },
   {
@@ -429,6 +369,66 @@
    "category": "no_clear_cause",
    "headline": "No clear cause found for Cardano's recent price drop",
    "detail": "The provided headlines do not contain any specific negative news or events explaining Cardano's recent price decline. In fact, recent headlines highlighted positive adoption news regarding supply chain records.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788342823544,
+   "when": "2026-09-02 09:53 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2370.8,
+   "move_pct": -1.79,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788342971302,
+   "when": "2026-09-02 09:56 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.32,
+   "move_pct": -2.22,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788343112603,
+   "when": "2026-09-02 09:58 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 98.45,
+   "move_pct": -1.57,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788343142187,
+   "when": "2026-09-02 09:59 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.03,
+   "move_pct": -1.87,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for the recent price drop",
+   "detail": "The available headlines highlight positive news regarding the US Commerce Department using Chainlink oracles to broadcast GDP data. However, none of the provided headlines explain the recent price decline.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
