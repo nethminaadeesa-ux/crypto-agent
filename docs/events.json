@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T21:52:00.161181Z",
+ "updated": "2026-09-02T00:20:45.386502Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,14 +25,14 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 141,
+   "cases": 142,
    "next_day_median": 1.18,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 55,
-   "week_median": 3.15,
+   "week_median": 2.84,
    "recovered_in_week": 83
   },
   "sharp_drop": {
@@ -71,7 +71,7 @@
    "detail": "BNB experienced a brief 1.57% increase over the last hour without a clear driving news event. Available headlines cover earlier general ecosystem updates that do not directly account for the recent short-term price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.12,
    "after_7d": null
   },
   {
