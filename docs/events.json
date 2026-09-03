@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T00:22:15.763667Z",
+ "updated": "2026-09-03T04:51:14.022446Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -21,18 +21,18 @@
     5.57
    ],
    "fell_next_day": 2,
-   "week_median": 0.99,
+   "week_median": -0.41,
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 157,
+   "cases": 159,
    "next_day_median": 1.18,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 59,
-   "week_median": 2.0,
+   "week_median": 1.89,
    "recovered_in_week": 84
   },
   "sharp_drop": {
@@ -102,7 +102,7 @@
    "source": "Cryptonews.net",
    "confidence": "high",
    "after_24h": 2.87,
-   "after_7d": null
+   "after_7d": -4.14
   },
   {
    "t": 1787788396202,
@@ -117,7 +117,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.7,
-   "after_7d": null
+   "after_7d": -5.33
   },
   {
    "t": 1788111459639,
@@ -251,7 +251,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.98,
    "after_7d": null
   },
   {
@@ -281,7 +281,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.58,
    "after_7d": null
   },
   {
