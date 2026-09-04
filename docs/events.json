@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T14:44:32.124753Z",
+ "updated": "2026-09-04T18:30:07.990865Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -13,6 +13,17 @@
    "week_median": 14.13,
    "recovered_in_week": 2
   },
+  "interest_rates_macro": {
+   "cases": 2,
+   "next_day_median": 5.26,
+   "next_day_range": [
+    -1.1,
+    11.62
+   ],
+   "fell_next_day": 1,
+   "week_median": 17.45,
+   "recovered_in_week": 1
+  },
   "adoption_or_partnership": {
    "cases": 5,
    "next_day_median": 0.43,
@@ -25,13 +36,13 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 169,
-   "next_day_median": 1.06,
+   "cases": 172,
+   "next_day_median": 0.96,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 62,
+   "fell_next_day": 65,
    "week_median": 1.89,
    "recovered_in_week": 84
   },
@@ -146,7 +157,7 @@
    "detail": "Bitcoin posted significant gains driven by favorable macroeconomic shifts, including falling interest rates and a weakening US dollar. Broader currency market dynamics, such as a surging Japanese yen, further supported the price rally.",
    "source": "CoinDesk",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -1.1,
    "after_7d": null
   },
   {
@@ -161,7 +172,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.72,
    "after_7d": null
   },
   {
@@ -176,7 +187,7 @@
    "detail": "The recent headlines provided do not contain a clear catalyst or market event explaining BNB's price increase over the last few hours. Most articles are promotional content or general news updates without direct market impact.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.04,
    "after_7d": null
   },
   {
@@ -221,7 +232,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.89,
    "after_7d": null
   },
   {

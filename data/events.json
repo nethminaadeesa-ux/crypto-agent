@@ -7212,7 +7212,7 @@
    "detail": "Bitcoin posted significant gains driven by favorable macroeconomic shifts, including falling interest rates and a weakening US dollar. Broader currency market dynamics, such as a surging Japanese yen, further supported the price rally.",
    "source": "CoinDesk",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -1.1,
    "after_7d": null
   },
   {
@@ -7227,7 +7227,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.72,
    "after_7d": null
   },
   {
@@ -7242,7 +7242,7 @@
    "detail": "The recent headlines provided do not contain a clear catalyst or market event explaining BNB's price increase over the last few hours. Most articles are promotional content or general news updates without direct market impact.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.04,
    "after_7d": null
   },
   {
@@ -7287,7 +7287,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.89,
    "after_7d": null
   },
   {
@@ -7504,10 +7504,6 @@
  "trail": {
   "bitcoin": [
    {
-    "t": 1787738470163,
-    "p": 78423
-   },
-   {
     "t": 1787741671547,
     "p": 78782
    },
@@ -7694,13 +7690,13 @@
    {
     "t": 1788531878100,
     "p": 79216
+   },
+   {
+    "t": 1788546534150,
+    "p": 79567
    }
   ],
   "ethereum": [
-   {
-    "t": 1787738470163,
-    "p": 2447.22
-   },
    {
     "t": 1787741671547,
     "p": 2469.78
@@ -7888,13 +7884,13 @@
    {
     "t": 1788531878100,
     "p": 2452.62
+   },
+   {
+    "t": 1788546534150,
+    "p": 2448.57
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787738470163,
-    "p": 695.1
-   },
    {
     "t": 1787741671547,
     "p": 706.02
@@ -8082,13 +8078,13 @@
    {
     "t": 1788531878100,
     "p": 713.83
+   },
+   {
+    "t": 1788546534150,
+    "p": 718.02
    }
   ],
   "ripple": [
-   {
-    "t": 1787738470163,
-    "p": 1.41
-   },
    {
     "t": 1787741671547,
     "p": 1.43
@@ -8276,13 +8272,13 @@
    {
     "t": 1788531878100,
     "p": 1.4
+   },
+   {
+    "t": 1788546534150,
+    "p": 1.4
    }
   ],
   "solana": [
-   {
-    "t": 1787738470163,
-    "p": 96.13
-   },
    {
     "t": 1787741671547,
     "p": 97.72
@@ -8470,13 +8466,13 @@
    {
     "t": 1788531878100,
     "p": 101.17
+   },
+   {
+    "t": 1788546534150,
+    "p": 101.4
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787738470163,
-    "p": 0.085942
-   },
    {
     "t": 1787741671547,
     "p": 0.086941
@@ -8664,13 +8660,13 @@
    {
     "t": 1788531878100,
     "p": 0.08486
+   },
+   {
+    "t": 1788546534150,
+    "p": 0.08439
    }
   ],
   "chainlink": [
-   {
-    "t": 1787738470163,
-    "p": 11.27
-   },
    {
     "t": 1787741671547,
     "p": 11.45
@@ -8858,13 +8854,13 @@
    {
     "t": 1788531878100,
     "p": 11.6
+   },
+   {
+    "t": 1788546534150,
+    "p": 11.63
    }
   ],
   "cardano": [
-   {
-    "t": 1787738470163,
-    "p": 0.208888
-   },
    {
     "t": 1787741671547,
     "p": 0.21195
@@ -9052,6 +9048,10 @@
    {
     "t": 1788531878100,
     "p": 0.213303
+   },
+   {
+    "t": 1788546534150,
+    "p": 0.211822
    }
   ]
  }
