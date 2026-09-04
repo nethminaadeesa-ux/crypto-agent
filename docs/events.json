@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T18:30:07.990865Z",
+ "updated": "2026-09-04T21:34:38.145929Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 172,
-   "next_day_median": 0.96,
+   "cases": 176,
+   "next_day_median": 0.9,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 65,
+   "fell_next_day": 69,
    "week_median": 1.89,
    "recovered_in_week": 84
   },
@@ -202,7 +202,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.14,
    "after_7d": null
   },
   {
@@ -217,7 +217,7 @@
    "detail": "No relevant news or headlines were provided for the specified timeframe. The exact reason for Solana's recent price movement remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.89,
    "after_7d": null
   },
   {
@@ -247,7 +247,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.92,
    "after_7d": null
   },
   {
@@ -292,7 +292,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -4.16,
    "after_7d": null
   },
   {
