@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T12:48:24.869165Z",
+ "updated": "2026-09-05T16:11:25.724879Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -14,8 +14,8 @@
    "recovered_in_week": 2
   },
   "interest_rates_macro": {
-   "cases": 2,
-   "next_day_median": 5.26,
+   "cases": 3,
+   "next_day_median": 0.51,
    "next_day_range": [
     -1.1,
     11.62
@@ -36,8 +36,8 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 181,
-   "next_day_median": 0.7,
+   "cases": 184,
+   "next_day_median": 0.71,
    "next_day_range": [
     -15.26,
     23.48
@@ -58,33 +58,18 @@
    "recovered_in_week": 70
   },
   "sharp_rise": {
-   "cases": 143,
-   "next_day_median": -0.44,
+   "cases": 142,
+   "next_day_median": -0.45,
    "next_day_range": [
     -7.68,
     12.08
    ],
    "fell_next_day": 85,
-   "week_median": -2.42,
-   "recovered_in_week": 47
+   "week_median": -2.54,
+   "recovered_in_week": 46
   }
  },
  "recent": [
-  {
-   "t": 1788342971302,
-   "when": "2026-09-02 09:56 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.32,
-   "move_pct": -2.22,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.11,
-   "after_7d": null
-  },
   {
    "t": 1788343112603,
    "when": "2026-09-02 09:58 UTC",
@@ -322,7 +307,7 @@
    "detail": "US payrolls significantly exceeded forecasts, raising concerns that the Federal Reserve will keep interest rates higher for longer. This hotter-than-expected jobs report triggered a market sell-off, pulling Bitcoin below the $80,000 mark.",
    "source": "Bloomberg.com",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 0.51,
    "after_7d": null
   },
   {
@@ -337,7 +322,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.05,
    "after_7d": null
   },
   {
@@ -352,7 +337,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.05,
    "after_7d": null
   },
   {
@@ -397,7 +382,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.45,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "Dogecoin",
    "price": 0.08597,
    "move_pct": 1.6,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788624682716,
+   "when": "2026-09-05 16:11 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 769.27,
+   "move_pct": 1.52,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",

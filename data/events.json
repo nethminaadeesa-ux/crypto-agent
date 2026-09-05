@@ -3,21 +3,6 @@
   {
    "t": 1759795200000,
    "when": "2025-10-07",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 1224.57421,
-   "move_pct": 5.07,
-   "category": "sharp_rise",
-   "headline": "moved +5.1% in one day, about 3.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 7.12,
-   "after_7d": 5.59
-  },
-  {
-   "t": 1759795200000,
-   "when": "2025-10-07",
    "coin": "chainlink",
    "name": "Chainlink",
    "price": 23.457257,
@@ -7377,7 +7362,7 @@
    "detail": "US payrolls significantly exceeded forecasts, raising concerns that the Federal Reserve will keep interest rates higher for longer. This hotter-than-expected jobs report triggered a market sell-off, pulling Bitcoin below the $80,000 mark.",
    "source": "Bloomberg.com",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 0.51,
    "after_7d": null
   },
   {
@@ -7392,7 +7377,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.05,
    "after_7d": null
   },
   {
@@ -7407,7 +7392,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.05,
    "after_7d": null
   },
   {
@@ -7452,7 +7437,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.45,
    "after_7d": null
   },
   {
@@ -7499,14 +7484,25 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1788624682716,
+   "when": "2026-09-05 16:11 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 769.27,
+   "move_pct": 1.52,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1787775139708,
-    "p": 78476
-   },
    {
     "t": 1787787880242,
     "p": 79020
@@ -7694,13 +7690,13 @@
    {
     "t": 1788612504861,
     "p": 79755
+   },
+   {
+    "t": 1788624451011,
+    "p": 79838
    }
   ],
   "ethereum": [
-   {
-    "t": 1787775139708,
-    "p": 2472.39
-   },
    {
     "t": 1787787880242,
     "p": 2506.14
@@ -7888,13 +7884,13 @@
    {
     "t": 1788612504861,
     "p": 2461.03
+   },
+   {
+    "t": 1788624451011,
+    "p": 2460.41
    }
   ],
   "binancecoin": [
-   {
-    "t": 1787775139708,
-    "p": 700.02
-   },
    {
     "t": 1787787880242,
     "p": 707.18
@@ -8082,13 +8078,13 @@
    {
     "t": 1788612504861,
     "p": 757.76
+   },
+   {
+    "t": 1788624451011,
+    "p": 769.27
    }
   ],
   "ripple": [
-   {
-    "t": 1787775139708,
-    "p": 1.38
-   },
    {
     "t": 1787787880242,
     "p": 1.42
@@ -8276,13 +8272,13 @@
    {
     "t": 1788612504861,
     "p": 1.42
+   },
+   {
+    "t": 1788624451011,
+    "p": 1.41
    }
   ],
   "solana": [
-   {
-    "t": 1787775139708,
-    "p": 96.9
-   },
    {
     "t": 1787787880242,
     "p": 100.85
@@ -8470,13 +8466,13 @@
    {
     "t": 1788612504861,
     "p": 102.92
+   },
+   {
+    "t": 1788624451011,
+    "p": 103.01
    }
   ],
   "dogecoin": [
-   {
-    "t": 1787775139708,
-    "p": 0.085035
-   },
    {
     "t": 1787787880242,
     "p": 0.08742
@@ -8664,13 +8660,13 @@
    {
     "t": 1788612504861,
     "p": 0.08732
+   },
+   {
+    "t": 1788624451011,
+    "p": 0.08764
    }
   ],
   "chainlink": [
-   {
-    "t": 1787775139708,
-    "p": 11.28
-   },
    {
     "t": 1787787880242,
     "p": 11.59
@@ -8858,13 +8854,13 @@
    {
     "t": 1788612504861,
     "p": 11.82
+   },
+   {
+    "t": 1788624451011,
+    "p": 11.94
    }
   ],
   "cardano": [
-   {
-    "t": 1787775139708,
-    "p": 0.206349
-   },
    {
     "t": 1787787880242,
     "p": 0.212302
@@ -9052,6 +9048,10 @@
    {
     "t": 1788612504861,
     "p": 0.216463
+   },
+   {
+    "t": 1788624451011,
+    "p": 0.218292
    }
   ]
  }
