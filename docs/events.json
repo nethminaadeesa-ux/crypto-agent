@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T21:34:38.145929Z",
+ "updated": "2026-09-05T00:12:07.664354Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 176,
-   "next_day_median": 0.9,
+   "cases": 179,
+   "next_day_median": 0.72,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 69,
+   "fell_next_day": 72,
    "week_median": 1.89,
    "recovered_in_week": 84
   },
@@ -262,7 +262,7 @@
    "detail": "No relevant headlines were reported in the last 12 hours to explain the recent price rise. The movement may be due to broader market fluctuations or private trading activity.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.31,
    "after_7d": null
   },
   {
@@ -277,7 +277,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.93,
    "after_7d": null
   },
   {
@@ -307,7 +307,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.02,
    "after_7d": null
   },
   {
