@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T16:11:25.724879Z",
+ "updated": "2026-09-05T18:26:14.830636Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 184,
-   "next_day_median": 0.71,
+   "cases": 187,
+   "next_day_median": 0.89,
    "next_day_range": [
     -15.26,
     23.48
@@ -58,33 +58,18 @@
    "recovered_in_week": 70
   },
   "sharp_rise": {
-   "cases": 142,
-   "next_day_median": -0.45,
+   "cases": 141,
+   "next_day_median": -0.44,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 85,
-   "week_median": -2.54,
+   "fell_next_day": 84,
+   "week_median": -2.42,
    "recovered_in_week": 46
   }
  },
  "recent": [
-  {
-   "t": 1788343112603,
-   "when": "2026-09-02 09:58 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 98.45,
-   "move_pct": -1.57,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.71,
-   "after_7d": null
-  },
   {
    "t": 1788343142187,
    "when": "2026-09-02 09:59 UTC",
@@ -352,7 +337,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.69,
    "after_7d": null
   },
   {
@@ -367,7 +352,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.42,
    "after_7d": null
   },
   {
@@ -397,7 +382,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.07,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "BNB",
    "price": 769.27,
    "move_pct": 1.52,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788632771823,
+   "when": "2026-09-05 18:26 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.092579,
+   "move_pct": 5.64,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
