@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T04:50:23.893824Z",
+ "updated": "2026-09-05T09:14:54.561167Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,59 +47,29 @@
    "recovered_in_week": 84
   },
   "sharp_drop": {
-   "cases": 158,
+   "cases": 157,
    "next_day_median": -0.44,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 88,
-   "week_median": -0.99,
+   "week_median": -1.0,
    "recovered_in_week": 70
   },
   "sharp_rise": {
-   "cases": 144,
-   "next_day_median": -0.45,
+   "cases": 143,
+   "next_day_median": -0.44,
    "next_day_range": [
     -7.68,
     12.08
    ],
-   "fell_next_day": 86,
-   "week_median": -2.54,
+   "fell_next_day": 85,
+   "week_median": -2.42,
    "recovered_in_week": 47
   }
  },
  "recent": [
-  {
-   "t": 1788288815667,
-   "when": "2026-09-01 18:53 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.195037,
-   "move_pct": -2.33,
-   "category": "no_clear_cause",
-   "headline": "No clear cause found for Cardano's recent price drop",
-   "detail": "The provided headlines do not contain any specific negative news or events explaining Cardano's recent price decline. In fact, recent headlines highlighted positive adoption news regarding supply chain records.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.98,
-   "after_7d": null
-  },
-  {
-   "t": 1788342823544,
-   "when": "2026-09-02 09:53 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2370.8,
-   "move_pct": -1.79,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.93,
-   "after_7d": null
-  },
   {
    "t": 1788342971302,
    "when": "2026-09-02 09:56 UTC",
@@ -437,6 +407,36 @@
    "name": "Cardano",
    "price": 0.213303,
    "move_pct": -4.54,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788599524043,
+   "when": "2026-09-05 09:12 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 748.18,
+   "move_pct": 3.68,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788599691553,
+   "when": "2026-09-05 09:14 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.08597,
+   "move_pct": 1.6,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
