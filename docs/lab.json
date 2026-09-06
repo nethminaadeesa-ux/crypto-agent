@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-06T17:08:23Z",
- "tests_resolved": 4900,
+ "updated": "2026-09-06T19:17:19Z",
+ "tests_resolved": 4901,
  "awaiting_marking": 1,
  "note": "Right by chance is about 33%.",
  "verdict": "momentum_1h edges past doing nothing on 1 of 37 coins. Below the 7 needed to rule out luck across this many coins. Not a finding - crypto moves together, so a handful of winners is what a coincidence looks like.",
@@ -1854,55 +1854,55 @@
    "beats_doing_nothing": false
   },
   "ondo-finance": {
-   "doing_nothing_scores": 38.3,
+   "doing_nothing_scores": 38.8,
    "theories": {
     "momentum_1h": {
-     "tested": 133,
-     "right": 43.6,
-     "edge_over_doing_nothing": 5.3,
-     "margin_of_luck": 19.5,
+     "tested": 134,
+     "right": 43.3,
+     "edge_over_doing_nothing": 4.5,
+     "margin_of_luck": 19.4,
      "real": false
     },
     "reversion_1h": {
-     "tested": 133,
-     "right": 36.1,
-     "edge_over_doing_nothing": -2.3,
-     "margin_of_luck": 18.9,
+     "tested": 134,
+     "right": 35.8,
+     "edge_over_doing_nothing": -3.0,
+     "margin_of_luck": 18.8,
      "real": false
     },
     "momentum_24h": {
-     "tested": 133,
-     "right": 36.8,
-     "edge_over_doing_nothing": -1.5,
-     "margin_of_luck": 19.0,
+     "tested": 134,
+     "right": 36.6,
+     "edge_over_doing_nothing": -2.2,
+     "margin_of_luck": 18.9,
      "real": false
     },
     "breakout_fade": {
-     "tested": 133,
-     "right": 42.1,
-     "edge_over_doing_nothing": 3.8,
-     "margin_of_luck": 19.5,
+     "tested": 134,
+     "right": 42.5,
+     "edge_over_doing_nothing": 3.7,
+     "margin_of_luck": 19.4,
      "real": false
     },
     "volume_push": {
-     "tested": 133,
-     "right": 47.4,
+     "tested": 134,
+     "right": 47.8,
      "edge_over_doing_nothing": 9.0,
-     "margin_of_luck": 19.7,
+     "margin_of_luck": 19.6,
      "real": false
     },
     "always_flat": {
-     "tested": 133,
-     "right": 38.3,
+     "tested": 134,
+     "right": 38.8,
      "edge_over_doing_nothing": 0.0,
-     "margin_of_luck": 19.2,
+     "margin_of_luck": 19.1,
      "real": false
     },
     "ensemble": {
-     "tested": 133,
-     "right": 45.1,
-     "edge_over_doing_nothing": 6.8,
-     "margin_of_luck": 19.6,
+     "tested": 134,
+     "right": 45.5,
+     "edge_over_doing_nothing": 6.7,
+     "margin_of_luck": 19.5,
      "real": false
     }
    },
