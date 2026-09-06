@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T14:14:41.055192+00:00",
+ "updated": "2026-09-06T17:08:26.529141+00:00",
  "started": "2026-07-29",
  "days_running": 40,
  "notes_written": 42,
@@ -7,7 +7,7 @@
  "forecasts_scored": 236,
  "forecasts_hit": 145,
  "lab_tests_scored": 4900,
- "lab_awaiting": 34,
+ "lab_awaiting": 1,
  "lab_coins": 49,
  "lab_readings_held": 3199
 }
