@@ -3,21 +3,6 @@
   {
    "t": 1759881600000,
    "when": "2025-10-08",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 1311.712915,
-   "move_pct": 7.12,
-   "category": "sharp_rise",
-   "headline": "moved +7.1% in one day, about 5.3 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -0.4,
-   "after_7d": -7.58
-  },
-  {
-   "t": 1759881600000,
-   "when": "2025-10-08",
    "coin": "chainlink",
    "name": "Chainlink",
    "price": 21.833986,
@@ -6808,7 +6793,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.23,
-   "after_7d": null
+   "after_7d": 2.49
   },
   {
    "t": 1788124786603,
@@ -6823,7 +6808,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.63,
-   "after_7d": null
+   "after_7d": 10.93
   },
   {
    "t": 1788133149310,
@@ -7499,14 +7484,25 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1788729995360,
+   "when": "2026-09-06 21:26 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 13.08,
+   "move_pct": 5.83,
+   "category": "adoption_or_partnership",
+   "headline": "Chainlink surges as Wyoming FRNT adopts its Proof of Reserve technology",
+   "detail": "Wyoming FRNT integrated Chainlink Proof of Reserve to provide transparent asset tracking, boosting market sentiment. This adoption news directly coincides with Chainlink's recent price spike within the last two hours.",
+   "source": "Bitget",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1788040103025,
-    "p": 78095
-   },
    {
     "t": 1788049549985,
     "p": 78212
@@ -7694,13 +7690,13 @@
    {
     "t": 1788722239474,
     "p": 79857
+   },
+   {
+    "t": 1788729985798,
+    "p": 79945
    }
   ],
   "ethereum": [
-   {
-    "t": 1788040103025,
-    "p": 2451.13
-   },
    {
     "t": 1788049549985,
     "p": 2461.83
@@ -7888,13 +7884,13 @@
    {
     "t": 1788722239474,
     "p": 2491.39
+   },
+   {
+    "t": 1788729985798,
+    "p": 2510.45
    }
   ],
   "binancecoin": [
-   {
-    "t": 1788040103025,
-    "p": 692.65
-   },
    {
     "t": 1788049549985,
     "p": 692.82
@@ -8082,13 +8078,13 @@
    {
     "t": 1788722239474,
     "p": 750.2
+   },
+   {
+    "t": 1788729985798,
+    "p": 752.95
    }
   ],
   "ripple": [
-   {
-    "t": 1788040103025,
-    "p": 1.4
-   },
    {
     "t": 1788049549985,
     "p": 1.4
@@ -8276,13 +8272,13 @@
    {
     "t": 1788722239474,
     "p": 1.41
+   },
+   {
+    "t": 1788729985798,
+    "p": 1.42
    }
   ],
   "solana": [
-   {
-    "t": 1788040103025,
-    "p": 104.99
-   },
    {
     "t": 1788049549985,
     "p": 105.41
@@ -8470,13 +8466,13 @@
    {
     "t": 1788722239474,
     "p": 105.79
+   },
+   {
+    "t": 1788729985798,
+    "p": 106.09
    }
   ],
   "dogecoin": [
-   {
-    "t": 1788040103025,
-    "p": 0.085146
-   },
    {
     "t": 1788049549985,
     "p": 0.085282
@@ -8664,13 +8660,13 @@
    {
     "t": 1788722239474,
     "p": 0.089434
+   },
+   {
+    "t": 1788729985798,
+    "p": 0.090388
    }
   ],
   "chainlink": [
-   {
-    "t": 1788040103025,
-    "p": 11.47
-   },
    {
     "t": 1788049549985,
     "p": 11.43
@@ -8858,13 +8854,13 @@
    {
     "t": 1788722239474,
     "p": 12.36
+   },
+   {
+    "t": 1788729985798,
+    "p": 13.08
    }
   ],
   "cardano": [
-   {
-    "t": 1788040103025,
-    "p": 0.201354
-   },
    {
     "t": 1788049549985,
     "p": 0.201701
@@ -9052,6 +9048,10 @@
    {
     "t": 1788722239474,
     "p": 0.219312
+   },
+   {
+    "t": 1788729985798,
+    "p": 0.221742
    }
   ]
  }
