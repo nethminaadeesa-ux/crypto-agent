@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T06:15:10.921077Z",
+ "updated": "2026-09-06T11:13:58.318210Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 2
   },
   "no_clear_cause": {
-   "cases": 187,
-   "next_day_median": 0.89,
+   "cases": 189,
+   "next_day_median": 0.9,
    "next_day_range": [
     -15.26,
     23.48
@@ -47,14 +47,14 @@
    "recovered_in_week": 84
   },
   "sharp_drop": {
-   "cases": 155,
-   "next_day_median": -0.51,
+   "cases": 154,
+   "next_day_median": -0.55,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 88,
-   "week_median": -0.57,
+   "week_median": -0.53,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788447190206,
-   "when": "2026-09-03 14:53 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2458.36,
-   "move_pct": 2.79,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.72,
-   "after_7d": null
-  },
   {
    "t": 1788447293877,
    "when": "2026-09-03 14:54 UTC",
@@ -367,7 +352,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.17,
    "after_7d": null
   },
   {
@@ -382,7 +367,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.49,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "Dogecoin",
    "price": 0.091616,
    "move_pct": 1.6,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788693235309,
+   "when": "2026-09-06 11:13 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.090165,
+   "move_pct": -1.58,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
