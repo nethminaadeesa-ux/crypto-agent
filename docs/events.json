@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T20:38:52.646489Z",
+ "updated": "2026-09-07T23:34:52.382778Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,13 +25,13 @@
    "recovered_in_week": 1
   },
   "adoption_or_partnership": {
-   "cases": 5,
-   "next_day_median": 0.43,
+   "cases": 6,
+   "next_day_median": 0.05,
    "next_day_range": [
-    -2.26,
+    -2.3,
     5.57
    ],
-   "fell_next_day": 2,
+   "fell_next_day": 3,
    "week_median": 0.99,
    "recovered_in_week": 3
   },
@@ -427,7 +427,7 @@
    "detail": "Wyoming FRNT integrated Chainlink Proof of Reserve to provide transparent asset tracking, boosting market sentiment. This adoption news directly coincides with Chainlink's recent price spike within the last two hours.",
    "source": "Bitget",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -2.3,
    "after_7d": null
   },
   {
