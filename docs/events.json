@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T09:49:34.039190Z",
+ "updated": "2026-09-08T14:39:30.637998Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -43,18 +43,18 @@
     23.48
    ],
    "fell_next_day": 79,
-   "week_median": 2.51,
-   "recovered_in_week": 92
+   "week_median": 2.5,
+   "recovered_in_week": 93
   },
   "sharp_drop": {
-   "cases": 153,
-   "next_day_median": -0.6,
+   "cases": 152,
+   "next_day_median": -0.55,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 88,
-   "week_median": -0.5,
+   "fell_next_day": 87,
+   "week_median": -0.42,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788447660629,
-   "when": "2026-09-03 15:01 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 102.74,
-   "move_pct": 2.67,
-   "category": "no_clear_cause",
-   "headline": "No headlines found to explain recent Solana price move",
-   "detail": "No relevant news or headlines were provided for the specified timeframe. The exact reason for Solana's recent price movement remains unknown.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.89,
-   "after_7d": null
-  },
   {
    "t": 1788447792797,
    "when": "2026-09-03 15:03 UTC",
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788878367630,
+   "when": "2026-09-08 14:39 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.52,
+   "move_pct": -1.88,
+   "category": "no_clear_cause",
+   "headline": "No specific catalyst identified for the recent Chainlink price decline",
+   "detail": "Chainlink experienced a minor pullback following a recent strong rally that saw prices touch $13.64. The provided headlines highlight general market analysis and softening momentum, but offer no direct cause for the sudden move.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
