@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T18:49:33.539901Z",
+ "updated": "2026-09-08T21:58:27.706692Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -43,18 +43,18 @@
     23.48
    ],
    "fell_next_day": 80,
-   "week_median": 2.5,
-   "recovered_in_week": 95
+   "week_median": 2.84,
+   "recovered_in_week": 98
   },
   "sharp_drop": {
-   "cases": 151,
-   "next_day_median": -0.51,
+   "cases": 150,
+   "next_day_median": -0.47,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 86,
-   "week_median": -0.35,
+   "fell_next_day": 85,
+   "week_median": -0.42,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788447916597,
-   "when": "2026-09-03 15:05 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 11.63,
-   "move_pct": 4.3,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.92,
-   "after_7d": null
-  },
   {
    "t": 1788448068820,
    "when": "2026-09-03 15:07 UTC",
@@ -437,6 +422,21 @@
    "name": "XRP",
    "price": 1.44,
    "move_pct": 2.13,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788904704698,
+   "when": "2026-09-08 21:58 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.218424,
+   "move_pct": -2.3,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
