@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T14:39:30.637998Z",
+ "updated": "2026-09-08T18:49:33.539901Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,25 +36,25 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 194,
-   "next_day_median": 0.71,
+   "cases": 195,
+   "next_day_median": 0.7,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 79,
+   "fell_next_day": 80,
    "week_median": 2.5,
-   "recovered_in_week": 93
+   "recovered_in_week": 95
   },
   "sharp_drop": {
-   "cases": 152,
-   "next_day_median": -0.55,
+   "cases": 151,
+   "next_day_median": -0.51,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 87,
-   "week_median": -0.42,
+   "fell_next_day": 86,
+   "week_median": -0.35,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788447792797,
-   "when": "2026-09-03 15:03 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.085819,
-   "move_pct": 3.76,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.89,
-   "after_7d": null
-  },
   {
    "t": 1788447916597,
    "when": "2026-09-03 15:05 UTC",
@@ -427,7 +412,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.66,
    "after_7d": null
   },
   {
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "No specific catalyst identified for the recent Chainlink price decline",
    "detail": "Chainlink experienced a minor pullback following a recent strong rally that saw prices touch $13.64. The provided headlines highlight general market analysis and softening momentum, but offer no direct cause for the sudden move.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788893370533,
+   "when": "2026-09-08 18:49 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.44,
+   "move_pct": 2.13,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
