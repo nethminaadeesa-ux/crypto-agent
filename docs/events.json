@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T14:40:48.657733Z",
+ "updated": "2026-09-09T18:41:53.083114Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 195,
-   "next_day_median": 0.7,
+   "cases": 196,
+   "next_day_median": 0.66,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 80,
-   "week_median": 3.44,
-   "recovered_in_week": 103
+   "fell_next_day": 81,
+   "week_median": 3.46,
+   "recovered_in_week": 104
   },
   "sharp_drop": {
    "cases": 149,
@@ -397,7 +397,7 @@
    "detail": "Chainlink experienced a minor pullback following a recent strong rally that saw prices touch $13.64. The provided headlines highlight general market analysis and softening momentum, but offer no direct cause for the sudden move.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -3.57,
    "after_7d": null
   },
   {
