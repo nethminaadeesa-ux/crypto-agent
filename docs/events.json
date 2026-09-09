@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T05:02:33.724825Z",
+ "updated": "2026-09-09T09:53:09.516948Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,14 +47,14 @@
    "recovered_in_week": 100
   },
   "sharp_drop": {
-   "cases": 150,
-   "next_day_median": -0.47,
+   "cases": 149,
+   "next_day_median": -0.44,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 85,
-   "week_median": -0.42,
+   "fell_next_day": 84,
+   "week_median": -0.35,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788448068820,
-   "when": "2026-09-03 15:07 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.213949,
-   "move_pct": 3.99,
-   "category": "no_clear_cause",
-   "headline": "No clear news found for Cardano's price movement",
-   "detail": "No relevant headlines were reported in the last 12 hours to explain the recent price rise. The movement may be due to broader market fluctuations or private trading activity.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.31,
-   "after_7d": null
-  },
   {
    "t": 1788461338649,
    "when": "2026-09-03 18:48 UTC",
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788947586508,
+   "when": "2026-09-09 09:53 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.32,
+   "move_pct": -2.07,
+   "category": "no_clear_cause",
+   "headline": "No clear news event identified for the recent price decline",
+   "detail": "Recent headlines for Chainlink highlight positive privacy tech integrations and standard market analysis. No negative news or specific catalyst was reported to explain the minor drop in price.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,

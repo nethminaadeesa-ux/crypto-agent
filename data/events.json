@@ -3,21 +3,6 @@
   {
    "t": 1760140800000,
    "when": "2025-10-11",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 188.792649,
-   "move_pct": -14.56,
-   "category": "sharp_drop",
-   "headline": "moved -14.6% in one day, about 6.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -5.72,
-   "after_7d": -3.52
-  },
-  {
-   "t": 1760140800000,
-   "when": "2025-10-11",
    "coin": "ripple",
    "name": "Ripple",
    "price": 2.370059,
@@ -7499,14 +7484,25 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1788947586508,
+   "when": "2026-09-09 09:53 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.32,
+   "move_pct": -2.07,
+   "category": "no_clear_cause",
+   "headline": "No clear news event identified for the recent price decline",
+   "detail": "Recent headlines for Chainlink highlight positive privacy tech integrations and standard market analysis. No negative news or specific catalyst was reported to explain the minor drop in price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1788287876055,
-    "p": 76887
-   },
    {
     "t": 1788299451475,
     "p": 77127
@@ -7694,13 +7690,13 @@
    {
     "t": 1788930153716,
     "p": 79122
+   },
+   {
+    "t": 1788947560267,
+    "p": 79024
    }
   ],
   "ethereum": [
-   {
-    "t": 1788287876055,
-    "p": 2408.33
-   },
    {
     "t": 1788299451475,
     "p": 2413.28
@@ -7888,13 +7884,13 @@
    {
     "t": 1788930153716,
     "p": 2507.16
+   },
+   {
+    "t": 1788947560267,
+    "p": 2494.56
    }
   ],
   "binancecoin": [
-   {
-    "t": 1788287876055,
-    "p": 678.48
-   },
    {
     "t": 1788299451475,
     "p": 680.25
@@ -8082,13 +8078,13 @@
    {
     "t": 1788930153716,
     "p": 753.93
+   },
+   {
+    "t": 1788947560267,
+    "p": 752.27
    }
   ],
   "ripple": [
-   {
-    "t": 1788287876055,
-    "p": 1.35
-   },
    {
     "t": 1788299451475,
     "p": 1.35
@@ -8276,13 +8272,13 @@
    {
     "t": 1788930153716,
     "p": 1.43
+   },
+   {
+    "t": 1788947560267,
+    "p": 1.42
    }
   ],
   "solana": [
-   {
-    "t": 1788287876055,
-    "p": 99.17
-   },
    {
     "t": 1788299451475,
     "p": 99.47
@@ -8470,13 +8466,13 @@
    {
     "t": 1788930153716,
     "p": 104.3
+   },
+   {
+    "t": 1788947560267,
+    "p": 103.5
    }
   ],
   "dogecoin": [
-   {
-    "t": 1788287876055,
-    "p": 0.081328
-   },
    {
     "t": 1788299451475,
     "p": 0.081603
@@ -8664,13 +8660,13 @@
    {
     "t": 1788930153716,
     "p": 0.090498
+   },
+   {
+    "t": 1788947560267,
+    "p": 0.090133
    }
   ],
   "chainlink": [
-   {
-    "t": 1788287876055,
-    "p": 11.19
-   },
    {
     "t": 1788299451475,
     "p": 11.18
@@ -8858,13 +8854,13 @@
    {
     "t": 1788930153716,
     "p": 12.58
+   },
+   {
+    "t": 1788947560267,
+    "p": 12.32
    }
   ],
   "cardano": [
-   {
-    "t": 1788287876055,
-    "p": 0.195037
-   },
    {
     "t": 1788299451475,
     "p": 0.195959
@@ -9052,6 +9048,10 @@
    {
     "t": 1788930153716,
     "p": 0.220527
+   },
+   {
+    "t": 1788947560267,
+    "p": 0.218104
    }
   ]
  }
