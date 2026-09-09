@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T18:41:53.083114Z",
+ "updated": "2026-09-09T21:47:35.881318Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,25 +36,25 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 196,
-   "next_day_median": 0.66,
+   "cases": 197,
+   "next_day_median": 0.62,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 81,
+   "fell_next_day": 82,
    "week_median": 3.46,
    "recovered_in_week": 104
   },
   "sharp_drop": {
-   "cases": 149,
+   "cases": 147,
    "next_day_median": -0.44,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 84,
-   "week_median": -0.35,
+   "fell_next_day": 83,
+   "week_median": -0.34,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,36 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788461338649,
-   "when": "2026-09-03 18:48 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2498.92,
-   "move_pct": 1.65,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -1.93,
-   "after_7d": null
-  },
-  {
-   "t": 1788461477153,
-   "when": "2026-09-03 18:51 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.46,
-   "move_pct": 2.82,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -4.16,
-   "after_7d": null
-  },
   {
    "t": 1788461601076,
    "when": "2026-09-03 18:53 UTC",
@@ -412,7 +382,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.58,
    "after_7d": null
   },
   {
@@ -440,6 +410,36 @@
    "category": "no_clear_cause",
    "headline": "No clear news event identified for the recent price decline",
    "detail": "Recent headlines for Chainlink highlight positive privacy tech integrations and standard market analysis. No negative news or specific catalyst was reported to explain the minor drop in price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788990316061,
+   "when": "2026-09-09 21:45 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.086605,
+   "move_pct": -2.72,
+   "category": "no_clear_cause",
+   "headline": "No clear news event identified for recent Dogecoin price decline",
+   "detail": "A review of headlines from the past 12 hours shows no specific catalyst driving Dogecoin's price movement. The recent drop appears to be general market volatility rather than a specific reported event.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1788990452873,
+   "when": "2026-09-09 21:47 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.21314,
+   "move_pct": -2.12,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
