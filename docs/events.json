@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T09:50:10.269688Z",
+ "updated": "2026-09-10T14:30:23.602481Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 198,
+   "cases": 199,
    "next_day_median": 0.61,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 83,
+   "fell_next_day": 84,
    "week_median": 3.46,
    "recovered_in_week": 104
   },
@@ -412,7 +412,7 @@
    "detail": "Recent headlines for Chainlink highlight positive privacy tech integrations and standard market analysis. No negative news or specific catalyst was reported to explain the minor drop in price.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -4.24,
    "after_7d": null
   },
   {
