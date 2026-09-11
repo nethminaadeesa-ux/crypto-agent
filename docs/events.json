@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T21:42:31.825884Z",
+ "updated": "2026-09-11T00:15:42.106961Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,14 +36,14 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 199,
-   "next_day_median": 0.61,
+   "cases": 200,
+   "next_day_median": 0.59,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 84,
-   "week_median": 2.67,
+   "fell_next_day": 85,
+   "week_median": 2.49,
    "recovered_in_week": 105
   },
   "sharp_drop": {
@@ -83,7 +83,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -3.02,
-   "after_7d": null
+   "after_7d": -4.74
   },
   {
    "t": 1788461724964,
@@ -427,7 +427,7 @@
    "detail": "A review of headlines from the past 12 hours shows no specific catalyst driving Dogecoin's price movement. The recent drop appears to be general market volatility rather than a specific reported event.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.99,
    "after_7d": null
   },
   {
