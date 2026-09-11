@@ -1,180 +1,96 @@
 {
- "updated": "2026-09-10T05:01:47.814637Z",
+ "updated": "2026-09-11T04:59:47.480298Z",
  "latest": {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "prices": {
-   "Bitcoin": 78316,
-   "Ethereum": 2476.78,
-   "BNB": 722.06,
-   "XRP": 1.39,
-   "Solana": 101.89,
-   "Dogecoin": 0.085817,
-   "Chainlink": 11.81,
-   "Cardano": 0.213182
+   "Bitcoin": 77097,
+   "Ethereum": 2457.82,
+   "BNB": 716.77,
+   "XRP": 1.35,
+   "Solana": 99.7,
+   "Dogecoin": 0.084075,
+   "Chainlink": 11.52,
+   "Cardano": 0.210042
   },
   "ranges": [
    {
     "coin": "Bitcoin",
-    "low": 73270.2858,
-    "high": 83709.1843
+    "low": 72287.0269,
+    "high": 82227.0283
    },
    {
     "coin": "Ethereum",
-    "low": 2248.112,
-    "high": 2728.7071
+    "low": 2239.1472,
+    "high": 2697.8482
    },
    {
     "coin": "BNB",
-    "low": 677.8168,
-    "high": 769.1911
+    "low": 674.2006,
+    "high": 762.0272
    },
    {
     "coin": "XRP",
-    "low": 1.246,
-    "high": 1.5507
+    "low": 1.2139,
+    "high": 1.5013
    },
    {
     "coin": "Solana",
-    "low": 92.6024,
-    "high": 112.109
+    "low": 90.9294,
+    "high": 109.3166
    },
    {
     "coin": "Dogecoin",
-    "low": 0.0777,
-    "high": 0.0947
+    "low": 0.0764,
+    "high": 0.0925
    },
    {
     "coin": "Chainlink",
-    "low": 10.6066,
-    "high": 13.1499
+    "low": 10.3843,
+    "high": 12.7799
    },
    {
     "coin": "Cardano",
-    "low": 0.1867,
-    "high": 0.2435
+    "low": 0.1847,
+    "high": 0.2388
    }
   ],
-  "width_factor": 1.33,
-  "one_line": "Crypto markets pulled back today as rising U.S. Treasury yields pushed Bitcoin down to $78,300 while major altcoins led losses.",
+  "width_factor": 1.276,
+  "one_line": "Crypto markets fell further today as rising U.S. Treasury yields and inflation fears pushed Bitcoin down toward $77,000.",
   "moved": [
-   "Bitcoin dropped 1.1% to $78,316 as higher U.S. Treasury yields weighed on risk assets.",
-   "Chainlink fell 6.1% to $11.81 and Dogecoin lost 5.4% to $0.085 without a specific news catalyst.",
-   "BNB declined 4.3% to $722.06, pulling back from its mid-week high near $779."
+   "Bitcoin dropped 1.5% to $77,097 as traders cut risk ahead of upcoming U.S. inflation data and rising bond yields.",
+   "XRP lost nearly 3% to trade at $1.35 despite Ripple announcing an AI treasury initiative.",
+   "Solana fell 2.1% to $99.70, slipping below the $100 mark as altcoins faced general selling pressure.",
+   "Dogecoin and Chainlink slipped over 2% as macro headwinds weighed across all major tokens."
   ],
-  "traded": "Prices showed a steady downward drift across both 12-hour candles today rather than a single sudden crash. A lower close means the price ended the 12-hour period lower than it opened, which happened consistently across all major coins.",
-  "versus_yesterday": "Yesterday the market stabilized briefly as Bitcoin moved above $79,000. Today that rally failed, returning the market to a pattern of lower highs over the past three days.",
+  "traded": "The market saw a steady downward drift rather than a sudden sell-off. In candlestick charts, which show price movement over set time periods, the candles consistently closed near their lows, indicating continuous selling throughout the day.",
+  "versus_yesterday": "Yesterday's mild pull-back expanded into a second day of declines. Bitcoin is now down nearly 5% over the past seven days.",
   "scenarios": [
    {
     "name": "Higher",
-    "prob": 25,
-    "text": "Treasury yields pull back, giving Bitcoin room to recover back toward the $80,000 level."
+    "prob": 30,
+    "text": "Cooler inflation data lowers Treasury yields and pushes Bitcoin back toward $80,000."
    },
    {
     "name": "Roughly flat",
-    "prob": 50,
-    "text": "Bitcoin holds steady near $78,000 while altcoins consolidate their recent daily losses."
+    "prob": 45,
+    "text": "Markets consolidate quietly between $75,000 and $79,000 while waiting for economic data."
    },
    {
     "name": "Lower",
     "prob": 25,
-    "text": "Continued macro selling pushes Bitcoin down toward support near $75,000."
+    "text": "Higher yield spikes spark another wave of selling, sending Bitcoin toward $72,000."
    }
   ],
-  "breaker": "An unexpected policy statement from economic officials that sharply lowers Treasury yields.",
-  "learned": "Our library tracks 198 past cases of sudden moves with no clear news cause. In those cases, the next-day median move was +0.61%, with prices falling in 83 instances.",
-  "honesty": "Past ranges hit 9 out of 10 predicted bands, missing only on BNB, which means current range estimates are performing reliably."
+  "breaker": "A sudden drop in U.S. Treasury yields or dovish comments from the Federal Reserve would break the current downtrend.",
+  "learned": "Macro and interest rate news in our library has only 3 cases, so evidence there is still thin. Across 147 general sharp drop cases, prices fell again the next day 83 times with a median move of -0.44%.",
+  "honesty": "All 10 recent range predictions hit their target bounds, indicating our expected ranges remain reliable during current market conditions."
  },
- "width_factor": 1.33,
+ "width_factor": 1.276,
  "record": {
-  "scored": 236,
-  "hits": 146
+  "scored": 244,
+  "hits": 154
  },
  "recent_runs": [
-  {
-   "date": "2026-08-28",
-   "prices": {
-    "Bitcoin": 79660,
-    "Ethereum": 2486.68,
-    "BNB": 709.45,
-    "XRP": 1.42,
-    "Solana": 106.91,
-    "Dogecoin": 0.087518,
-    "Chainlink": 11.72,
-    "Cardano": 0.209403
-   },
-   "ranges": [
-    {
-     "coin": "Bitcoin",
-     "low": 71653.1934,
-     "high": 88561.5183
-    },
-    {
-     "coin": "Ethereum",
-     "low": 2120.793,
-     "high": 2915.6911
-    },
-    {
-     "coin": "BNB",
-     "low": 644.0632,
-     "high": 781.475
-    },
-    {
-     "coin": "XRP",
-     "low": 1.2091,
-     "high": 1.6677
-    },
-    {
-     "coin": "Solana",
-     "low": 91.584,
-     "high": 124.8007
-    },
-    {
-     "coin": "Dogecoin",
-     "low": 0.0757,
-     "high": 0.1012
-    },
-    {
-     "coin": "Chainlink",
-     "low": 10.0456,
-     "high": 13.6734
-    },
-    {
-     "coin": "Cardano",
-     "low": 0.1698,
-     "high": 0.2583
-    }
-   ],
-   "width_factor": 1.886,
-   "one_line": "Solana led major cryptocurrencies higher while Bitcoin held near $80,000 ahead of Federal Reserve Chair Kevin Warsh's Jackson Hole speech.",
-   "moved": [
-    "Solana rose nearly 6% to $106.91, extending its weekly gains past 19% following news of a MoonPay integration for AI crypto lending.",
-    "Bitcoin gained 1.2% to trade around $79,660 as ETF inflows remained steady and Coinbase spot prices shifted to a premium.",
-    "XRP climbed 1.3% to $1.42 as news emerged that a Ripple-backed XRP treasury firm is near a Nasdaq listing.",
-    "Ethereum stayed largely flat around $2,486, lagging behind Solana as traders waited for clearer macro direction."
-   ],
-   "traded": "Prices consolidated during the early half of the session before making a steady upward push in the evening candles. A steady push means buyers kept purchasing gradually over several hours, rather than creating a temporary price spike that gets quickly sold back down.",
-   "versus_yesterday": "Solana extended its strong run for a second consecutive day, while Bitcoin held steady near key resistance after yesterday's Nvidia-driven market rebound.",
-   "scenarios": [
-    {
-     "name": "Higher",
-     "prob": 30,
-     "text": "Fed Chair Warsh gives a dovish speech at Jackson Hole, pushing Bitcoin clearly above $80,000."
-    },
-    {
-     "name": "Roughly flat",
-     "prob": 45,
-     "text": "Markets consolidate around current levels as traders process recent gains and wait for macro clarity."
-    },
-    {
-     "name": "Lower",
-     "prob": 25,
-     "text": "Hawkish macro remarks trigger a wave of profit-taking across major cryptocurrencies after their weekly rally."
-    }
-   ],
-   "breaker": "An unexpectedly hawkish monetary policy signal from the Federal Reserve Chair at Jackson Hole.",
-   "learned": "Our historical data includes 141 past cases of moves without a clear news cause, which saw a median next-day gain of 1.18%. For partnership and adoption events like Chainlink's integration, we have only 3 past cases, so that evidence is still thin.",
-   "honesty": "All ten of our recent 7-day predicted ranges missed because prices broke higher than anticipated, which means today's upper bounds might also prove conservative if momentum continues."
-  },
   {
    "date": "2026-08-29",
    "prices": {
@@ -1276,89 +1192,94 @@
    "breaker": "An unexpected policy statement from economic officials that sharply lowers Treasury yields.",
    "learned": "Our library tracks 198 past cases of sudden moves with no clear news cause. In those cases, the next-day median move was +0.61%, with prices falling in 83 instances.",
    "honesty": "Past ranges hit 9 out of 10 predicted bands, missing only on BNB, which means current range estimates are performing reliably."
+  },
+  {
+   "date": "2026-09-11",
+   "prices": {
+    "Bitcoin": 77097,
+    "Ethereum": 2457.82,
+    "BNB": 716.77,
+    "XRP": 1.35,
+    "Solana": 99.7,
+    "Dogecoin": 0.084075,
+    "Chainlink": 11.52,
+    "Cardano": 0.210042
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 72287.0269,
+     "high": 82227.0283
+    },
+    {
+     "coin": "Ethereum",
+     "low": 2239.1472,
+     "high": 2697.8482
+    },
+    {
+     "coin": "BNB",
+     "low": 674.2006,
+     "high": 762.0272
+    },
+    {
+     "coin": "XRP",
+     "low": 1.2139,
+     "high": 1.5013
+    },
+    {
+     "coin": "Solana",
+     "low": 90.9294,
+     "high": 109.3166
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0764,
+     "high": 0.0925
+    },
+    {
+     "coin": "Chainlink",
+     "low": 10.3843,
+     "high": 12.7799
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1847,
+     "high": 0.2388
+    }
+   ],
+   "width_factor": 1.276,
+   "one_line": "Crypto markets fell further today as rising U.S. Treasury yields and inflation fears pushed Bitcoin down toward $77,000.",
+   "moved": [
+    "Bitcoin dropped 1.5% to $77,097 as traders cut risk ahead of upcoming U.S. inflation data and rising bond yields.",
+    "XRP lost nearly 3% to trade at $1.35 despite Ripple announcing an AI treasury initiative.",
+    "Solana fell 2.1% to $99.70, slipping below the $100 mark as altcoins faced general selling pressure.",
+    "Dogecoin and Chainlink slipped over 2% as macro headwinds weighed across all major tokens."
+   ],
+   "traded": "The market saw a steady downward drift rather than a sudden sell-off. In candlestick charts, which show price movement over set time periods, the candles consistently closed near their lows, indicating continuous selling throughout the day.",
+   "versus_yesterday": "Yesterday's mild pull-back expanded into a second day of declines. Bitcoin is now down nearly 5% over the past seven days.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 30,
+     "text": "Cooler inflation data lowers Treasury yields and pushes Bitcoin back toward $80,000."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 45,
+     "text": "Markets consolidate quietly between $75,000 and $79,000 while waiting for economic data."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Higher yield spikes spark another wave of selling, sending Bitcoin toward $72,000."
+    }
+   ],
+   "breaker": "A sudden drop in U.S. Treasury yields or dovish comments from the Federal Reserve would break the current downtrend.",
+   "learned": "Macro and interest rate news in our library has only 3 cases, so evidence there is still thin. Across 147 general sharp drop cases, prices fell again the next day 83 times with a median move of -0.44%.",
+   "honesty": "All 10 recent range predictions hit their target bounds, indicating our expected ranges remain reliable during current market conditions."
   }
  ],
  "recent_forecasts": [
-  {
-   "coin": "binancecoin",
-   "name": "BNB",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 743.46,
-   "lo": 693.1361841239692,
-   "hi": 797.4374794739362,
-   "actual": null
-  },
-  {
-   "coin": "ripple",
-   "name": "XRP",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 1.4,
-   "lo": 1.2351211209635105,
-   "hi": 1.586888902418749,
-   "actual": null
-  },
-  {
-   "coin": "solana",
-   "name": "Solana",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 104.97,
-   "lo": 94.02818977962822,
-   "hi": 117.18507955778246,
-   "actual": null
-  },
-  {
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 0.089656,
-   "lo": 0.08018588254014737,
-   "hi": 0.10024455778703244,
-   "actual": null
-  },
-  {
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 13.34,
-   "lo": 11.84407820268796,
-   "hi": 15.02485857950632,
-   "actual": null
-  },
-  {
-   "coin": "cardano",
-   "name": "Cardano",
-   "made_ms": 1788777246134,
-   "days": 7,
-   "price_then": 0.219151,
-   "lo": 0.18827603703312523,
-   "hi": 0.2550890785562377,
-   "actual": null
-  },
-  {
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "made_ms": 1788843108075,
-   "days": 7,
-   "price_then": 78791,
-   "lo": 73228.15032051146,
-   "hi": 84776.43711917044,
-   "actual": null
-  },
-  {
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "made_ms": 1788843108075,
-   "days": 7,
-   "price_then": 2483.24,
-   "lo": 2234.35973187886,
-   "hi": 2759.8424772964563,
-   "actual": null
-  },
   {
    "coin": "binancecoin",
    "name": "BNB",
@@ -1577,6 +1498,86 @@
    "price_then": 0.213182,
    "lo": 0.18666563969072844,
    "hi": 0.24346508119703678,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 77097,
+   "lo": 72287.0269229717,
+   "hi": 82227.02830666711,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 2457.82,
+   "lo": 2239.1471528663506,
+   "hi": 2697.8482163028107,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 716.77,
+   "lo": 674.2006395286278,
+   "hi": 762.0272108599576,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 1.35,
+   "lo": 1.2139458712236963,
+   "hi": 1.5013025236148805,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 99.7,
+   "lo": 90.92935490677725,
+   "hi": 109.31662289027342,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 0.084075,
+   "lo": 0.0764044189213413,
+   "hi": 0.09251566499415645,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 11.52,
+   "lo": 10.384325914437754,
+   "hi": 12.779876237848745,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1789102567298,
+   "days": 7,
+   "price_then": 0.210042,
+   "lo": 0.184725046174478,
+   "hi": 0.23882869528331124,
    "actual": null
   }
  ]

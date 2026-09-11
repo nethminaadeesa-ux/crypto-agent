@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T00:15:42.106961Z",
+ "updated": "2026-09-11T04:59:54.057401Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,14 +36,14 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 200,
-   "next_day_median": 0.59,
+   "cases": 201,
+   "next_day_median": 0.58,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 85,
-   "week_median": 2.49,
+   "fell_next_day": 86,
+   "week_median": 2.32,
    "recovered_in_week": 105
   },
   "sharp_drop": {
@@ -98,7 +98,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -4.86,
-   "after_7d": null
+   "after_7d": -5.69
   },
   {
    "t": 1788461848830,
@@ -113,7 +113,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -4.0,
-   "after_7d": null
+   "after_7d": -5.1
   },
   {
    "t": 1788531928928,
@@ -442,7 +442,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.25,
    "after_7d": null
   }
  ]
