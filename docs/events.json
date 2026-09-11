@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T04:59:54.057401Z",
+ "updated": "2026-09-11T09:50:20.148404Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,14 +47,14 @@
    "recovered_in_week": 105
   },
   "sharp_drop": {
-   "cases": 147,
+   "cases": 146,
    "next_day_median": -0.44,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 83,
-   "week_median": -0.34,
+   "fell_next_day": 82,
+   "week_median": -0.24,
    "recovered_in_week": 70
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1788461601076,
-   "when": "2026-09-03 18:53 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 104.82,
-   "move_pct": 2.02,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -3.02,
-   "after_7d": -4.74
-  },
   {
    "t": 1788461724964,
    "when": "2026-09-03 18:55 UTC",
@@ -443,6 +428,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -2.25,
+   "after_7d": null
+  },
+  {
+   "t": 1789120217140,
+   "when": "2026-09-11 09:50 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.204374,
+   "move_pct": -2.75,
+   "category": "no_clear_cause",
+   "headline": "No clear catalyst found for Cardano's recent price drop",
+   "detail": "Headlines from the last 12 hours mainly feature generic price predictions, technical analysis, and promotional news. None of the reports indicate a specific major event that caused the 2.75% decrease.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
