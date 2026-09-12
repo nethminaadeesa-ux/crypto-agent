@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T17:17:20.969977Z",
+ "updated": "2026-09-12T19:27:05.256778Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,14 +36,14 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 205,
-   "next_day_median": 0.48,
+   "cases": 208,
+   "next_day_median": 0.43,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 89,
-   "week_median": 2.08,
+   "fell_next_day": 91,
+   "week_median": 2.06,
    "recovered_in_week": 109
   },
   "sharp_drop": {
@@ -262,7 +262,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.14,
    "after_7d": null
   },
   {
@@ -277,7 +277,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -2.16,
    "after_7d": null
   },
   {
@@ -307,7 +307,7 @@
    "detail": "The primary news during this period discusses the shutdown of Bitwise's Dogecoin ETF, which is typically a negative event. None of the provided headlines offer a definitive explanation for the recent price increase.",
    "source": "none found",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -1.53,
    "after_7d": null
   },
   {
