@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T09:26:31.142224Z",
+ "updated": "2026-09-12T13:38:35.124195Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 201,
-   "next_day_median": 0.58,
+   "cases": 202,
+   "next_day_median": 0.59,
    "next_day_range": [
     -15.26,
     23.48
@@ -217,7 +217,7 @@
    "detail": "Headlines from the last 12 hours mainly feature generic price predictions, technical analysis, and promotional news. None of the reports indicate a specific major event that caused the 2.75% decrease.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.08,
    "after_7d": null
   },
   {
