@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T14:14:21.396348Z",
+ "updated": "2026-09-14T19:33:48.316333Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,26 +36,26 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 220,
-   "next_day_median": 0.39,
+   "cases": 221,
+   "next_day_median": 0.4,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 96,
-   "week_median": 1.9,
+   "week_median": 1.89,
    "recovered_in_week": 109
   },
   "sharp_drop": {
-   "cases": 135,
-   "next_day_median": -0.44,
+   "cases": 132,
+   "next_day_median": -0.42,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 77,
-   "week_median": -0.08,
-   "recovered_in_week": 67
+   "fell_next_day": 74,
+   "week_median": -0.12,
+   "recovered_in_week": 64
   },
   "sharp_rise": {
    "cases": 125,
@@ -70,51 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1789137332838,
-   "when": "2026-09-11 14:35 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2617.26,
-   "move_pct": 6.11,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.97,
-   "after_7d": null
-  },
-  {
-   "t": 1789137538677,
-   "when": "2026-09-11 14:38 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 734.32,
-   "move_pct": 3.14,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.14,
-   "after_7d": null
-  },
-  {
-   "t": 1789137721456,
-   "when": "2026-09-11 14:42 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.4,
-   "move_pct": 4.48,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -2.16,
-   "after_7d": null
-  },
   {
    "t": 1789137855406,
    "when": "2026-09-11 14:44 UTC",
@@ -337,7 +292,7 @@
    "detail": "Chainlink's recent price drop occurs alongside reports of whale accumulation and price testing support levels. No specific news event or clear catalyst explains the sudden short-term move.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.82,
    "after_7d": null
   },
   {
@@ -437,6 +392,51 @@
    "name": "Cardano",
    "price": 0.208471,
    "move_pct": 2.02,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789414127562,
+   "when": "2026-09-14 19:28 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.46,
+   "move_pct": 4.29,
+   "category": "regulation",
+   "headline": "XRP gained over 4% following political developments around the upcoming CLARITY Act vote",
+   "detail": "XRP surged as reports highlighted progress and an upcoming vote on the U.S. Crypto CLARITY Act. Investor optimism increased following news of key political agreements related to the bill.",
+   "source": "24/7 Wall St.",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789414273870,
+   "when": "2026-09-14 19:31 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 103.48,
+   "move_pct": 1.6,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789414425308,
+   "when": "2026-09-14 19:33 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.74,
+   "move_pct": 2.89,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
