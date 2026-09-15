@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T07:52:37.148033Z",
+ "updated": "2026-09-15T13:40:09.958231Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 227,
+   "cases": 228,
    "next_day_median": 0.41,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 98,
+   "fell_next_day": 99,
    "week_median": 1.89,
    "recovered_in_week": 109
   },
@@ -382,7 +382,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.98,
    "after_7d": null
   },
   {
