@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T06:10:18.175264Z",
+ "updated": "2026-09-19T11:14:06.157922Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 245,
-   "next_day_median": 0.45,
+   "cases": 249,
+   "next_day_median": 0.58,
    "next_day_range": [
     -15.26,
     23.48
@@ -47,15 +47,15 @@
    "recovered_in_week": 123
   },
   "sharp_drop": {
-   "cases": 109,
-   "next_day_median": -0.24,
+   "cases": 108,
+   "next_day_median": -0.29,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 58,
-   "week_median": -0.5,
-   "recovered_in_week": 52
+   "week_median": -0.78,
+   "recovered_in_week": 51
   },
   "sharp_rise": {
    "cases": 115,
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1789578585058,
-   "when": "2026-09-16 17:09 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 10.71,
-   "move_pct": -1.65,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 6.11,
-   "after_7d": null
-  },
   {
    "t": 1789589782433,
    "when": "2026-09-16 20:16 UTC",
@@ -217,7 +202,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.89,
    "after_7d": null
   },
   {
@@ -232,7 +217,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.36,
    "after_7d": null
   },
   {
@@ -247,7 +232,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 8.11,
    "after_7d": null
   },
   {
@@ -292,7 +277,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 5.23,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "Solana",
    "price": 113.78,
    "move_pct": 1.62,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789816443151,
+   "when": "2026-09-19 11:14 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.56,
+   "move_pct": 1.78,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
