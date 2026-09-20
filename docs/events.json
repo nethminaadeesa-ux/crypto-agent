@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T12:30:18.338110Z",
+ "updated": "2026-09-20T17:06:26.554264Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,130 +36,40 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 261,
+   "cases": 263,
    "next_day_median": 0.7,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 106,
-   "week_median": 1.99,
-   "recovered_in_week": 126
+   "fell_next_day": 108,
+   "week_median": 2.06,
+   "recovered_in_week": 127
   },
   "sharp_drop": {
-   "cases": 106,
-   "next_day_median": -0.34,
+   "cases": 101,
+   "next_day_median": -0.44,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 58,
-   "week_median": -1.16,
-   "recovered_in_week": 49
+   "week_median": -1.87,
+   "recovered_in_week": 44
   },
   "sharp_rise": {
-   "cases": 110,
-   "next_day_median": -0.48,
+   "cases": 109,
+   "next_day_median": -0.52,
    "next_day_range": [
     -7.68,
     12.08
    ],
    "fell_next_day": 66,
-   "week_median": -1.15,
-   "recovered_in_week": 41
+   "week_median": -1.26,
+   "recovered_in_week": 40
   }
  },
  "recent": [
-  {
-   "t": 1789609659137,
-   "when": "2026-09-17 01:47 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.197056,
-   "move_pct": 2.21,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 6.24,
-   "after_7d": null
-  },
-  {
-   "t": 1789712099978,
-   "when": "2026-09-18 06:14 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2482.39,
-   "move_pct": 1.8,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 5.89,
-   "after_7d": null
-  },
-  {
-   "t": 1789712236488,
-   "when": "2026-09-18 06:17 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 753.31,
-   "move_pct": 2.44,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.36,
-   "after_7d": null
-  },
-  {
-   "t": 1789712368970,
-   "when": "2026-09-18 06:19 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.32,
-   "move_pct": 2.33,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 8.11,
-   "after_7d": null
-  },
-  {
-   "t": 1789712494605,
-   "when": "2026-09-18 06:21 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 105.37,
-   "move_pct": 4.3,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 6.29,
-   "after_7d": null
-  },
-  {
-   "t": 1789712698982,
-   "when": "2026-09-18 06:24 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.084248,
-   "move_pct": 3.49,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.81,
-   "after_7d": null
-  },
   {
    "t": 1789712828681,
    "when": "2026-09-18 06:27 UTC",
@@ -337,7 +247,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -4.62,
    "after_7d": null
   },
   {
@@ -352,7 +262,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -4.92,
    "after_7d": null
   },
   {
@@ -437,6 +347,96 @@
    "name": "Cardano",
    "price": 0.220905,
    "move_pct": -2.57,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923276403,
+   "when": "2026-09-20 16:54 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2634.5,
+   "move_pct": 2.32,
+   "category": "no_clear_cause",
+   "headline": "No specific catalyst found for the recent ETH price increase",
+   "detail": "The provided headlines focus mostly on general price predictions, altcoin performance, and long-term ecosystem updates. None of the articles present a clear, specific catalyst driving Ethereum's recent price move.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923425531,
+   "when": "2026-09-20 16:57 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.41,
+   "move_pct": 2.17,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923566837,
+   "when": "2026-09-20 16:59 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 110.05,
+   "move_pct": 1.65,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923716872,
+   "when": "2026-09-20 17:01 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.0873,
+   "move_pct": 2.72,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923849937,
+   "when": "2026-09-20 17:04 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.54,
+   "move_pct": 4.07,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1789923983547,
+   "when": "2026-09-20 17:06 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.231773,
+   "move_pct": 4.82,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
