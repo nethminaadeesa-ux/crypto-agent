@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T06:39:29.255501Z",
+ "updated": "2026-09-21T14:27:45.325106Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 266,
-   "next_day_median": 0.7,
+   "cases": 268,
+   "next_day_median": 0.71,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 109,
-   "week_median": 2.27,
-   "recovered_in_week": 132
+   "week_median": 2.37,
+   "recovered_in_week": 134
   },
   "sharp_drop": {
    "cases": 98,
@@ -232,7 +232,7 @@
    "detail": "Recent headlines focus on social media posts and general market chatter without providing a specific catalyst for the price move. Consequently, there is no definitive cause identified in the available news.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 4.38,
    "after_7d": null
   },
   {
@@ -247,7 +247,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 4.49,
    "after_7d": null
   },
   {
