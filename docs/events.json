@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T01:20:40.574382Z",
+ "updated": "2026-09-21T06:39:29.255501Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 264,
-   "next_day_median": 0.66,
+   "cases": 266,
+   "next_day_median": 0.7,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 109,
-   "week_median": 2.17,
-   "recovered_in_week": 130
+   "week_median": 2.27,
+   "recovered_in_week": 132
   },
   "sharp_drop": {
    "cases": 98,
@@ -202,7 +202,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.39,
    "after_7d": null
   },
   {
@@ -217,7 +217,7 @@
    "detail": "Recent headlines for Solana are overwhelmingly positive, highlighting ETF inflows, increased network activity, and USDT issuance. None of the available news accounts for the modest price drop over the past five hours.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.32,
    "after_7d": null
   },
   {
