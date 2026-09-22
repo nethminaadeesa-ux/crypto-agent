@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T07:57:17.385578Z",
+ "updated": "2026-09-22T13:30:52.179768Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 280,
-   "next_day_median": 0.96,
+   "cases": 281,
+   "next_day_median": 0.98,
    "next_day_range": [
     -15.26,
     23.48
@@ -47,14 +47,14 @@
    "recovered_in_week": 137
   },
   "sharp_drop": {
-   "cases": 98,
-   "next_day_median": -0.56,
+   "cases": 97,
+   "next_day_median": -0.51,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 58,
-   "week_median": -2.88,
+   "fell_next_day": 57,
+   "week_median": -2.76,
    "recovered_in_week": 41
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1789886059316,
-   "when": "2026-09-20 06:34 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2579.19,
-   "move_pct": -1.56,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.39,
-   "after_7d": null
-  },
   {
    "t": 1789886066977,
    "when": "2026-09-20 06:34 UTC",
@@ -322,7 +307,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.8,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "Chainlink",
    "price": 12.97,
    "move_pct": -1.82,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790083849171,
+   "when": "2026-09-22 13:30 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.251546,
+   "move_pct": 2.62,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
