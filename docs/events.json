@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T01:59:53.148563Z",
+ "updated": "2026-09-22T07:57:17.385578Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 276,
-   "next_day_median": 0.9,
+   "cases": 280,
+   "next_day_median": 0.96,
    "next_day_range": [
     -15.26,
     23.48
@@ -262,7 +262,7 @@
    "detail": "There were no headlines available from the past twelve hours to account for the price change. Consequently, a clear cause for the movement cannot be identified.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.47,
    "after_7d": null
   },
   {
@@ -277,7 +277,7 @@
    "detail": "There were no recent news headlines provided to explain the price change. As a result, the exact cause of the movement remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.54,
    "after_7d": null
   },
   {
@@ -292,7 +292,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 4.9,
    "after_7d": null
   },
   {
@@ -307,7 +307,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 11.85,
    "after_7d": null
   },
   {
