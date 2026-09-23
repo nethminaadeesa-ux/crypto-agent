@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T21:27:11.022049Z",
+ "updated": "2026-09-23T00:42:32.165781Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -10,8 +10,8 @@
     13.71
    ],
    "fell_next_day": 1,
-   "week_median": 8.39,
-   "recovered_in_week": 3
+   "week_median": 14.6,
+   "recovered_in_week": 5
   },
   "interest_rates_macro": {
    "cases": 3,
@@ -43,8 +43,8 @@
     23.48
    ],
    "fell_next_day": 109,
-   "week_median": 2.49,
-   "recovered_in_week": 137
+   "week_median": 2.51,
+   "recovered_in_week": 139
   },
   "sharp_drop": {
    "cases": 97,
