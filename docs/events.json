@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T08:03:51.299543Z",
+ "updated": "2026-09-25T14:10:39.984737Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,26 +36,26 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 303,
-   "next_day_median": 0.93,
+   "cases": 304,
+   "next_day_median": 0.92,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 117,
-   "week_median": 3.46,
-   "recovered_in_week": 155
+   "week_median": 3.49,
+   "recovered_in_week": 158
   },
   "sharp_drop": {
-   "cases": 92,
-   "next_day_median": -0.47,
+   "cases": 89,
+   "next_day_median": -0.61,
    "next_day_range": [
     -20.06,
     20.47
    ],
    "fell_next_day": 54,
-   "week_median": -3.16,
-   "recovered_in_week": 39
+   "week_median": -3.13,
+   "recovered_in_week": 38
   },
   "sharp_rise": {
    "cases": 78,
@@ -70,51 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1790144031458,
-   "when": "2026-09-23 06:13 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.62,
-   "move_pct": 2.53,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -7.1,
-   "after_7d": null
-  },
-  {
-   "t": 1790164817755,
-   "when": "2026-09-23 12:00 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.57,
-   "move_pct": -3.09,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -6.46,
-   "after_7d": null
-  },
-  {
-   "t": 1790164997571,
-   "when": "2026-09-23 12:03 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.099401,
-   "move_pct": -2.09,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -6.81,
-   "after_7d": null
-  },
   {
    "t": 1790165129578,
    "when": "2026-09-23 12:05 UTC",
@@ -277,7 +232,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.16,
    "after_7d": null
   },
   {
@@ -437,6 +392,51 @@
    "name": "Chainlink",
    "price": 13.27,
    "move_pct": 5.82,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790345104522,
+   "when": "2026-09-25 14:05 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 119.56,
+   "move_pct": 2.67,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790345285273,
+   "when": "2026-09-25 14:08 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.097835,
+   "move_pct": 2.33,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790345436974,
+   "when": "2026-09-25 14:10 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 13.96,
+   "move_pct": 3.41,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
