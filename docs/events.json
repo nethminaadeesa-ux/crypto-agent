@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T19:37:08.881589Z",
+ "updated": "2026-10-01T23:58:39.241128Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,15 +36,15 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 319,
+   "cases": 320,
    "next_day_median": 1.06,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 119,
-   "week_median": 3.68,
-   "recovered_in_week": 205
+   "week_median": 3.65,
+   "recovered_in_week": 207
   },
   "sharp_drop": {
    "cases": 84,
@@ -293,7 +293,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 3.29,
-   "after_7d": null
+   "after_7d": -0.84
   },
   {
    "t": 1790277659989,
@@ -308,7 +308,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 3.81,
-   "after_7d": null
+   "after_7d": 0.74
   },
   {
    "t": 1790277783793,
@@ -323,7 +323,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 4.31,
-   "after_7d": null
+   "after_7d": 8.32
   },
   {
    "t": 1790345104522,
@@ -427,7 +427,7 @@
    "detail": "The available headlines show neutral to positive developments, such as the DogeOS testnet launch and bullish whale activity. None of the provided sources explain the recent price decline.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.01,
    "after_7d": null
   },
   {
