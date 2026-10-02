@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T12:49:40.018416Z",
+ "updated": "2026-10-02T18:49:03.825882Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -43,18 +43,18 @@
     23.48
    ],
    "fell_next_day": 119,
-   "week_median": 3.65,
-   "recovered_in_week": 207
+   "week_median": 3.6,
+   "recovered_in_week": 209
   },
   "sharp_drop": {
-   "cases": 84,
-   "next_day_median": -0.82,
+   "cases": 77,
+   "next_day_median": -1.19,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 53,
-   "week_median": -3.57,
+   "fell_next_day": 49,
+   "week_median": -1.59,
    "recovered_in_week": 34
   },
   "sharp_rise": {
@@ -70,111 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1790184146300,
-   "when": "2026-09-23 17:22 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.49,
-   "move_pct": -5.1,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 2.64,
-   "after_7d": 1.4
-  },
-  {
-   "t": 1790184270321,
-   "when": "2026-09-23 17:24 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 113.82,
-   "move_pct": -2.78,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 2.72,
-   "after_7d": 5.67
-  },
-  {
-   "t": 1790184394373,
-   "when": "2026-09-23 17:26 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.091795,
-   "move_pct": -7.65,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 4.81,
-   "after_7d": 3.71
-  },
-  {
-   "t": 1790184518584,
-   "when": "2026-09-23 17:28 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 12.18,
-   "move_pct": -4.55,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 6.2,
-   "after_7d": 18.56
-  },
-  {
-   "t": 1790184642719,
-   "when": "2026-09-23 17:30 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.236753,
-   "move_pct": -5.68,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 3.99,
-   "after_7d": 4.04
-  },
-  {
-   "t": 1790226779900,
-   "when": "2026-09-24 05:12 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.094943,
-   "move_pct": 2.7,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.16,
-   "after_7d": 0.81
-  },
-  {
-   "t": 1790244793588,
-   "when": "2026-09-24 10:13 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2638.95,
-   "move_pct": -2.08,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 2.47,
-   "after_7d": 1.93
-  },
   {
    "t": 1790244918135,
    "when": "2026-09-24 10:15 UTC",
@@ -338,7 +233,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.98,
-   "after_7d": null
+   "after_7d": 2.09
   },
   {
    "t": 1790345285273,
@@ -353,7 +248,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.71,
-   "after_7d": null
+   "after_7d": -1.24
   },
   {
    "t": 1790345436974,
@@ -368,7 +263,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 2.32,
-   "after_7d": null
+   "after_7d": 2.77
   },
   {
    "t": 1790362000286,
@@ -443,6 +338,111 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 2.3,
+   "after_7d": null
+  },
+  {
+   "t": 1790966030292,
+   "when": "2026-10-02 18:33 UTC",
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "price": 84593,
+   "move_pct": -2.44,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966164019,
+   "when": "2026-10-02 18:36 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2678.64,
+   "move_pct": -2.54,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966348759,
+   "when": "2026-10-02 18:39 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.49,
+   "move_pct": -3.25,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966526303,
+   "when": "2026-10-02 18:42 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 118.97,
+   "move_pct": -2.65,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966664953,
+   "when": "2026-10-02 18:44 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.093389,
+   "move_pct": -3.86,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966797129,
+   "when": "2026-10-02 18:46 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 13.99,
+   "move_pct": -2.85,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1790966940820,
+   "when": "2026-10-02 18:49 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.246195,
+   "move_pct": -4.19,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
