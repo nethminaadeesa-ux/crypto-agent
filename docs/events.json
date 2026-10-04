@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T13:23:40.534875Z",
+ "updated": "2026-10-04T17:50:14.211705Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,14 +47,14 @@
    "recovered_in_week": 209
   },
   "sharp_drop": {
-   "cases": 76,
-   "next_day_median": -1.02,
+   "cases": 75,
+   "next_day_median": -0.86,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 48,
-   "week_median": -1.43,
+   "fell_next_day": 47,
+   "week_median": -1.26,
    "recovered_in_week": 34
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1790245101499,
-   "when": "2026-09-24 10:18 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 112.97,
-   "move_pct": -2.52,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 4.74,
-   "after_7d": 4.15
-  },
   {
    "t": 1790245227365,
    "when": "2026-09-24 10:20 UTC",
@@ -437,6 +422,21 @@
    "name": "BNB",
    "price": 788.22,
    "move_pct": 2.05,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1791136211202,
+   "when": "2026-10-04 17:50 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.096084,
+   "move_pct": 2.77,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
