@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T22:45:03.500115Z",
+ "updated": "2026-10-06T03:20:40.787420Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 332,
-   "next_day_median": 0.96,
+   "cases": 333,
+   "next_day_median": 0.98,
    "next_day_range": [
     -15.26,
     23.48
@@ -442,7 +442,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.7,
    "after_7d": null
   }
  ]
