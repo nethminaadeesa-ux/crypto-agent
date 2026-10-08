@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T16:43:51.071488Z",
+ "updated": "2026-10-08T22:13:43.801834Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,14 +47,14 @@
    "recovered_in_week": 210
   },
   "sharp_drop": {
-   "cases": 74,
-   "next_day_median": -0.82,
+   "cases": 73,
+   "next_day_median": -0.78,
    "next_day_range": [
     -20.06,
     20.47
    ],
-   "fell_next_day": 46,
-   "week_median": -0.88,
+   "fell_next_day": 45,
+   "week_median": -0.5,
    "recovered_in_week": 34
   },
   "sharp_rise": {
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1790245355575,
-   "when": "2026-09-24 10:22 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 12.16,
-   "move_pct": -2.33,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 16.14,
-   "after_7d": 17.38
-  },
   {
    "t": 1790245507267,
    "when": "2026-09-24 10:25 UTC",
@@ -443,6 +428,21 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 2.7,
+   "after_7d": null
+  },
+  {
+   "t": 1791497620793,
+   "when": "2026-10-08 22:13 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2477.87,
+   "move_pct": 1.81,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
