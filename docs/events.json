@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:06:14.168164Z",
+ "updated": "2026-10-16T18:58:49.808757Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,26 +36,26 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 345,
-   "next_day_median": 1.06,
+   "cases": 349,
+   "next_day_median": 1.05,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 125,
+   "fell_next_day": 129,
    "week_median": 3.31,
    "recovered_in_week": 210
   },
   "sharp_drop": {
-   "cases": 55,
-   "next_day_median": -0.35,
+   "cases": 51,
+   "next_day_median": -0.44,
    "next_day_range": [
     -12.81,
-    20.47
+    11.22
    ],
    "fell_next_day": 31,
    "week_median": 0.93,
-   "recovered_in_week": 32
+   "recovered_in_week": 28
   },
   "sharp_rise": {
    "cases": 78,
@@ -70,66 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1790966664953,
-   "when": "2026-10-02 18:44 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.093389,
-   "move_pct": -3.86,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.25,
-   "after_7d": -9.48
-  },
-  {
-   "t": 1790966797129,
-   "when": "2026-10-02 18:46 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 13.99,
-   "move_pct": -2.85,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.59,
-   "after_7d": -8.61
-  },
-  {
-   "t": 1790966940820,
-   "when": "2026-10-02 18:49 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.246195,
-   "move_pct": -4.19,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.37,
-   "after_7d": -3.78
-  },
-  {
-   "t": 1791050593198,
-   "when": "2026-10-03 18:03 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 788.22,
-   "move_pct": 2.05,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.01,
-   "after_7d": -4.88
-  },
   {
    "t": 1791136211202,
    "when": "2026-10-04 17:50 UTC",
@@ -352,7 +292,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.37,
    "after_7d": null
   },
   {
@@ -367,7 +307,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.82,
    "after_7d": null
   },
   {
@@ -382,7 +322,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.48,
    "after_7d": null
   },
   {
@@ -427,7 +367,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -1.64,
    "after_7d": null
   },
   {
@@ -440,6 +380,66 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792176836871,
+   "when": "2026-10-16 18:53 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2406.07,
+   "move_pct": -1.93,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792176969701,
+   "when": "2026-10-16 18:56 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 103.16,
+   "move_pct": -2.15,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792177099030,
+   "when": "2026-10-16 18:58 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.079699,
+   "move_pct": -1.83,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792177126797,
+   "when": "2026-10-16 18:58 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 12.26,
+   "move_pct": -1.84,
+   "category": "no_clear_cause",
+   "headline": "No clear cause identified for the recent price decline",
+   "detail": "The available headlines highlight recent network integrations and asset accumulation, none of which account for the price drop. There is no specific negative news linked to this recent market move.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
