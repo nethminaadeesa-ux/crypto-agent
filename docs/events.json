@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T18:12:01.093959Z",
+ "updated": "2026-10-18T20:55:37.686254Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -58,33 +58,18 @@
    "recovered_in_week": 26
   },
   "sharp_rise": {
-   "cases": 74,
-   "next_day_median": -1.23,
+   "cases": 73,
+   "next_day_median": -1.19,
    "next_day_range": [
     -7.68,
     6.82
    ],
-   "fell_next_day": 52,
-   "week_median": -0.96,
-   "recovered_in_week": 29
+   "fell_next_day": 51,
+   "week_median": -0.97,
+   "recovered_in_week": 28
   }
  },
  "recent": [
-  {
-   "t": 1792044476062,
-   "when": "2026-10-15 06:07 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2347.5,
-   "move_pct": -3.16,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 4.15,
-   "after_7d": null
-  },
   {
    "t": 1792044605888,
    "when": "2026-10-15 06:10 UTC",
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "No clear cause found for Cardano's recent price drop",
    "detail": "The recent headlines cover network upgrades, price predictions, and ecosystem news, but none provide a reason for the recent decline. Without a clear negative catalyst in the news, the exact driver remains unknown.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792356934679,
+   "when": "2026-10-18 20:55 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.076364,
+   "move_pct": -1.84,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
