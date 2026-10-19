@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T15:51:52.369031Z",
+ "updated": "2026-10-19T21:08:59.629517Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,8 +36,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 360,
-   "next_day_median": 0.99,
+   "cases": 363,
+   "next_day_median": 1.05,
    "next_day_range": [
     -15.26,
     23.48
@@ -307,7 +307,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.4,
    "after_7d": null
   },
   {
@@ -322,7 +322,7 @@
    "detail": "The recent headlines cover network upgrades, price predictions, and ecosystem news, but none provide a reason for the recent decline. Without a clear negative catalyst in the news, the exact driver remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.18,
    "after_7d": null
   },
   {
@@ -337,7 +337,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 3.88,
    "after_7d": null
   },
   {
