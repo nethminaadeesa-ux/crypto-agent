@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T11:15:52.827784Z",
+ "updated": "2026-10-24T14:41:16.198793Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -58,33 +58,18 @@
    "recovered_in_week": 21
   },
   "sharp_rise": {
-   "cases": 57,
-   "next_day_median": -1.1,
+   "cases": 56,
+   "next_day_median": -1.15,
    "next_day_range": [
     -6.53,
     6.82
    ],
    "fell_next_day": 40,
-   "week_median": -0.97,
-   "recovered_in_week": 22
+   "week_median": -0.98,
+   "recovered_in_week": 21
   }
  },
  "recent": [
-  {
-   "t": 1792365945635,
-   "when": "2026-10-18 23:25 UTC",
-   "coin": "binancecoin",
-   "name": "BNB",
-   "price": 719.43,
-   "move_pct": 1.76,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.62,
-   "after_7d": null
-  },
   {
    "t": 1792366069419,
    "when": "2026-10-18 23:27 UTC",
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "No clear cause found for the recent price movement",
    "detail": "No news headlines were provided for the last 12 hours to explain Cardano's price drop. Without recent news, a specific trigger cannot be determined.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1792852873190,
+   "when": "2026-10-24 14:41 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.076293,
+   "move_pct": -1.62,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
