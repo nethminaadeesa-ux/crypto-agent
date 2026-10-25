@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:22:28.061991Z",
+ "updated": "2026-10-25T01:21:40.981503Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 384,
-   "next_day_median": 0.99,
+   "cases": 387,
+   "next_day_median": 0.98,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 141,
+   "fell_next_day": 142,
    "week_median": 2.77,
    "recovered_in_week": 220
   },
@@ -367,7 +367,7 @@
    "detail": "No news headlines were provided for the last 12 hours to explain the drop. Therefore, an exact reason for the recent price movement cannot be determined.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.63,
    "after_7d": null
   },
   {
@@ -382,7 +382,7 @@
    "detail": "There were no recent headlines provided to explain the Solana price move. The cause of the recent drop remains unknown based on available data.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.14,
    "after_7d": null
   },
   {
@@ -397,7 +397,7 @@
    "detail": "No news headlines were provided for the specified timeframe to explain the price drop. As a result, the exact driver behind the market move remains unknown.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.43,
    "after_7d": null
   },
   {
