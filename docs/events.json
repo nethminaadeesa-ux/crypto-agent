@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T06:31:28.255718Z",
+ "updated": "2026-10-26T14:23:22.591913Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,14 +36,14 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 390,
+   "cases": 391,
    "next_day_median": 0.98,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 144,
-   "week_median": 2.49,
+   "week_median": 2.48,
    "recovered_in_week": 223
   },
   "sharp_drop": {
@@ -128,7 +128,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.54,
-   "after_7d": null
+   "after_7d": -6.97
   },
   {
    "t": 1792516872331,
@@ -442,7 +442,7 @@
    "detail": "The available headlines consist of general market summaries and long-term price predictions rather than breaking news. As a result, no clear news event can be linked to the recent negative price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.28,
    "after_7d": null
   }
  ]
