@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:09:04.433856Z",
+ "updated": "2026-10-28T21:14:08.094670Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -43,7 +43,7 @@
     23.48
    ],
    "fell_next_day": 144,
-   "week_median": 2.11,
+   "week_median": 2.08,
    "recovered_in_week": 223
   },
   "sharp_drop": {
@@ -58,63 +58,18 @@
    "recovered_in_week": 20
   },
   "sharp_rise": {
-   "cases": 56,
-   "next_day_median": -1.15,
+   "cases": 53,
+   "next_day_median": -1.1,
    "next_day_range": [
     -6.53,
     6.82
    ],
-   "fell_next_day": 40,
-   "week_median": -0.98,
+   "fell_next_day": 37,
+   "week_median": -0.97,
    "recovered_in_week": 21
   }
  },
  "recent": [
-  {
-   "t": 1792366193224,
-   "when": "2026-10-18 23:29 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 103.61,
-   "move_pct": 2.66,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 1.43,
-   "after_7d": -2.04
-  },
-  {
-   "t": 1792366316977,
-   "when": "2026-10-18 23:31 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.079003,
-   "move_pct": 3.46,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.87,
-   "after_7d": -2.78
-  },
-  {
-   "t": 1792366440716,
-   "when": "2026-10-18 23:34 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 11.96,
-   "move_pct": 3.01,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.75,
-   "after_7d": -4.34
-  },
   {
    "t": 1792366564486,
    "when": "2026-10-18 23:36 UTC",
@@ -308,7 +263,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -5.32,
-   "after_7d": null
+   "after_7d": -5.2
   },
   {
    "t": 1792597632718,
@@ -323,7 +278,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -5.15,
-   "after_7d": null
+   "after_7d": -8.5
   },
   {
    "t": 1792597756977,
@@ -338,7 +293,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -6.54,
-   "after_7d": null
+   "after_7d": -11.35
   },
   {
    "t": 1792803045626,
@@ -443,6 +398,51 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.28,
+   "after_7d": null
+  },
+  {
+   "t": 1793221908109,
+   "when": "2026-10-28 21:11 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 102.54,
+   "move_pct": 1.61,
+   "category": "adoption_or_partnership",
+   "headline": "Samsung Wallet prepares USDC transfers on Solana while institutions launch tokenized funds",
+   "detail": "Samsung Wallet announced support for Solana-based USDC transfers for US Galaxy users, alongside institutional tokenization news from J.P. Morgan and Mirae Asset. These major integration announcements boosted market sentiment and drove Solana's price higher over the past five hours.",
+   "source": "TradingView",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793221915204,
+   "when": "2026-10-28 21:11 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.83,
+   "move_pct": 2.51,
+   "category": "adoption_or_partnership",
+   "headline": "Chainlink expanded its partnership with S&P Global Ratings to bring risk data onchain.",
+   "detail": "Chainlink deepened its collaboration with S&P Global Ratings to integrate vault risk assessments directly onto blockchain networks. This integration has sparked increased market interest and driven positive price momentum.",
+   "source": "PR Newswire",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793222045089,
+   "when": "2026-10-28 21:14 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.206703,
+   "move_pct": 2.07,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
