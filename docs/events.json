@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T14:28:30.503955Z",
+ "updated": "2026-10-29T20:21:32.401788Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -58,33 +58,18 @@
    "recovered_in_week": 20
   },
   "sharp_rise": {
-   "cases": 53,
-   "next_day_median": -1.1,
+   "cases": 52,
+   "next_day_median": -0.91,
    "next_day_range": [
     -6.53,
     6.82
    ],
-   "fell_next_day": 37,
-   "week_median": -0.97,
+   "fell_next_day": 36,
+   "week_median": -0.96,
    "recovered_in_week": 21
   }
  },
  "recent": [
-  {
-   "t": 1792366564486,
-   "when": "2026-10-18 23:36 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.219175,
-   "move_pct": 3.15,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.54,
-   "after_7d": -6.97
-  },
   {
    "t": 1792516872331,
    "when": "2026-10-20 17:21 UTC",
@@ -440,6 +425,21 @@
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793305289396,
+   "when": "2026-10-29 20:21 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 98.99,
+   "move_pct": -1.72,
+   "category": "no_clear_cause",
+   "headline": "No clear news cause found for the recent Solana price drop",
+   "detail": "Headlines from the past twelve hours primarily highlight positive developments, such as Polygon adding Solana support for stablecoin payments and Ondo expanding tokenized portfolios. None of the available headlines provide a clear reason for the recent downward price movement.",
    "source": "none found",
    "confidence": "low",
    "after_24h": null,
