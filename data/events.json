@@ -1,126 +1,6 @@
 {
  "events": [
   {
-   "t": 1772668800000,
-   "when": "2026-03-05",
-   "coin": "ripple",
-   "name": "Ripple",
-   "price": 1.435767,
-   "move_pct": 4.53,
-   "category": "sharp_rise",
-   "headline": "moved +4.5% in one day, about 2.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -1.83,
-   "after_7d": -3.55
-  },
-  {
-   "t": 1772668800000,
-   "when": "2026-03-05",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.099383,
-   "move_pct": 9.68,
-   "category": "sharp_rise",
-   "headline": "moved +9.7% in one day, about 4.7 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -5.42,
-   "after_7d": -6.47
-  },
-  {
-   "t": 1772668800000,
-   "when": "2026-03-05",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 657.535558,
-   "move_pct": 3.73,
-   "category": "sharp_rise",
-   "headline": "moved +3.7% in one day, about 2.8 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -1.47,
-   "after_7d": -0.93
-  },
-  {
-   "t": 1772755200000,
-   "when": "2026-03-06",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.094001,
-   "move_pct": -5.42,
-   "category": "sharp_drop",
-   "headline": "moved -5.4% in one day, about 2.7 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -2.21,
-   "after_7d": 1.31
-  },
-  {
-   "t": 1772841600000,
-   "when": "2026-03-07",
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "price": 68148.2834,
-   "move_pct": -3.85,
-   "category": "sharp_drop",
-   "headline": "moved -3.8% in one day, about 3.0 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": -1.29,
-   "after_7d": 4.13
-  },
-  {
-   "t": 1773014400000,
-   "when": "2026-03-09",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 9.532563,
-   "move_pct": -6.16,
-   "category": "sharp_drop",
-   "headline": "moved -6.2% in one day, about 2.6 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 0.91,
-   "after_7d": 7.5
-  },
-  {
-   "t": 1773100800000,
-   "when": "2026-03-10",
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "price": 68459.315371,
-   "move_pct": 3.67,
-   "category": "sharp_rise",
-   "headline": "moved +3.7% in one day, about 2.9 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 2.08,
-   "after_7d": 9.35
-  },
-  {
-   "t": 1773100800000,
-   "when": "2026-03-10",
-   "coin": "binancecoin",
-   "name": "Binancecoin",
-   "price": 634.347795,
-   "move_pct": 3.66,
-   "category": "sharp_rise",
-   "headline": "moved +3.7% in one day, about 2.7 times normal",
-   "detail": "Found by looking back through price history. The reason is not known.",
-   "source": "price history only",
-   "confidence": "low",
-   "after_24h": 1.15,
-   "after_7d": 7.13
-  },
-  {
    "t": 1773273600000,
    "when": "2026-03-12",
    "coin": "chainlink",
@@ -7452,7 +7332,7 @@
    "detail": "Samsung Wallet announced support for Solana-based USDC transfers for US Galaxy users, alongside institutional tokenization news from J.P. Morgan and Mirae Asset. These major integration announcements boosted market sentiment and drove Solana's price higher over the past five hours.",
    "source": "TradingView",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -6.25,
    "after_7d": null
   },
   {
@@ -7467,7 +7347,7 @@
    "detail": "Chainlink deepened its collaboration with S&P Global Ratings to integrate vault risk assessments directly onto blockchain networks. This integration has sparked increased market interest and driven positive price momentum.",
    "source": "PR Newswire",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -7.04,
    "after_7d": null
   },
   {
@@ -7482,7 +7362,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -7.79,
    "after_7d": null
   },
   {
@@ -7499,14 +7379,130 @@
    "confidence": "low",
    "after_24h": null,
    "after_7d": null
+  },
+  {
+   "t": 1793318442086,
+   "when": "2026-10-30 00:00 UTC",
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "price": 77878,
+   "move_pct": -3.0,
+   "category": "hack_or_exploit",
+   "headline": "Binance probes potential multi-billion dollar crypto hack causing market drop",
+   "detail": "Reports emerged that major crypto exchange Binance may have suffered a massive security breach potentially worth up to 5.7 billion dollars. News of the potential heist rattled crypto investors and triggered a sharp market sell-off.",
+   "source": "Axios",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318479082,
+   "when": "2026-10-30 00:01 UTC",
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "price": 2250.44,
+   "move_pct": -2.76,
+   "category": "hack_or_exploit",
+   "headline": "A multi-billion dollar Binance hack hit crypto markets, with the hacker holding 195,000 ETH",
+   "detail": "A massive exploit on Binance triggered huge capital outflows and severe market instability across major cryptocurrencies. News that the hacker currently controls 195,000 Ethereum generated significant selling pressure and market anxiety.",
+   "source": "CoinDesk",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318486902,
+   "when": "2026-10-30 00:01 UTC",
+   "coin": "binancecoin",
+   "name": "BNB",
+   "price": 698.15,
+   "move_pct": -5.55,
+   "category": "hack_or_exploit",
+   "headline": "Binance suffers reported multi-billion dollar hack triggering BNB and market selloff",
+   "detail": "BNB fell significantly following reports of a massive suspected hack on the Binance exchange. The security fears sparked a widespread crypto market selloff and large outflows from Binance wallets.",
+   "source": "CoinDesk",
+   "confidence": "high",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318619628,
+   "when": "2026-10-30 00:03 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 1.24,
+   "move_pct": -2.36,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318755226,
+   "when": "2026-10-30 00:05 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 95.63,
+   "move_pct": -3.39,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318890197,
+   "when": "2026-10-30 00:08 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.075299,
+   "move_pct": -3.97,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793318922273,
+   "when": "2026-10-30 00:08 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 10.62,
+   "move_pct": -7.97,
+   "category": "no_clear_cause",
+   "headline": "No clear cause found for Chainlink's recent price drop",
+   "detail": "The available headlines primarily feature positive news such as new partnerships and product launches. None of the provided sources explain the sudden downturn in price.",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793319056435,
+   "when": "2026-10-30 00:10 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.190616,
+   "move_pct": -4.49,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
   }
  ],
  "trail": {
   "bitcoin": [
-   {
-    "t": 1792497014252,
-    "p": 81380
-   },
    {
     "t": 1792516747346,
     "p": 82691
@@ -7694,13 +7690,13 @@
    {
     "t": 1793305284752,
     "p": 80285
+   },
+   {
+    "t": 1793318398169,
+    "p": 77878
    }
   ],
   "ethereum": [
-   {
-    "t": 1792497014252,
-    "p": 2380.93
-   },
    {
     "t": 1792516747346,
     "p": 2448.87
@@ -7888,13 +7884,13 @@
    {
     "t": 1793305284752,
     "p": 2314.42
+   },
+   {
+    "t": 1793318398169,
+    "p": 2250.44
    }
   ],
   "binancecoin": [
-   {
-    "t": 1792497014252,
-    "p": 727.94
-   },
    {
     "t": 1792516747346,
     "p": 736.31
@@ -8082,13 +8078,13 @@
    {
     "t": 1793305284752,
     "p": 739.21
+   },
+   {
+    "t": 1793318398169,
+    "p": 698.15
    }
   ],
   "ripple": [
-   {
-    "t": 1792497014252,
-    "p": 1.3
-   },
    {
     "t": 1792516747346,
     "p": 1.33
@@ -8276,13 +8272,13 @@
    {
     "t": 1793305284752,
     "p": 1.27
+   },
+   {
+    "t": 1793318398169,
+    "p": 1.24
    }
   ],
   "solana": [
-   {
-    "t": 1792497014252,
-    "p": 103.96
-   },
    {
     "t": 1792516747346,
     "p": 106.43
@@ -8470,13 +8466,13 @@
    {
     "t": 1793305284752,
     "p": 98.99
+   },
+   {
+    "t": 1793318398169,
+    "p": 95.63
    }
   ],
   "dogecoin": [
-   {
-    "t": 1792497014252,
-    "p": 0.079001
-   },
    {
     "t": 1792516747346,
     "p": 0.081113
@@ -8664,13 +8660,13 @@
    {
     "t": 1793305284752,
     "p": 0.078409
+   },
+   {
+    "t": 1793318398169,
+    "p": 0.075299
    }
   ],
   "chainlink": [
-   {
-    "t": 1792497014252,
-    "p": 11.92
-   },
    {
     "t": 1792516747346,
     "p": 12.22
@@ -8858,13 +8854,13 @@
    {
     "t": 1793305284752,
     "p": 11.54
+   },
+   {
+    "t": 1793318398169,
+    "p": 10.62
    }
   ],
   "cardano": [
-   {
-    "t": 1792497014252,
-    "p": 0.215843
-   },
    {
     "t": 1792516747346,
     "p": 0.222889
@@ -9052,6 +9048,10 @@
    {
     "t": 1793305284752,
     "p": 0.199573
+   },
+   {
+    "t": 1793318398169,
+    "p": 0.190616
    }
   ]
  }
