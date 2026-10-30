@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T13:17:16.935767Z",
+ "updated": "2026-10-30T18:42:52.041188Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,15 +47,15 @@
    "recovered_in_week": 223
   },
   "sharp_drop": {
-   "cases": 35,
-   "next_day_median": -0.75,
+   "cases": 34,
+   "next_day_median": -0.8,
    "next_day_range": [
     -12.81,
-    9.85
+    9.65
    ],
    "fell_next_day": 23,
-   "week_median": -0.12,
-   "recovered_in_week": 17
+   "week_median": -0.85,
+   "recovered_in_week": 16
   },
   "sharp_rise": {
    "cases": 47,
@@ -70,21 +70,6 @@
   }
  },
  "recent": [
-  {
-   "t": 1792596850117,
-   "when": "2026-10-21 15:34 UTC",
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "price": 2504.25,
-   "move_pct": 2.29,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -4.29,
-   "after_7d": -6.89
-  },
   {
    "t": 1792597119282,
    "when": "2026-10-21 15:38 UTC",
@@ -437,6 +422,21 @@
    "name": "Cardano",
    "price": 0.190616,
    "move_pct": -4.49,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793385769031,
+   "when": "2026-10-30 18:42 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 93.88,
+   "move_pct": -2.6,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
