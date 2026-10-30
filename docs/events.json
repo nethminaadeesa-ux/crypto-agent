@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:42:52.041188Z",
+ "updated": "2026-10-30T23:04:23.822675Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -36,13 +36,13 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 392,
-   "next_day_median": 0.96,
+   "cases": 393,
+   "next_day_median": 0.93,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 145,
+   "fell_next_day": 146,
    "week_median": 2.08,
    "recovered_in_week": 223
   },
@@ -58,33 +58,18 @@
    "recovered_in_week": 16
   },
   "sharp_rise": {
-   "cases": 47,
-   "next_day_median": -0.72,
+   "cases": 46,
+   "next_day_median": -0.62,
    "next_day_range": [
     -6.53,
     6.82
    ],
-   "fell_next_day": 33,
-   "week_median": -0.97,
+   "fell_next_day": 32,
+   "week_median": -0.98,
    "recovered_in_week": 19
   }
  },
  "recent": [
-  {
-   "t": 1792597119282,
-   "when": "2026-10-21 15:38 UTC",
-   "coin": "ripple",
-   "name": "XRP",
-   "price": 1.38,
-   "move_pct": 2.22,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -4.29,
-   "after_7d": -5.08
-  },
   {
    "t": 1792597286695,
    "when": "2026-10-21 15:41 UTC",
@@ -307,7 +292,7 @@
    "detail": "Headlines from the past twelve hours primarily highlight positive developments, such as Polygon adding Solana support for stablecoin payments and Ondo expanding tokenized portfolios. None of the available headlines provide a clear reason for the recent downward price movement.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -4.35,
    "after_7d": null
   },
   {
@@ -437,6 +422,21 @@
    "name": "Solana",
    "price": 93.88,
    "move_pct": -2.6,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793401460814,
+   "when": "2026-10-30 23:04 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 95.78,
+   "move_pct": 2.02,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
