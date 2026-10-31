@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T02:36:10.979577Z",
+ "updated": "2026-10-31T09:49:02.942490Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -24,6 +24,17 @@
    "week_median": -0.27,
    "recovered_in_week": 1
   },
+  "hack_or_exploit": {
+   "cases": 2,
+   "next_day_median": -0.59,
+   "next_day_range": [
+    -0.84,
+    -0.35
+   ],
+   "fell_next_day": 2,
+   "week_median": null,
+   "recovered_in_week": null
+  },
   "adoption_or_partnership": {
    "cases": 8,
    "next_day_median": -1.29,
@@ -36,14 +47,14 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 393,
-   "next_day_median": 0.93,
+   "cases": 394,
+   "next_day_median": 0.92,
    "next_day_range": [
     -15.26,
     23.48
    ],
    "fell_next_day": 146,
-   "week_median": 1.98,
+   "week_median": 1.94,
    "recovered_in_week": 223
   },
   "sharp_drop": {
@@ -203,7 +214,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.26,
-   "after_7d": null
+   "after_7d": -6.2
   },
   {
    "t": 1792852873190,
@@ -307,7 +318,7 @@
    "detail": "Reports emerged that major crypto exchange Binance may have suffered a massive security breach potentially worth up to 5.7 billion dollars. News of the potential heist rattled crypto investors and triggered a sharp market sell-off.",
    "source": "Axios",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -0.84,
    "after_7d": null
   },
   {
@@ -322,7 +333,7 @@
    "detail": "A massive exploit on Binance triggered huge capital outflows and severe market instability across major cryptocurrencies. News that the hacker currently controls 195,000 Ethereum generated significant selling pressure and market anxiety.",
    "source": "CoinDesk",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": -0.35,
    "after_7d": null
   },
   {
@@ -367,7 +378,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.65,
    "after_7d": null
   },
   {
