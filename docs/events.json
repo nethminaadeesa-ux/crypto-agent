@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:47:56.540125Z",
+ "updated": "2026-10-31T20:07:53.866575Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,8 +47,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 396,
-   "next_day_median": 0.96,
+   "cases": 399,
+   "next_day_median": 0.98,
    "next_day_range": [
     -15.26,
     23.48
@@ -69,33 +69,18 @@
    "recovered_in_week": 16
   },
   "sharp_rise": {
-   "cases": 46,
-   "next_day_median": -0.62,
+   "cases": 45,
+   "next_day_median": -0.52,
    "next_day_range": [
     -6.53,
     6.82
    ],
-   "fell_next_day": 32,
-   "week_median": -0.98,
+   "fell_next_day": 31,
+   "week_median": -0.97,
    "recovered_in_week": 19
   }
  },
  "recent": [
-  {
-   "t": 1792597286695,
-   "when": "2026-10-21 15:41 UTC",
-   "coin": "solana",
-   "name": "Solana",
-   "price": 108.48,
-   "move_pct": 2.19,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -3.63,
-   "after_7d": -6.97
-  },
   {
    "t": 1792597454525,
    "when": "2026-10-21 15:44 UTC",
@@ -393,7 +378,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.77,
    "after_7d": null
   },
   {
@@ -408,7 +393,7 @@
    "detail": "The available headlines primarily feature positive news such as new partnerships and product launches. None of the provided sources explain the sudden downturn in price.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 7.78,
    "after_7d": null
   },
   {
@@ -438,7 +423,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.2,
    "after_7d": null
   },
   {
@@ -448,6 +433,21 @@
    "name": "Solana",
    "price": 95.78,
    "move_pct": 2.02,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1793477270858,
+   "when": "2026-10-31 20:07 UTC",
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "price": 11.92,
+   "move_pct": 3.03,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
