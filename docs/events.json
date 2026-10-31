@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T09:49:02.942490Z",
+ "updated": "2026-10-31T15:47:56.540125Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -25,11 +25,11 @@
    "recovered_in_week": 1
   },
   "hack_or_exploit": {
-   "cases": 2,
-   "next_day_median": -0.59,
+   "cases": 3,
+   "next_day_median": -0.35,
    "next_day_range": [
     -0.84,
-    -0.35
+    0.77
    ],
    "fell_next_day": 2,
    "week_median": null,
@@ -47,8 +47,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 394,
-   "next_day_median": 0.92,
+   "cases": 396,
+   "next_day_median": 0.96,
    "next_day_range": [
     -15.26,
     23.48
@@ -229,7 +229,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 0.98,
-   "after_7d": null
+   "after_7d": -1.22
   },
   {
    "t": 1792909467227,
@@ -348,7 +348,7 @@
    "detail": "BNB fell significantly following reports of a massive suspected hack on the Binance exchange. The security fears sparked a widespread crypto market selloff and large outflows from Binance wallets.",
    "source": "CoinDesk",
    "confidence": "high",
-   "after_24h": null,
+   "after_24h": 0.77,
    "after_7d": null
   },
   {
@@ -363,7 +363,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.2,
    "after_7d": null
   },
   {
@@ -423,7 +423,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 2.36,
    "after_7d": null
   },
   {
