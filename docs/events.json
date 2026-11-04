@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:24:57.990329Z",
+ "updated": "2026-11-04T22:41:06.270100Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -43,7 +43,7 @@
     5.57
    ],
    "fell_next_day": 5,
-   "week_median": -0.41,
+   "week_median": -2.62,
    "recovered_in_week": 3
   },
   "no_clear_cause": {
@@ -244,7 +244,7 @@
    "source": "TradingView",
    "confidence": "high",
    "after_24h": -6.25,
-   "after_7d": null
+   "after_7d": -7.57
   },
   {
    "t": 1793221915204,
@@ -259,7 +259,7 @@
    "source": "PR Newswire",
    "confidence": "high",
    "after_24h": -7.04,
-   "after_7d": null
+   "after_7d": -3.44
   },
   {
    "t": 1793222045089,
@@ -274,7 +274,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -7.79,
-   "after_7d": null
+   "after_7d": -5.04
   },
   {
    "t": 1793305289396,
