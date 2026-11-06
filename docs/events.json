@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:41:32.500068Z",
+ "updated": "2026-11-06T23:16:19.567808Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -54,7 +54,7 @@
     23.48
    ],
    "fell_next_day": 148,
-   "week_median": 1.9,
+   "week_median": 1.82,
    "recovered_in_week": 225
   },
   "sharp_drop": {
@@ -424,7 +424,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 2.2,
-   "after_7d": null
+   "after_7d": -3.95
   },
   {
    "t": 1793401460814,
@@ -439,7 +439,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": -0.39,
-   "after_7d": null
+   "after_7d": -6.09
   },
   {
    "t": 1793477270858,
