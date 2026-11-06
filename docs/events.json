@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:43:03.463550Z",
+ "updated": "2026-11-06T01:47:15.445926Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -32,8 +32,8 @@
     0.77
    ],
    "fell_next_day": 2,
-   "week_median": null,
-   "recovered_in_week": null
+   "week_median": -1.33,
+   "recovered_in_week": 0
   },
   "adoption_or_partnership": {
    "cases": 8,
@@ -54,7 +54,7 @@
     23.48
    ],
    "fell_next_day": 148,
-   "week_median": 1.93,
+   "week_median": 1.92,
    "recovered_in_week": 224
   },
   "sharp_drop": {
@@ -304,7 +304,7 @@
    "source": "Axios",
    "confidence": "high",
    "after_24h": -0.84,
-   "after_7d": null
+   "after_7d": -2.4
   },
   {
    "t": 1793318479082,
@@ -319,7 +319,7 @@
    "source": "CoinDesk",
    "confidence": "high",
    "after_24h": -0.35,
-   "after_7d": null
+   "after_7d": -0.65
   },
   {
    "t": 1793318486902,
@@ -334,7 +334,7 @@
    "source": "CoinDesk",
    "confidence": "high",
    "after_24h": 0.77,
-   "after_7d": null
+   "after_7d": -1.33
   },
   {
    "t": 1793318619628,
@@ -349,7 +349,7 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 1.2,
-   "after_7d": null
+   "after_7d": -2.7
   },
   {
    "t": 1793318755226,
