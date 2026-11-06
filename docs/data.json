@@ -1,180 +1,96 @@
 {
- "updated": "2026-11-05T03:37:49.099165Z",
+ "updated": "2026-11-06T17:41:32.194111Z",
  "latest": {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "prices": {
-   "Bitcoin": 80646,
-   "Ethereum": 2429.49,
-   "BNB": 716.35,
-   "XRP": 1.31,
-   "Solana": 96.63,
-   "Dogecoin": 0.077163,
-   "Chainlink": 11.58,
-   "Cardano": 0.198678
+   "Bitcoin": 75761,
+   "Ethereum": 2227.44,
+   "BNB": 694.84,
+   "XRP": 1.19,
+   "Solana": 90.13,
+   "Dogecoin": 0.072768,
+   "Chainlink": 10.9,
+   "Cardano": 0.187513
   },
   "ranges": [
    {
     "coin": "Bitcoin",
-    "low": 77209.146,
-    "high": 84235.8406
+    "low": 72387.9496,
+    "high": 79291.2239
    },
    {
     "coin": "Ethereum",
-    "low": 2290.4176,
-    "high": 2577.0067
+    "low": 2093.8894,
+    "high": 2369.5086
    },
    {
     "coin": "BNB",
-    "low": 685.3134,
-    "high": 748.7922
+    "low": 664.0305,
+    "high": 727.079
    },
    {
     "coin": "XRP",
-    "low": 1.2137,
-    "high": 1.4139
+    "low": 1.1002,
+    "high": 1.2872
    },
    {
     "coin": "Solana",
-    "low": 90.6605,
-    "high": 102.9925
+    "low": 84.4287,
+    "high": 96.2163
    },
    {
     "coin": "Dogecoin",
-    "low": 0.0717,
-    "high": 0.083
+    "low": 0.0675,
+    "high": 0.0785
    },
    {
     "coin": "Chainlink",
-    "low": 10.6694,
-    "high": 12.5684
+    "low": 10.0266,
+    "high": 11.8495
    },
    {
     "coin": "Cardano",
-    "low": 0.1831,
-    "high": 0.2156
+    "low": 0.1724,
+    "high": 0.204
    }
   ],
   "width_factor": 0.8,
-  "one_line": "Crypto markets surged today as Bitcoin broke back above $80,000 following a sharp post-election rebound.",
+  "one_line": "Crypto markets gave up recent gains as Bitcoin dropped back to $75,700 following an AI tech stock selloff and liquidations.",
   "moved": [
-   "Bitcoin rose nearly 6% to top $80,600 after recovering from an early election dip.",
-   "Ethereum surged over 8% to $2,429 as broader risk sentiment improved alongside U.S. stocks.",
-   "Solana climbed over 6% to $96.63 following news that asset manager Schroders launched a fund on its network.",
-   "Chainlink gained nearly 8% to reach $11.58 as decentralized finance assets outpaced the broader market."
+   "Bitcoin fell from over $80,000 to $75,700 after a sharp decline in tech stocks dragged crypto lower.",
+   "Derivatives markets saw over $1 billion in bullish leveraged bets liquidated during the decline.",
+   "XRP fell over 4% to $1.19, leading losses among major altcoins.",
+   "Stronger than expected U.S. jobs data helped steady market prices by late morning."
   ],
-  "traded": "Prices dipped sharply early on November 4, then staged a rapid upward surge into the evening. This created a V-shaped recovery, which means prices dropped fast and immediately bounced back without pausing.",
-  "versus_yesterday": "Yesterday markets saw an early bounce toward $78,000, but today that rebound turned into a strong multi-asset rally.",
+  "traded": "Markets experienced a sudden, sharp price drop that dumped Bitcoin down several thousand dollars in hours. Trading then flattened out into a low horizontal range.",
+  "versus_yesterday": "Yesterday's post-election rally completely reversed. Bitcoin surrendered the $80,000 mark it had just reclaimed.",
   "scenarios": [
    {
     "name": "Higher",
     "prob": 30,
-    "text": "Stock market momentum stays strong and institutional adoption headlines drive further buying."
+    "text": "Broader stock market gains push Bitcoin back toward the $79,000 level."
    },
    {
     "name": "Roughly flat",
     "prob": 45,
-    "text": "Traders digest the steep two-day gain and take profits near key resistance levels."
+    "text": "Prices stabilize near $75,500 as leverage cools down and ETF outflows ease."
    },
    {
     "name": "Lower",
     "prob": 25,
-    "text": "Renewed fears over potential regulatory changes under the new U.S. Congress trigger selling."
+    "text": "Further tech stock selling pushes Bitcoin down toward key support near $72,300."
    }
   ],
-  "breaker": "Surprise hawkish statements from central bankers or immediate adverse legislative announcements.",
-  "learned": "Our library shows 45 cases of a sharp rise. In those cases, the day after saw a median drop of 0.52%, falling 31 times out of 45.",
-  "honesty": "Our past ranges hit 8 out of 10 recent targets, indicating solid baseline reliability but occasional misses during high volatility."
+  "breaker": "A sharp rebound in tech stocks combined with strong spot Bitcoin ETF inflows.",
+  "learned": "Following a sharp market drop, past evidence across 34 historical cases shows prices fell again the next day in 23 instances, with a median change of -0.8%.",
+  "honesty": "All ten recent price range predictions were accurate hits, indicating our current model boundaries remain reliable."
  },
  "width_factor": 0.8,
  "record": {
-  "scored": 244,
-  "hits": 207
+  "scored": 252,
+  "hits": 223
  },
  "recent_runs": [
-  {
-   "date": "2026-10-21",
-   "prices": {
-    "Bitcoin": 84354,
-    "Ethereum": 2496.28,
-    "BNB": 746.89,
-    "XRP": 1.37,
-    "Solana": 107.72,
-    "Dogecoin": 0.083083,
-    "Chainlink": 12.55,
-    "Cardano": 0.227349
-   },
-   "ranges": [
-    {
-     "coin": "Bitcoin",
-     "low": 79040.8288,
-     "high": 90024.3257
-    },
-    {
-     "coin": "Ethereum",
-     "low": 2282.317,
-     "high": 2730.3017
-    },
-    {
-     "coin": "BNB",
-     "low": 702.0959,
-     "high": 794.542
-    },
-    {
-     "coin": "XRP",
-     "low": 1.2189,
-     "high": 1.5398
-    },
-    {
-     "coin": "Solana",
-     "low": 97.8054,
-     "high": 118.6396
-    },
-    {
-     "coin": "Dogecoin",
-     "low": 0.0742,
-     "high": 0.093
-    },
-    {
-     "coin": "Chainlink",
-     "low": 11.13,
-     "high": 14.1512
-    },
-    {
-     "coin": "Cardano",
-     "low": 0.1997,
-     "high": 0.2588
-    }
-   ],
-   "width_factor": 1.243,
-   "one_line": "Crypto markets rebounded strongly today as Bitcoin pushed past $84,000 on tech stock gains and reports of a SpaceX-Tesla merger structure.",
-   "moved": [
-    "Bitcoin rose 2.4% past $84,000, supported by broader tech sector rallies and reports that SpaceX and Tesla may merge their balance sheets holding over 30,000 bitcoins.",
-    "XRP led major altcoins with a 4.5% jump to $1.37 following announcements surrounding 24/7 tokenized asset trading.",
-    "Dogecoin gained 3.6% as development teams announced a joint initiative to build everyday payment tools for the token."
-   ],
-   "traded": "The market saw a sudden upward step during the Oct 20 afternoon candle, followed by tight consolidation overnight. Prices held near their high points rather than giving back gains, showing steady buying interest.",
-   "versus_yesterday": "Yesterday markets were drifting slightly lower with Bitcoin below $82,000. Today completely reversed that dip, bringing major assets to multi-day highs.",
-   "scenarios": [
-    {
-     "name": "Higher",
-     "prob": 30,
-     "text": "Sustained tech stock momentum and corporate treasury news push Bitcoin toward $86,000."
-    },
-    {
-     "name": "Roughly flat",
-     "prob": 45,
-     "text": "Prices hold current ranges as traders digest recent gains before new market catalysts arrive."
-    },
-    {
-     "name": "Lower",
-     "prob": 25,
-     "text": "Profit-taking pulls Bitcoin back down toward its previous support zone near $82,000."
-    }
-   ],
-   "breaker": "A sudden sell-off in global stock markets or regulatory action against major tokenized asset platforms.",
-   "learned": "Yesterday's price jumps were flagged with no clear cause. Across 370 similar past cases, prices rose the following day with a median gain of 0.99%, falling only 134 times.",
-   "honesty": "All past ranges hit their targets, showing reliable calibration during low-to-moderate market volatility."
-  },
   {
    "date": "2026-10-22",
    "prices": {
@@ -1278,89 +1194,94 @@
    "breaker": "Surprise hawkish statements from central bankers or immediate adverse legislative announcements.",
    "learned": "Our library shows 45 cases of a sharp rise. In those cases, the day after saw a median drop of 0.52%, falling 31 times out of 45.",
    "honesty": "Our past ranges hit 8 out of 10 recent targets, indicating solid baseline reliability but occasional misses during high volatility."
+  },
+  {
+   "date": "2026-11-06",
+   "prices": {
+    "Bitcoin": 75761,
+    "Ethereum": 2227.44,
+    "BNB": 694.84,
+    "XRP": 1.19,
+    "Solana": 90.13,
+    "Dogecoin": 0.072768,
+    "Chainlink": 10.9,
+    "Cardano": 0.187513
+   },
+   "ranges": [
+    {
+     "coin": "Bitcoin",
+     "low": 72387.9496,
+     "high": 79291.2239
+    },
+    {
+     "coin": "Ethereum",
+     "low": 2093.8894,
+     "high": 2369.5086
+    },
+    {
+     "coin": "BNB",
+     "low": 664.0305,
+     "high": 727.079
+    },
+    {
+     "coin": "XRP",
+     "low": 1.1002,
+     "high": 1.2872
+    },
+    {
+     "coin": "Solana",
+     "low": 84.4287,
+     "high": 96.2163
+    },
+    {
+     "coin": "Dogecoin",
+     "low": 0.0675,
+     "high": 0.0785
+    },
+    {
+     "coin": "Chainlink",
+     "low": 10.0266,
+     "high": 11.8495
+    },
+    {
+     "coin": "Cardano",
+     "low": 0.1724,
+     "high": 0.204
+    }
+   ],
+   "width_factor": 0.8,
+   "one_line": "Crypto markets gave up recent gains as Bitcoin dropped back to $75,700 following an AI tech stock selloff and liquidations.",
+   "moved": [
+    "Bitcoin fell from over $80,000 to $75,700 after a sharp decline in tech stocks dragged crypto lower.",
+    "Derivatives markets saw over $1 billion in bullish leveraged bets liquidated during the decline.",
+    "XRP fell over 4% to $1.19, leading losses among major altcoins.",
+    "Stronger than expected U.S. jobs data helped steady market prices by late morning."
+   ],
+   "traded": "Markets experienced a sudden, sharp price drop that dumped Bitcoin down several thousand dollars in hours. Trading then flattened out into a low horizontal range.",
+   "versus_yesterday": "Yesterday's post-election rally completely reversed. Bitcoin surrendered the $80,000 mark it had just reclaimed.",
+   "scenarios": [
+    {
+     "name": "Higher",
+     "prob": 30,
+     "text": "Broader stock market gains push Bitcoin back toward the $79,000 level."
+    },
+    {
+     "name": "Roughly flat",
+     "prob": 45,
+     "text": "Prices stabilize near $75,500 as leverage cools down and ETF outflows ease."
+    },
+    {
+     "name": "Lower",
+     "prob": 25,
+     "text": "Further tech stock selling pushes Bitcoin down toward key support near $72,300."
+    }
+   ],
+   "breaker": "A sharp rebound in tech stocks combined with strong spot Bitcoin ETF inflows.",
+   "learned": "Following a sharp market drop, past evidence across 34 historical cases shows prices fell again the next day in 23 instances, with a median change of -0.8%.",
+   "honesty": "All ten recent price range predictions were accurate hits, indicating our current model boundaries remain reliable."
   }
  ],
  "recent_forecasts": [
-  {
-   "coin": "binancecoin",
-   "name": "BNB",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 704.93,
-   "lo": 673.9738269344604,
-   "hi": 737.3080155949776,
-   "actual": null
-  },
-  {
-   "coin": "ripple",
-   "name": "XRP",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 1.25,
-   "lo": 1.1550631662373425,
-   "hi": 1.3527398723049033,
-   "actual": null
-  },
-  {
-   "coin": "solana",
-   "name": "Solana",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 95.66,
-   "lo": 89.61390864712516,
-   "hi": 102.11401040471814,
-   "actual": null
-  },
-  {
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 0.075905,
-   "lo": 0.07038319854073796,
-   "hi": 0.08186000557597833,
-   "actual": null
-  },
-  {
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 11.68,
-   "lo": 10.742222215728317,
-   "hi": 12.699644194685895,
-   "actual": null
-  },
-  {
-   "coin": "cardano",
-   "name": "Cardano",
-   "made_ms": 1793514525935,
-   "days": 7,
-   "price_then": 0.193513,
-   "lo": 0.17784338331546468,
-   "hi": 0.21056325217663413,
-   "actual": null
-  },
-  {
-   "coin": "bitcoin",
-   "name": "Bitcoin",
-   "made_ms": 1793677009783,
-   "days": 7,
-   "price_then": 76727,
-   "lo": 73511.26090800024,
-   "hi": 80083.41111666762,
-   "actual": null
-  },
-  {
-   "coin": "ethereum",
-   "name": "Ethereum",
-   "made_ms": 1793677009783,
-   "days": 7,
-   "price_then": 2247.27,
-   "lo": 2122.0993817453286,
-   "hi": 2379.8237237816948,
-   "actual": null
-  },
   {
    "coin": "binancecoin",
    "name": "BNB",
@@ -1579,6 +1500,86 @@
    "price_then": 0.198678,
    "lo": 0.1831097330512346,
    "hi": 0.21556990459352238,
+   "actual": null
+  },
+  {
+   "coin": "bitcoin",
+   "name": "Bitcoin",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 75761,
+   "lo": 72387.9495786307,
+   "hi": 79291.22394557227,
+   "actual": null
+  },
+  {
+   "coin": "ethereum",
+   "name": "Ethereum",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 2227.44,
+   "lo": 2093.8894006547944,
+   "hi": 2369.5086053964737,
+   "actual": null
+  },
+  {
+   "coin": "binancecoin",
+   "name": "BNB",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 694.84,
+   "lo": 664.0305337679059,
+   "hi": 727.0789535240721,
+   "actual": null
+  },
+  {
+   "coin": "ripple",
+   "name": "XRP",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 1.19,
+   "lo": 1.1001771853220865,
+   "hi": 1.2871563043596694,
+   "actual": null
+  },
+  {
+   "coin": "solana",
+   "name": "Solana",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 90.13,
+   "lo": 84.42867024467287,
+   "hi": 96.21633121140572,
+   "actual": null
+  },
+  {
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 0.072768,
+   "lo": 0.06746435769877508,
+   "hi": 0.07848858278089176,
+   "actual": null
+  },
+  {
+   "coin": "chainlink",
+   "name": "Chainlink",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 10.9,
+   "lo": 10.026575766209726,
+   "hi": 11.84950902185352,
+   "actual": null
+  },
+  {
+   "coin": "cardano",
+   "name": "Cardano",
+   "made_ms": 1793986753813,
+   "days": 7,
+   "price_then": 0.187513,
+   "lo": 0.17236868404541417,
+   "hi": 0.20398789585082674,
    "actual": null
   }
  ]
