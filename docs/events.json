@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:43:43.268744Z",
+ "updated": "2026-11-10T10:00:30.089908Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,8 +47,8 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 405,
-   "next_day_median": 0.93,
+   "cases": 408,
+   "next_day_median": 0.92,
    "next_day_range": [
     -15.26,
     23.48
@@ -363,7 +363,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.05,
    "after_7d": null
   },
   {
@@ -378,7 +378,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.81,
    "after_7d": null
   },
   {
@@ -453,7 +453,7 @@
    "detail": "The headlines from the last 12 hours do not provide a direct reason for the sudden price drop in Cardano. Most news stories cover general market outlooks, altcoin trends, and educational topics without mentioning specific catalysts.",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.01,
    "after_7d": null
   }
  ]
