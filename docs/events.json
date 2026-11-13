@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:52:01.533677Z",
+ "updated": "2026-11-13T23:49:00.009606Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -58,74 +58,29 @@
    "recovered_in_week": 225
   },
   "sharp_drop": {
-   "cases": 30,
-   "next_day_median": -0.59,
+   "cases": 29,
+   "next_day_median": -0.75,
    "next_day_range": [
     -12.81,
-    2.71
+    0.83
    ],
    "fell_next_day": 20,
-   "week_median": -1.44,
+   "week_median": -0.12,
    "recovered_in_week": 14
   },
   "sharp_rise": {
-   "cases": 42,
-   "next_day_median": -0.48,
+   "cases": 40,
+   "next_day_median": -0.42,
    "next_day_range": [
-    -6.53,
+    -5.12,
     6.82
    ],
-   "fell_next_day": 28,
-   "week_median": -0.79,
+   "fell_next_day": 26,
+   "week_median": -0.34,
    "recovered_in_week": 19
   }
  },
  "recent": [
-  {
-   "t": 1792803129351,
-   "when": "2026-10-24 00:52 UTC",
-   "coin": "cardano",
-   "name": "Cardano",
-   "price": 0.209229,
-   "move_pct": -2.32,
-   "category": "no_clear_cause",
-   "headline": "No clear cause found for the recent price movement",
-   "detail": "No news headlines were provided for the last 12 hours to explain Cardano's price drop. Without recent news, a specific trigger cannot be determined.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -0.26,
-   "after_7d": -6.2
-  },
-  {
-   "t": 1792852873190,
-   "when": "2026-10-24 14:41 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.076293,
-   "move_pct": -1.62,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.98,
-   "after_7d": -1.22
-  },
-  {
-   "t": 1792909467227,
-   "when": "2026-10-25 06:24 UTC",
-   "coin": "chainlink",
-   "name": "Chainlink",
-   "price": 11.42,
-   "move_pct": -1.55,
-   "category": "no_clear_cause",
-   "headline": "No specific news found to explain the recent Chainlink price drop",
-   "detail": "The available headlines consist of general market summaries and long-term price predictions rather than breaking news. As a result, no clear news event can be linked to the recent negative price movement.",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": 0.28,
-   "after_7d": 2.1
-  },
   {
    "t": 1793221908109,
    "when": "2026-10-28 21:11 UTC",
@@ -454,6 +409,51 @@
    "source": "none found",
    "confidence": "low",
    "after_24h": 1.01,
+   "after_7d": null
+  },
+  {
+   "t": 1794613410498,
+   "when": "2026-11-13 23:43 UTC",
+   "coin": "solana",
+   "name": "Solana",
+   "price": 77.93,
+   "move_pct": -2.73,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1794613586124,
+   "when": "2026-11-13 23:46 UTC",
+   "coin": "dogecoin",
+   "name": "Dogecoin",
+   "price": 0.064245,
+   "move_pct": -1.73,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1794613737001,
+   "when": "2026-11-13 23:48 UTC",
+   "coin": "cardano",
+   "name": "Cardano",
+   "price": 0.167795,
+   "move_pct": -2.18,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
    "after_7d": null
   }
  ]
