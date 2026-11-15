@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:50:26.895784Z",
+ "updated": "2026-11-15T23:01:24.887493Z",
  "total_events": 500,
  "patterns": {
   "regulation": {
@@ -47,13 +47,13 @@
    "recovered_in_week": 3
   },
   "no_clear_cause": {
-   "cases": 411,
-   "next_day_median": 0.89,
+   "cases": 415,
+   "next_day_median": 0.87,
    "next_day_range": [
     -15.26,
     23.48
    ],
-   "fell_next_day": 153,
+   "fell_next_day": 155,
    "week_median": 1.75,
    "recovered_in_week": 225
   },
@@ -69,33 +69,18 @@
    "recovered_in_week": 10
   },
   "sharp_rise": {
-   "cases": 24,
-   "next_day_median": 0.12,
+   "cases": 23,
+   "next_day_median": 0.15,
    "next_day_range": [
-    -3.67,
+    -2.41,
     6.82
    ],
-   "fell_next_day": 11,
-   "week_median": 2.29,
+   "fell_next_day": 10,
+   "week_median": 2.35,
    "recovered_in_week": 15
   }
  },
  "recent": [
-  {
-   "t": 1794613586124,
-   "when": "2026-11-13 23:46 UTC",
-   "coin": "dogecoin",
-   "name": "Dogecoin",
-   "price": 0.064245,
-   "move_pct": -1.73,
-   "category": "no_clear_cause",
-   "headline": "cause not identified",
-   "detail": "",
-   "source": "none found",
-   "confidence": "low",
-   "after_24h": -10.76,
-   "after_7d": null
-  },
   {
    "t": 1794613737001,
    "when": "2026-11-13 23:48 UTC",
@@ -123,7 +108,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.96,
    "after_7d": null
   },
   {
@@ -138,7 +123,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 0.26,
    "after_7d": null
   },
   {
@@ -153,7 +138,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": -0.16,
    "after_7d": null
   },
   {
@@ -198,7 +183,7 @@
    "detail": "",
    "source": "none found",
    "confidence": "low",
-   "after_24h": null,
+   "after_24h": 1.61,
    "after_7d": null
   },
   {
@@ -448,6 +433,21 @@
    "name": "Cardano",
    "price": 0.149179,
    "move_pct": 3.24,
+   "category": "no_clear_cause",
+   "headline": "cause not identified",
+   "detail": "",
+   "source": "none found",
+   "confidence": "low",
+   "after_24h": null,
+   "after_7d": null
+  },
+  {
+   "t": 1794783681880,
+   "when": "2026-11-15 23:01 UTC",
+   "coin": "ripple",
+   "name": "XRP",
+   "price": 0.968569,
+   "move_pct": 2.29,
    "category": "no_clear_cause",
    "headline": "cause not identified",
    "detail": "",
